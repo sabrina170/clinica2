@@ -1,0 +1,97 @@
+{
+    "menu": {
+        "topbar": {
+            "fondo": "FFFFFF",
+            "texto": "FFFFFF",
+            "enlaces": "FFFFFF",
+            "iconos": "FFFFFF"
+        },
+        "header": {
+            "fondo": "FFFFFF",
+            "texto": "FFFFFF",
+            "enlaces": "FFFFFF",
+            "iconos": "FFFFFF"
+        },
+        "navegacion": {
+            "fondo_principal": "FFFFFF",
+            "enlaces": "FFFFFF",
+            "enlaces_hover": "FFFFFF",
+            "fondo_submenu": "FFFFFF",
+            "enlaces_submenu": "FFFFFF",
+            "categorias": "FFFFFF",
+            "fondo_buscador": "FFFFFF",
+            "texto_buscador": "FFFFFF",
+            "texto_carrito": "FFFFFF",
+            "fondo_carrito": "FFFFFF",
+            "botones_carrito": "FFFFFF",
+            "icono_carrito": "FFFFFF",
+            "contador_carrito": "FFFFFF"
+        }
+    },
+    "producto": {
+        "general": {
+            "nombre": "FFFFFF",
+            "categoria": "FFFFFF",
+            "precio": "FFFFFF",
+            "precio_oferta": "FFFFFF",
+            "texto": "FFFFFF",
+            "boton_agregar": "FFFFFF",
+            "boton_catalogo": "FFFFFF",
+            "iconos": "FFFFFF"
+        },
+        "hover": {
+            "fondo": "FFFFFF",
+            "texto": "FFFFFF",
+            "boton_agregar": "FFFFFF",
+            "boton_detalle": "FFFFFF",
+            "texto_boton_agregar": "FFFFFF",
+            "texto_boton_detalle": "FFFFFF",
+            "separador": "FFFFFF",
+            "boton_whatsapp": "FFFFFF",
+            "boton_whatsapp_texto": "FFFFFF"
+        }
+    },
+    "promociones": {
+        "general": {
+            "texto": "FFFFFF",
+            "boton": "FFFFFF",
+            "enlace": "FFFFFF",
+            "filtro": "FFFFFF"
+        }
+    },
+    "footer": {
+        "general": {
+            "fondo": "FFFFFF",
+            "texto": "FFFFFF",
+            "enlaces": "FFFFFF",
+            "iconos": "FFFFFF",
+            "titulos": "FFFFFF"
+        },
+        "redes_sociales": {
+            "fondo": "FFFFFF",
+            "icono": "FFFFFF",
+            "fondo_hover": "FFFFFF",
+            "color_hover": "FFFFFF"
+        },
+        "copyright": {
+            "fondo": "FFFFFF",
+            "texto": "FFFFFF"
+        }
+
+    },
+    "global": {
+        "general": {
+            "fondo": "FFFFFF",
+            "texto": "FFFFFF",
+            "enlaces": "FFFFFF",
+            "iconos": "FFFFFF",
+            "botones": "FFFFFF"
+        },
+        "interna": {
+            "fondo": "FFFFFF",
+            "titulo": "FFFFFF",
+            "breadcums": "FFFFFF"
+            
+        }
+    }
+}

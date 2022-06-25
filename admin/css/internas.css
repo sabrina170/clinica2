@@ -1,0 +1,8 @@
+.no-padding{padding: 0px;}
+#menu-perfil{border: 1px solid #cdcdcd;}
+#menu-perfil .user-info{} 
+#menu-perfil .user-info h2{text-align: center;}
+#menu-perfil .user-info img{margin-right: 5px;}
+#menu-opciones{}
+#menu-opciones .nav-link{border-top: 1px solid #cdcdcd; padding: 20px; width: 100%;} 
+#menu-opciones .nav-link.active, #menu-opciones .nav-link:hover{border-color: #0da9ef; background-color: #0da9ef; color: #fff; cursor: pointer;}

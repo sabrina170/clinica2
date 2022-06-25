@@ -1,0 +1,1075 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/*XXXXXXXXXXXXXXXXXXXXX			ESTRUCTURA1		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.estructura1 { padding: 20px;text-align: right;background-color: white;font-family: arial;line-height: 30px;box-sizing: border-box;margin-bottom: 150px;}
+.estructura1 img{ width: 70%;}
+.estructura1 h2{ margin: 25px; color: black;}
+.estructura1 p{ margin: 25px; color: #575757;}
+.estructura1 #hola{padding-right: 20px;box-sizing: border-box;}
+
+@media(max-width: 48em){.c1{width:50%;}}
+
+/*XXXXXXXXXXXXXXXXXXXXX			FIN ESTRUCTURA1		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXX			ESTRUCTURA2		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.estructura2 {text-align: right;background-color: white;font-family: arial;text-align: center;box-sizing: border-box;margin-bottom: 10px;}
+.estructura2 h2{ color: black;font-size: 2em;-webkit-transition: color 0.5s;/* Safari */ transition: color 0.5s;}
+.estructura2 img{ margin-top: 20px;}
+.estructura2 a { text-decoration: none;}
+.estructura2 article{ border: solid; border-width: 1px;border-color: #e6e5e5;padding: 60px;}
+.estructura2 p{ color: #575757;font-size: 0.8em;line-height: 20px;margin-bottom: -15px;}
+.estructura2 h2:hover{ color:#1f91ca;} 
+
+/*XXXXXXXXXXXXXXXXXXXXX			FIN ESTRUCTURA2		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+/*XXXXXXXXXXXXXXXXXXXXX			ESTRUCTURA3		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.estructura3 {text-align: right;
+	background-color: #2ed3ae;
+	font-family: arial;
+	text-align:left;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.estructura3 h1{
+
+	font-size: 4em;
+	font-weight: normal;
+	letter-spacing: 3px;
+	margin-top: 110px;
+	color: white;
+	margin-bottom: 60px;
+
+}
+.estructura3 h2{ color: black;
+	font-size: 1.5em;
+	-webkit-transition:color 0.5s;
+    -moz-transition:color 0.5s;
+    -ms-transition:color 0.5s;
+    -o-transition:color 0.5s;
+    transition:color 0.5s;
+
+	transition: color 0.5s;
+	color: white;
+}
+.estructura3 img{ 
+	margin-top: 15px;
+}
+
+.estructura3 p{ color: #575757;
+	font-size: 1em;
+	line-height: 30px;
+	color: white;
+}
+.top { 
+	margin-top: 70px;
+} 
+.estructura3 button{ 
+	color: white;
+	font-size: 1em;
+	padding: 10px;
+	background-color: #25957c;
+	border:none;
+	border-radius: 5px;
+} 
+/*XXXXXXXXXXXXXXXXXXXXX			FIN ESTRUCTURA3		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/*boton*/
+.boton a {
+	padding: 10px;
+	border-radius: 5px;
+	font-family: arial;
+	background-color: #25957c;
+	text-decoration: none;
+	color: white;
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -ms-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+}
+
+.boton a:hover{
+    background-color:white;
+    color:#212C30;
+}
+
+ /*XXXXXXXXXXXXXXXXXXXXX			ESTRUCTURA4		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/   
+ .estructura4 { 
+ 	font-family: arial;
+	background-color: red;
+	background-color: #3a3c3e;
+	color: white;
+	text-align: left;
+} 
+ .estructura4 h2{ 
+ 	margin-top: 140px;
+ 	margin-bottom: 40px;
+ 	font-size: 3em;
+ 	font-family: arial
+
+} 
+ .estructura4 h2 span{ 
+	font-weight: normal;
+} 
+ .estructura4 p{ 
+ 	line-height: 20px;
+} 
+ .left{ 
+ 	padding-left: 80px;
+} 
+
+.estructura4.boton2 a {
+	padding: 5px;
+	border-radius: 5px;
+	font-family: arial;
+	background-color: #25957c;
+	font-size: 0.8em;
+	text-decoration: none;
+	color: white;
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -ms-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+}
+.estructura4.boton2 a:hover{
+    background-color:white;
+    color:#212C30;
+}
+ .img { 
+ 	border-radius: 50%;
+    border: 3px solid #25957c; 
+}
+
+ .estructura4 h3{ 
+	padding-top: 30px;
+	color: white;
+
+} 
+/*XXXXXXXXXXXXXXXXXXXXX			FIN ESTRUCTURA4		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/*XXXXXXXXXXXXXXXXXXXXX			ESTRUCTURA5	XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/   
+ .estructura5 { 
+	background-color: white;
+	font-family: arial;
+	color: #979797;
+	background-color: white;
+	text-align: center;
+
+} 
+
+ .estructura5 h1, h3{ 
+	color: #646464;
+} 
+
+ .estructura5 h1{ 
+	padding-bottom: 40px;
+	padding-top: 60px;
+} 
+
+ .estructura5 p{ 
+	line-height: 20px;
+} 
+
+.estructura5.boton2 a {
+	padding: 5px;
+	border-radius: 5px;
+	font-family: arial;
+	background-color: #444444;
+	font-size: 0.8em;
+	text-decoration: none;
+	color: white;
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -ms-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+}
+.estructura5.boton2 a:hover{
+    background-color:#a0a0a0;
+    color:#212C30;
+}
+.estructura5 article{
+    margin-bottom: 80px;
+}
+
+.gris{
+    background-color:#f3f3f3;
+}
+/*XXXXXXXXXXXXXXXXXXXXX			FIN ESTRUCTURA5		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/*XXXXXXXXXXXXXXXXXXXXX			ESTRUCTURA6	XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/   
+ .estructura6 { 
+	font-family: arial;
+	color: #979797;
+	background-color: white;
+	text-align: center;
+} 
+ .estructura6 h1, h3{ 
+	color: #646464;
+} 
+ .estructura6 h1{ 
+	padding-bottom: 40px;
+	padding-top: 100px;
+} 
+ .estructura6 p{ 
+	line-height: 20px;
+} 
+.estructura6.boton2 a {
+	padding: 5px;
+	border-radius: 5px;
+	font-family: arial;
+	background-color: #444444;
+	font-size: 0.8em;
+	text-decoration: none;
+	color: white;
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -ms-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+}
+.estructura6.boton2 a:hover{
+    background-color:#a0a0a0;
+    color:#212C30;
+}
+.estructura6 article{
+    margin-bottom: 50px;
+}
+
+#color-5{background-color:#e6e7e8;padding-bottom:30px;}
+#color-6{background-color:#d4d5d5;padding-bottom:30px;}
+#color-7{background-color:#e6e7e8;padding-bottom:30px;}
+#color-8{background-color:#d4d5d5;padding-bottom:30px;}
+#color-9{background-color:#e6e7e8;padding-bottom:30px;}
+
+/*XXXXXXXXXXXXXXXXXXXXX			FIN ESTRUCTURA6		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+/*XXXXXXXXXXXXXXXXXXXXX			ESTRUCTURA7		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.estructura7{
+    background-color: white;
+}
+
+.estructura7 article{
+    text-align: center;
+    padding: 60px;
+    font-family: arial;
+    color: white;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    background-color: white;
+}
+
+.estructura7 h3{
+    color: white;
+    font-size: 3em;
+    padding-top: 10px;
+}
+.estructura7 p{
+	margin-bottom: 65px;
+	font-size: 1.5em;
+	line-height: 25px;
+}
+ #caja1 {background-image: url("../img/i-1.jpg"); }
+ #caja2 {background-image: url("../img/i-2.jpg"); }
+ #caja3 {background-image: url("../img/i-3.jpg"); }
+
+.estructura7.boton2 a {
+	padding: 30px;
+	font-family: arial;
+	background-color: #1f91ca;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -ms-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+}
+.estructura7.boton2 a:hover{
+    background-color:white;
+    color:black;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXX			FIN ESTRUCTURA7		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/*XXXXXXXXXXXXXXXXXXXXX			ESTRUCTURA8		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.estructura8{
+	text-align: center;
+	font-family: arial;
+	margin:0; 
+	margin-bottom: 50px;
+}
+
+#ab{
+	padding-top: 90px;
+	padding-bottom: 138px;
+	color: white;
+}
+
+#ab h3{
+    color: white;
+    font-size: 2.7em;
+    padding-top: 5px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+#ab p{
+    font-size: 1em;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    line-height: 25px;
+
+}
+.estructura8.boton3 a {
+	padding: 20px 60px 20px 60px;
+	font-family: arial;
+	background-color: white;
+	border-radius: 50px;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -ms-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+}
+.estructura8.boton3 a:hover{
+    background-color:#dddddd;
+}
+
+
+.red{background-color:#00b3fe;}
+.green{background-color:#01edc9;}
+.blue{background-color:#238bfa;}
+
+/*XXXXXXXXXXXXXXXXXXXXX			FINESTRUCTURA8		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXX			ESTRUCTURA9		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.estructura9 {
+	text-align: center;
+	color: white;
+	font-family: arial;
+	background-color: white;
+}
+
+.estructura9 article{
+    text-align: center;
+    padding: 70px;
+    font-family: arial;
+    color: white;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    background-color: white;
+    letter-spacing: 3px;
+
+}
+
+.estructura9 p{
+	margin-bottom: 65px;
+	font-size: 1em;
+	line-height: 25px;
+}
+.estructura9 img{
+	margin-bottom: 35px;
+}
+.estructura9.boton2 a {
+	padding: 30px;
+	font-family: arial;
+	background-color: #1f91ca;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -ms-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+}
+.estructura9.boton2 a:hover{
+    background-color:white;
+    color:black;
+}
+
+ #caja4 {background-image: url("../img/i-7.jpg"); }
+ #caja5 {background-image: url("../img/i-8.jpg"); }
+ #caja6 {background-image: url("../img/i-9.jpg"); }
+ #caja7 {background-image: url("../img/i-10.jpg"); }
+
+/*XXXXXXXXXXXXXXXXXXXXX			FINESTRUCTURA9		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+/*XXXXXXXXXXXXXXXXXXXXX			ESTRUCTURA10		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.estructura10 {
+	text-align: left;
+	color: white;
+	font-family: arial;
+	background-color: #222931;
+}
+
+.estructura10 h2{
+	padding: 70px 50px 50px 70px;
+    line-height: 15px;
+    letter-spacing: 3px;
+}
+
+.estructura10 p {
+	padding: 0px 0px 30px 70px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-size: 	1em;
+    color: #8c8c8c;
+}
+
+.estructura10.boton2 a {
+	padding: 15px;
+	margin-left: 70px;
+	font-family: arial;
+	background-color: #1f91ca;
+	font-size: 0.8em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -ms-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+}
+.estructura10.boton2 a:hover{
+    background-color:white;
+    color:black;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXX		FINESTRUCTURA10		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+/*XXXXXXXXXXXXXXXXXXXXX		ESTRUCTURA11 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.estructura11{
+    background: white;
+    font-family: arial;
+}
+
+.estructura11 h1{
+    text-transform: uppercase;
+    font-size: 	2.5em;
+    color: 	#4a4a4a;
+    padding: 60px 0px 0px 150px;
+}
+.estructura11 article{
+    padding-bottom: 130px;
+}
+.estructura11 h1 span{
+    color: 	black;
+    font-style: italic;
+
+}
+.estructura11 p{
+    color: 	#4a4a4a;
+    padding: 0px 30px 60px 150px;
+    font-size: 	1em
+}
+
+.estructura11 img{
+    padding-top: 20px;
+
+}
+
+.estructura11.boton2 a {
+	text-transform: uppercase;
+	padding: 20px 90px;
+	margin-left: 150px;
+	font-family: arial;
+	background-color: #1f91ca;
+	font-size: 0.8em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -ms-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+}
+.estructura11.boton2 a:hover{
+    background-color:#696868;
+    color:white;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXX		FINESTRUCTURA11		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/*XXXXXXXXXXXXXXXXXXXXX		ESTRUCTURA12         XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.estructura12{
+	color: white;
+	font-family: arial;
+}
+.estructura12 h2{
+	padding: 30px 60px 0px 60px;
+	font-size: 2em;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.estructura12 p{
+	padding: 0px 60px 0px 60px;
+	font-size: 1.5em;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+#azul-1{ background-color:#2962ff;padding-bottom:30px;}
+#azul-2{background-color:#366bff;padding-bottom:30px;}
+#azul-3{background-color:#2962ff;padding-bottom:30px;}
+#azul-4{background-color:#366bff;padding-bottom:30px;}
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+------------------------------ ESTRUCTURA13 ACORDEON IMAGENES-------------------------------
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.accordion {height: 500px;overflow: hidden; margin-top: 30px;margin-bottom: 30px;}
+.accordion ul {width: 100%;display: table;table-layout: fixed;margin: 0;padding: 0;}
+.accordion ul li {display: table-cell;  vertical-align: bottom;position: relative;width: 16.666%;height: 500px;background-repeat: no-repeat;background-position: center center;transition: all 500ms ease;}
+.accordion ul li div {display: block;overflow: hidden;width: 100%;}
+.accordion ul li div a {display: block;height: 500px;width: 100%;position: relative;z-index: 3;vertical-align: bottom;padding: 15px 20px;box-sizing: border-box;color: #fff;text-decoration: none;font-family: Open Sans, sans-serif;transition: all 200ms ease;}
+.accordion ul li div a * {opacity: 0;margin: 0;width: 100%;text-overflow: ellipsis;position: relative;z-index: 5;white-space: nowrap;overflow: hidden;-webkit-transform: translateX(-20px);transform: translateX(-20px);-webkit-transition: all 400ms ease;transition: all 400ms ease;}
+.accordion ul li div a h2 {text-overflow: clip;font-size: 24px;text-transform: uppercase;margin-bottom: 2px;top: 160px;}
+.accordion ul li div a p {top: 160px;font-size: 13.5px;}
+.accordion ul li:nth-child(1) { background-image: url("http://brotherhoodmag.com/wp-content/uploads/2015/02/adidas-yeezy-750-boost.jpg"); }
+.accordion ul li:nth-child(2) { background-image: url("https://images.solecollector.com/complex/image/upload/f7i66ptaycao1hzesdzr.jpg"); }
+.accordion ul li:nth-child(3) { background-image: url("http://sneakerbardetroit.com/wp-content/uploads/2015/02/adidas-yeezy-boost-lows.jpg"); }
+.accordion ul li:nth-child(4) { background-image: url("https://http2.mlstatic.com/zapatilla-air-jordan-retro-4-toro-bravo-D_NQ_NP_385421-MPE20785657927_062016-F.jpg"); }
+.accordion ul li:nth-child(5) { background-image: url("http://nk_wp_media.s3.amazonaws.com/files/2015/06/a-closer-look-at-the-adidas-originals-yeezy-boost-350-low-2.jpg"); }
+.accordion ul li:nth-child(6) { background-image: url("http://theshoegame.com/wp-content/uploads/2015/02/adidas-yeezy-boost-kanye-west-leak-11.png"); }
+.accordion ul:hover li { width: 8%; }
+.accordion ul:hover li:hover { width: 60%; }
+.accordion ul:hover li:hover a { background: rgba(0, 0, 0, 0.4); }
+.accordion ul:hover li:hover a * {opacity: 1;-webkit-transform: translateX(0);transform: translateX(0);}
+@media screen and (max-width: 600px) {.accordion, .accordion p { height: auto;text-align: left;  }.accordion ul li,.accordion ul li:hover,.accordion ul:hover li,.accordion ul:hover li:hover {position: relative;display: table;table-layout: fixed;width: 100%;-webkit-transition: none;transition: none;}}
+/*FIN ACORDEON-------------------------------*/ 
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+------------------------------ ESTRUCTURA 14 PESTAÑAS TABS-------------------------------
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.estructura14{background-color: white;}
+.tabs {position: relative;margin: 40px auto;width: 1200px;max-width: 100%;overflow: hidden;padding-top: 10px;margin-bottom: 60px; font-family: arial;}
+.tabs input {position: absolute;z-index: 1000;width: 25%;height: 50px;left: 0;top: 0;opacity: 0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);cursor: pointer;margin: 0;}
+.tabs input#tab-2 {left: 25%;}
+.tabs input#tab-3 {left: 50%;}
+.tabs input#tab-4 {left: 75%;}
+.tabs label {background: #3f6b9d;/*COLOR PESTAÑA*/color: #fefefe;font-size: 15px;line-height: 50px;height: 60px;position: relative;top: 0;padding: 0 20px;float: left;display: block;width: 25%;letter-spacing: 1px;text-transform: uppercase;font-weight: bold;text-align: center;box-shadow: 2px 0 2px rgba(0, 0, 0, 0.1), -2px 0 2px rgba(0, 0, 0, 0.1);box-sizing: border-box;-webkit-transition: all 150ms ease 0s;transition: all 150ms ease 0s;}
+.tabs label:hover {cursor: pointer;}
+.tabs label:after {content: '';position: absolute;bottom: -2px;left: 0;width: 100%;height: 2px;display: block;}
+.tabs input:hover + label {background: #e08f24;/*COLOR PESTAÑA SOBRE*/}
+.tabs label:first-of-type {z-index: 4;}
+.tab-label-2 {z-index: 4;}
+.tab-label-3 {z-index: 3;}
+.tab-label-4 {z-index: 2;}
+.tabs input:checked + label {background: #fefefe;color: #1a1a1a;z-index: 6;}
+.clear-shadow {clear: both;}
+.content {height: auto;width: 100%;float: left;position: relative;z-index: 5;background: #fefefe;top: -10px;box-sizing: border-box;}
+.content div {position: relative;float: left;width: 0;height: 0;box-sizing: border-box;top: 0;left: 0;z-index: 1;opacity: 0;background: #fefefe;}
+.tabs .tab-selector-1:checked ~ .content .content-1,.tabs .tab-selector-2:checked ~ .content .content-2,.tabs .tab-selector-3:checked ~ .content .content-3,.tabs .tab-selector-4:checked ~ .content .content-4 {z-index: 100;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter: alpha(opacity=100);opacity: 1;width: 100%;height: auto;width: 100%;height: auto;padding: 5%;}
+.content div p {margin: 0;padding-left: 15px;border-left: 8px solid rgba(86, 117, 231, 0.6);text-align: left;}
+.content h2 {margin-bottom: 10px;}
+@media screen and (min-width: 768px) {.tabs input:checked + label {top: -5px;}}
+@media screen and (max-width: 767px) {.tabs {height: auto;background: #fefefe;padding-bottom: 200px;width: 95%;}.tabs label {text-align: left;}.content h2 {text-align: center;margin-bottom: 10px;}
+  .tabs input:checked + label {padding-left: 30px;}
+  .tabs label, .tabs input {width: 100%;position: absolute;}
+  .tabs label.tab-label-1, .tabs label#tab-1, .tabs input.tab-label-1, .tabs input#tab-1 {width: 88%;top: 150px;left: 0;height: 50px;z-index: 4 !important;}
+  .tabs label.tab-label-2, .tabs label#tab-2, .tabs input.tab-label-2, .tabs input#tab-2 {width: 92%;top: 100px;left: 0;height: 100px;z-index: 3 !important;}
+  .tabs label.tab-label-3, .tabs label#tab-3, .tabs input.tab-label-3, .tabs input#tab-3 {width: 96%;top: 50px;left: 0;height: 150px;z-index: 2 !important;}
+  .tabs label.tab-label-4, .tabs label#tab-4, .tabs input.tab-label-4, .tabs input#tab-4 {width: 100%;top: 0;left: 0;height: 200px;z-index: 1 !important;}
+  .tabs .content {top: 200px;}}
+
+/*XXXXXXXXXXXXXXXXXXXXX		ESTRUCTURA14		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+/*XXXXXXXXXXXXXXXXXXXXX		ESTRUCTURA15		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.estructura15{
+	background-color: #ededed;
+	font-family: arial;
+	padding-bottom: 40px;
+}
+.estructura15 h1{
+	color: #323232;
+	font-size: 2.5em;
+	letter-spacing: 2px;
+	font-weight: normal;	
+}
+.estructura15 h2{
+	color: #323232;
+}
+.estructura15 p{
+	margin-bottom: 	50px;
+	color: #565a5b;
+	padding-left: 0;
+}
+.estructura15.boton2 a {
+	text-transform: uppercase;
+	text-align: left;
+	padding: 20px;
+	font-family: arial;
+	background-color: #1f91ca;
+	font-size: 0.8em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -ms-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+}
+.estructura15.boton2 a:hover{
+    background-color:#696868;
+    color:white;
+}
+#cont1{
+    margin-left: 10px;
+}
+
+
+.estructura15 hr {
+	border: 0; 
+	border-top: 1px solid #a7a7a7; 
+	border-bottom: 1px solid #a7a7a7; 
+	height:0;
+	max-width: 	300px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+/*XXXXXXXXXXXXXXXXXXXXX		FINESTRUCTURA15		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+/*XXXXXXXXXXXXXXXXXXXXX		ESTRUCTURA16		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.estructura16{
+	background-color: #ededed;
+	font-family: arial;
+	padding-bottom: 80px;
+	color: white;
+}
+.estructura16 .row h1{
+	font-size: 2.5em;
+	letter-spacing: 2px;
+	font-weight: normal;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.estructura16 p{
+	margin-bottom: 	50px;
+	line-height: 25px;
+}
+.estructura16.boton2 a {
+	text-transform: uppercase;
+	text-align: left;
+	padding: 20px;
+	font-family: arial;
+	background-color: #f6c452;
+	font-size: 0.8em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -ms-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+}
+.estructura16.boton2 a:hover{
+    background-color:#db8634;
+    color:white;
+}
+.estructura16.boton2 img{
+    padding-top: 70px;
+}
+.estructura16 article {
+	padding-left:20px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXX		FINESTRUCTURA16		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/*XXXXXXXXXXXXXXXXXXXXX		ESTRUCTURA17		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.estructura17{
+	background-color: #ffffff;
+	font-family: arial;
+	
+}
+
+.estructura17 h1{
+	color: #34495e;
+	text-align: center;
+	font-weight: normal;
+	font-size: 3em;
+}
+.estructura17 h3{
+	color: #34495e;
+	font-weight: normal;
+	font-size: 1.3em;
+	
+}
+.estructura17 p{
+	color: #888a8c;
+	font-weight: normal;
+	line-height: 1.5em;
+}
+#columna1{
+	text-align: right;
+}
+#columna1 img, h3, p{
+	padding-right: 10px;
+}
+#columna2{
+	text-align: left;	
+}
+#columna2 img, p{
+	padding-left: 10px;	
+}
+/*XXXXXXXXXXXXXXXXXXXXX		FINESTRUCTURA17	XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+.estructura18{
+	background-color: #ffffff;
+	font-family: arial;
+	
+}
+
+.estructura18 h1{
+	color: #34495e;
+	text-align: center;
+	font-weight: normal;
+	font-size: 3em;
+}
+.estructura18 h3{
+	color: #34495e;
+	font-weight: normal;
+	font-size: 1.3em;
+	
+}
+.estructura18 p{
+	color: #888a8c;
+	font-weight: normal;
+	line-height: 1.5em;
+}
+#columna1{
+	text-align: right;
+}
+#columna1 img, p{
+	padding-right: 10px;
+}
+#columna2{
+	text-align: left;	
+}
+#columna2 img,  p{
+	padding-left: 10px;	
+}
+
+
+.texto-iconos {margin: 30px 0 70px 0}
+.texto-iconos h1{text-align: center;font-size: 38px;font-weight: normal;}
+.texto-iconos h2{font-size: 20px;}
+.texto-iconos p {overflow: hidden; font-size: 14px;color: #8d8d8f}
+
+#text{text-align: center; font-size: 18px;margin-bottom: 30px}
+.texto-iconos p {overflow: hidden; font-size: 14px}
+.box-1{text-align: right; padding-right: 20px}
+.box-2{text-align: left;padding-left: 20px}
+.icon-1 , .icon-2 {background: #e1e1e2; border-radius: 50%;margin: 10px;transition: 0.2s; width:100px; height:100px;}
+.icon-1 {float: right;}
+.icon-2 {float: left;}
+.texto-iconos img:hover {background: #2fcaf7;}
+.texto-iconos h2:hover {color: #2fcaf7;}
+
+
+.img-grande{background: #3ec7c2; color: #fff; padding: 50px 0 20px 0}
+.img-grande h1{font-size: 36px; font-weight: normal; text-align: left; line-height: 36px}
+.img-grande h2{font-size: 20px; font-weight: normal; line-height: 36px }
+#text-1{font-size: 18px; font-weight: normal; line-height: 30px}
+#text-2{font-size: 14px; line-height: 22px;  overflow: hidden;}
+.icon-3 , .icon-4 {float: left; margin-right: 20px }
+
+/*3*/
+
+.text-izquierda  {padding: 60px 45px 10px 45px}
+.text-izquierda h1{text-align: left;font-weight: normal;}
+.text-centrado{text-align: center; color: #1f1f1f; padding: 60px 45px 10px 45px}
+.icon-5 {background: #e1e1e2; border-radius: 50%;margin: 10px}
+.text-centrado hr{height: 3px; background: #79d5ca; width: 25px; border:0px;}
+.text-izquierda hr {height: 5px; background: #222; width: 80px;border: 0px; margin: 0px 0px 30px 0px }
+
+/*4*/
+
+
+.img-grande2{background: #3a3c3e; color: #8f9091;}
+.img-grande2 h1{font-size: 36px; font-weight: normal; text-align: left; line-height: 36px;color: #ffffff}
+.img-grande2 h2{font-size: 24px; font-weight: bold; line-height: 36px;color: #ffffff }
+#text-3{font-size: 14px; line-height: 22px;  overflow: hidden;}
+.icon-3 , .icon-4 {float: left; margin-right: 20px; margin-bottom: 20px; width:100px; height:100px;}
+.columna-1 {padding: 40px 40px 40px 200px !important}
+.columna-2 img {margin-bottom: -4px}
+
+
+/*5*/
+
+.texto-3img h1{text-align: left;font-weight: normal; font-family: arial}
+.texto-3img p  {font-size: 18px; padding-right: 50px}
+.texto-3img li {font-size: 18px; padding: 10px 50px 10px 20px; color: #b35032;}
+.texto-3img {padding: 60px 0px 35px 0px;}
+.texto-3img img {margin-bottom: 25px}
+.texto-3img hr {height: 5px; background: #222; width: 80px;border: 0px; margin: 0px 0px 30px 0px }
+
+
+
+/*6*/
+
+.modulos-6 {color: #ffffff; padding: 50px 0px 70px 0px; font-weight: normal; font-family: arial}
+.modulos-6 h1{ text-align: center;font-size: 40px;font-weight: normal; font-family: arial; color: #f9f9f9 }
+.modulos-6 article {padding:30px 20px 30px 20px}
+#text-4 {text-align: center; font-size: 18px; }
+#text-5{font-size: 14px; line-height: 22px;  overflow: hidden;}
+
+
+/*7*/
+
+.foto-pers {padding: 60px 0px 60px 0px}
+.foto-pers h2 {font-size: 30px; font-weight: normal;color:#333333;}
+.foto-pers h3 {font-size: 14px; font-weight: normal;color:#b9b9b9; }
+.foto-pers h4 {font-size: 20px; font-weight: bold;color:#236fbd;margin-top: -10px}
+.box-4{text-align: left;padding-left: 20px}
+.icon-14 {float: left;background: #e1e1e2; border-radius: 50%;margin: 10px;transition: 0.2s}
+.foto-pers a{ padding: 15px; background: #236fbd;border-radius: 8px; color: #ffffff}
+
+
+
+
+
+/*11*/
+
+.text-img {padding-top: 60px; }
+.text-img article {padding: 0px 25px 0px 25px; box-sizing:border-box;}
+.text-img img {margin-bottom: -4px}
+.text-img h2 {font-size: 36px; color:#ffffff; font-family: arial; font-weight: normal;margin-top: 0px}
+.text-img p {font-size: 18px; color:#eeeeee; padding-bottom: 20px }
+.text-img a{ padding: 15px; border: 1px solid #ffffff;border-radius: 8px; color: #ffffff}
+
+/*footer01*/
+
+
+.footer01A {
+	padding: 40px 5px 40px 5px;
+	background:#1b1b1b;
+	color: #8f8f8f;
+	font-family: Arial;
+	font-size: 14px
+}
+
+.footer01A a{
+	color: #8f8f8f;
+}
+
+.footer01B {
+	background:#161616;
+	color: #5d5d5d;
+	font-family: Arial;
+	font-size: 14px;
+	padding: 10px 5px 10px 5px;
+}
+
+.list{
+	margin-left: -45px; 
+	float: left;
+}
+.copyright01 {
+	margin: 14px;
+	float: right;
+}
+
+.redes01 {
+	font-size:24px !important;
+	float: right;
+	margin-right: -18px;
+	margin-top: 22px;
+}
+
+.redes01 a:hover {
+	color: #1ca7e8;
+}
+
+
+.logofooter01 {
+	text-align: center;
+}
+
+.email-tel {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+/*footer02*/
+
+
+.footer02A {
+	padding: 15px 5px 15px 5px;
+	background:#1b1b1b;
+	color: #8f8f8f;
+	font-family: Arial;
+	font-size: 16px
+}
+
+.footer02A div{
+	text-align: center;
+	padding: 15px;
+}
+
+.logofooter02 {
+	text-align: center;
+}
+
+.redes01 i, .redes02 i, .redes03 i, .redes04 i {
+	font-size:26px !important;
+	margin: 0px 12px 0px 5px !important;
+}
+
+.redes02 a {
+	color: #8f8f8f;
+}
+
+.redes02 a:hover {
+	color: #1ca7e8;
+}
+
+.boton-footer {
+	background: #1ca7e8;
+	font-size: 14px;
+	border: 0px;
+	color: #ffffff;
+	padding: 10px 15px 10px 15px;
+	margin-left: -5px;
+}
+
+.form-footer {
+	background: #383838;
+	font-size: 14px;
+	border: 0px;
+	color: #ffffff;
+	padding: 10px 15px 10px 15px;
+}
+
+
+
+/*footer03*/
+
+
+.footer03 {
+	padding: 35px 5px 35px 5px;
+	background:#1b1b1b;
+	color: #8f8f8f;
+	font-family: Arial;
+	font-size: 14px
+}
+
+
+.text-footer03 {
+	padding:  10px 0px 0px 10px;
+}
+
+
+.copyright03 {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.redes03 {
+	font-size:24px !important;
+	text-align: right;
+	padding-right: 10px;
+}
+
+
+.redes03 a {
+	color: #8f8f8f;
+}
+
+
+.redes03 a:hover {
+	color: #1ca7e8;
+}
+
+/*footer04*/
+
+
+.footer04 {
+	padding: 35px 5px 35px 5px;
+	background:#1b1b1b;
+	color: #8f8f8f;
+	font-family: Arial;
+	font-size: 14px
+}
+
+
+.text-footer04 h2 {
+	color: #ffffff;
+	font-size: 22px;
+	margin: 4px 1px 0px 10px !important;
+}
+
+.text-footer04 h3 {
+	color: #919191;
+	font-size: 14px;
+	margin: 0px 0px 0px 10px !important
+}
+
+
+.copyright04 {
+	text-align: right;
+}
+
+.redes04 {
+	font-size:24px !important;
+	text-align: right;
+}
+
+
+.redes04 a {
+	color: #8f8f8f;
+}
+
+
+.redes04 a:hover {
+	color: #1ca7e8;
+}
+
+
+

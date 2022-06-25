@@ -1,0 +1,53 @@
+[25-Jan-2021 04:59:08 UTC] PHP Warning:  include(controlador/conexion.php): failed to open stream: No such file or directory in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 4
+[25-Jan-2021 04:59:08 UTC] PHP Warning:  include(): Failed opening 'controlador/conexion.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 4
+[25-Jan-2021 04:59:08 UTC] PHP Notice:  Undefined variable: cn in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 7
+[25-Jan-2021 04:59:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 7
+[25-Jan-2021 04:59:23 UTC] PHP Warning:  include(controlador/conexion.php): failed to open stream: No such file or directory in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 4
+[25-Jan-2021 04:59:23 UTC] PHP Warning:  include(): Failed opening 'controlador/conexion.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 4
+[25-Jan-2021 04:59:23 UTC] PHP Notice:  Undefined variable: cn in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 7
+[25-Jan-2021 04:59:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 7
+[25-Jan-2021 04:59:43 UTC] PHP Warning:  include(controlador/conexion.php): failed to open stream: No such file or directory in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 4
+[25-Jan-2021 04:59:43 UTC] PHP Warning:  include(): Failed opening 'controlador/conexion.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 4
+[25-Jan-2021 04:59:43 UTC] PHP Notice:  Undefined variable: cn in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 7
+[25-Jan-2021 04:59:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 7
+[25-Jan-2021 04:59:46 UTC] PHP Warning:  include(controlador/conexion.php): failed to open stream: No such file or directory in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 4
+[25-Jan-2021 04:59:46 UTC] PHP Warning:  include(): Failed opening 'controlador/conexion.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 4
+[25-Jan-2021 04:59:46 UTC] PHP Notice:  Undefined variable: cn in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 7
+[25-Jan-2021 04:59:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 7
+[28-Jan-2021 12:01:26 America/Guayaquil] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 75
+[28-Jan-2021 12:03:38 America/Guayaquil] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 75
+[28-Jan-2021 12:06:21 America/Guayaquil] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 75
+[28-Jan-2021 12:08:42 America/Guayaquil] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 75
+[28-Jan-2021 12:08:46 America/Guayaquil] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 75
+[28-Jan-2021 12:08:47 America/Guayaquil] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 75
+[28-Jan-2021 12:11:33 America/Guayaquil] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 75
+[28-Jan-2021 13:02:41 America/Guayaquil] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 72
+[28-Jan-2021 13:02:47 America/Guayaquil] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 72
+[28-Jan-2021 13:03:22 America/Guayaquil] PHP Notice:  Undefined variable: resultado_estado in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/views/ventas_pendientes.php on line 111

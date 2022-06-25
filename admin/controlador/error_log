@@ -1,0 +1,562 @@
+[02-Jul-2019 22:06:28 America/New_York] PHP Notice:  Undefined index: name in /home/irdtws2018/public_html/retrobikes/admin/controlador/upload.php on line 6
+[02-Jul-2019 22:10:55 America/New_York] PHP Notice:  Undefined index: name in /home/irdtws2018/public_html/retrobikes/admin/controlador/upload.php on line 6
+[02-Jul-2019 22:36:33 America/New_York] PHP Notice:  Undefined index: name in /home/irdtws2018/public_html/retrobikes/admin/controlador/upload.php on line 6
+[02-Jul-2019 22:38:53 America/New_York] PHP Notice:  Undefined index: name in /home/irdtws2018/public_html/retrobikes/admin/controlador/upload.php on line 6
+[02-Jul-2019 22:38:56 America/New_York] PHP Notice:  Undefined index: name in /home/irdtws2018/public_html/retrobikes/admin/controlador/upload.php on line 6
+[17-Jul-2019 17:06:56 America/New_York] PHP Warning:  move_uploaded_file(../assets/img/Image-17-07-19-to-5-06-56img.png): failed to open stream: No such file or directory in /home/irdtws2018/public_html/cart/admin/controlador/upload.php on line 52
+[17-Jul-2019 17:06:56 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php9HgfKT' to '../assets/img/Image-17-07-19-to-5-06-56img.png' in /home/irdtws2018/public_html/cart/admin/controlador/upload.php on line 52
+[17-Jul-2019 17:14:02 America/New_York] PHP Parse error:  syntax error, unexpected '100' (T_LNUMBER), expecting ',' or ';' in /home/irdtws2018/public_html/cart/admin/controlador/galeria.php on line 28
+[17-Jul-2019 17:14:22 America/New_York] PHP Parse error:  syntax error, unexpected '100' (T_LNUMBER), expecting ',' or ';' in /home/irdtws2018/public_html/cart/admin/controlador/galeria.php on line 28
+[17-Jul-2019 17:19:28 America/New_York] PHP Warning:  move_uploaded_file(../assets/img/Image-17-07-19-to-5-19-28con.png): failed to open stream: No such file or directory in /home/irdtws2018/public_html/cart/admin/controlador/upload.php on line 52
+[17-Jul-2019 17:19:28 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpWGgYfp' to '../assets/img/Image-17-07-19-to-5-19-28con.png' in /home/irdtws2018/public_html/cart/admin/controlador/upload.php on line 52
+[13-Apr-2020 00:52:59 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-12-52-59a.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:52:59 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phprf0UhR' to '../../assets/img/galeria/Product-13-04-20-to-12-52-59a.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:52:59 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-12-52-59b.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:52:59 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpVziKQP' to '../../assets/img/galeria/Product-13-04-20-to-12-52-59b.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:52:59 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-12-52-59c.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:52:59 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpnLkBpO' to '../../assets/img/galeria/Product-13-04-20-to-12-52-59c.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:52:59 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-12-52-59d.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:52:59 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpjJWrYM' to '../../assets/img/galeria/Product-13-04-20-to-12-52-59d.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:52:59 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-12-52-59f.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:52:59 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpC2mkxL' to '../../assets/img/galeria/Product-13-04-20-to-12-52-59f.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:54:21 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-12-54-21a.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:54:21 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpqcltQk' to '../../assets/img/galeria/Product-13-04-20-to-12-54-21a.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:54:29 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-12-54-29b.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:54:29 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpRNOHSE' to '../../assets/img/galeria/Product-13-04-20-to-12-54-29b.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:54:34 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-12-54-34c.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:54:34 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phptoLtnh' to '../../assets/img/galeria/Product-13-04-20-to-12-54-34c.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:54:38 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-12-54-38d.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:54:38 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpS4Wug1' to '../../assets/img/galeria/Product-13-04-20-to-12-54-38d.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:54:46 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-12-54-46f.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 00:54:46 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php8IXqXg' to '../../assets/img/galeria/Product-13-04-20-to-12-54-46f.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:00:49 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-1-00-49a1.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:00:49 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpKiYnaw' to '../../assets/img/galeria/Product-13-04-20-to-1-00-49a1.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:00:53 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-1-00-53a2.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:00:53 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpgKkSxy' to '../../assets/img/galeria/Product-13-04-20-to-1-00-53a2.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:00:58 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-1-00-58a3.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:00:58 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpjQhuny' to '../../assets/img/galeria/Product-13-04-20-to-1-00-58a3.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:01:02 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-1-01-02a4.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:01:02 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpaP0D6x' to '../../assets/img/galeria/Product-13-04-20-to-1-01-02a4.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:28:48 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-1-28-48a1.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:28:48 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpr0zCvB' to '../../assets/img/galeria/Product-13-04-20-to-1-28-48a1.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:28:52 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-1-28-52a2.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:28:52 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpUrbcop' to '../../assets/img/galeria/Product-13-04-20-to-1-28-52a2.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:28:58 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-1-28-58a4.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:28:58 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpHd7Zh4' to '../../assets/img/galeria/Product-13-04-20-to-1-28-58a4.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:29:03 America/Boise] PHP Warning:  move_uploaded_file(../../assets/img/galeria/Product-13-04-20-to-1-29-03a3.jpg): failed to open stream: No such file or directory in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[13-Apr-2020 01:29:03 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phptVGocR' to '../../assets/img/galeria/Product-13-04-20-to-1-29-03a3.jpg' in /home4/grupobli/public_html/woki/admin/controlador/galeria.php on line 23
+[27-Nov-2020 16:29:15 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:29:18 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:29:21 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:29:24 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:29:27 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:29:38 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:29:58 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:30:58 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:32:07 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:32:11 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:32:12 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:32:24 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:33:00 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:33:11 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:34:14 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:34:17 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[27-Nov-2020 16:34:28 America/Boise] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/acciones.php on line 194
+[08-Dec-2020 21:58:08 America/Boise] PHP Warning:  include(/entidades/SubidaDocPdfResponse.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 8
+[08-Dec-2020 21:58:08 America/Boise] PHP Warning:  include(/entidades/SubidaDocPdfResponse.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 8
+[08-Dec-2020 21:58:08 America/Boise] PHP Warning:  include(): Failed opening '/entidades/SubidaDocPdfResponse.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 8
+[08-Dec-2020 21:58:08 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SubidaDocPdfResponse' not found in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php:14
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 14
+[08-Dec-2020 21:58:48 America/Boise] PHP Warning:  include(/entidades/SubidaDocPdfResponse.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 8
+[08-Dec-2020 21:58:48 America/Boise] PHP Warning:  include(/entidades/SubidaDocPdfResponse.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 8
+[08-Dec-2020 21:58:48 America/Boise] PHP Warning:  include(): Failed opening '/entidades/SubidaDocPdfResponse.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 8
+[08-Dec-2020 21:58:48 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SubidaDocPdfResponse' not found in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php:14
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 14
+[08-Dec-2020 22:06:07 America/Boise] PHP Warning:  include(/entidades/SubidaDocPdfResponse.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 8
+[08-Dec-2020 22:06:07 America/Boise] PHP Warning:  include(/entidades/SubidaDocPdfResponse.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 8
+[08-Dec-2020 22:06:07 America/Boise] PHP Warning:  include(): Failed opening '/entidades/SubidaDocPdfResponse.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 8
+[08-Dec-2020 22:06:07 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SubidaDocPdfResponse' not found in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php:14
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 14
+[08-Dec-2020 22:11:54 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function addCodigo() on null in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 19
+[08-Dec-2020 22:14:01 America/Boise] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 75
+[08-Dec-2020 22:16:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 16
+[08-Dec-2020 22:16:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function addCodigo() on null in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php:21
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 21
+[08-Dec-2020 22:18:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 16
+[08-Dec-2020 22:18:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function addCodigo() on null in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php:21
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 21
+[08-Dec-2020 22:26:09 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 16
+[08-Dec-2020 22:26:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function addCodigo() on null in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php:21
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 21
+[08-Dec-2020 22:26:53 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 16
+[08-Dec-2020 22:26:53 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function addCodigo() on null in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php:21
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 21
+[08-Dec-2020 22:33:17 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 16
+[08-Dec-2020 22:33:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function addCodigo() on null in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php:21
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 21
+[08-Dec-2020 22:34:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 16
+[08-Dec-2020 22:34:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function addCodigo() on null in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php:21
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 21
+[08-Dec-2020 22:37:43 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 17
+[08-Dec-2020 22:38:53 America/Boise] PHP Warning:  include(/entidades/SubidaDocPdfResponse.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 9
+[08-Dec-2020 22:38:53 America/Boise] PHP Warning:  include(/entidades/SubidaDocPdfResponse.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 9
+[08-Dec-2020 22:38:53 America/Boise] PHP Warning:  include(): Failed opening '/entidades/SubidaDocPdfResponse.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 9
+[08-Dec-2020 22:38:53 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SubidaDocPdfResponse' not found in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 15
+[08-Dec-2020 22:39:24 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 17
+[08-Dec-2020 22:44:21 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 44
+[08-Dec-2020 22:47:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[08-Dec-2020 22:48:24 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[08-Dec-2020 22:48:54 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[08-Dec-2020 22:49:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[08-Dec-2020 22:50:32 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[08-Dec-2020 23:01:05 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[08-Dec-2020 23:15:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[08-Dec-2020 23:17:12 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[08-Dec-2020 23:37:18 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[08-Dec-2020 23:41:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[21-Dec-2020 08:40:24 America/Boise] PHP Warning:  move_uploaded_file(../../assets/excelprod/encartepdf-21-12-20-to-8-40-24OS.xlsx): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 35
+[21-Dec-2020 08:40:24 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpaKIeYI' to '../../assets/excelprod/encartepdf-21-12-20-to-8-40-24OS.xlsx' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 35
+[21-Dec-2020 08:40:24 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 39
+[21-Dec-2020 08:53:40 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 39
+[21-Dec-2020 08:58:04 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 08:58:04 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 08:58:04 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/php-excel-reader/excel_reader2.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 08:58:04 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 08:58:04 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 08:58:04 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/SpreadsheetReader.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 08:58:04 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 41
+[21-Dec-2020 09:20:30 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:20:30 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:20:30 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/php-excel-reader/excel_reader2.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:20:30 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:20:30 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:20:30 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/SpreadsheetReader.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:20:30 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 41
+[21-Dec-2020 09:20:30 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SpreadsheetReader' not found in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php:48
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 48
+[21-Dec-2020 09:24:06 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:24:06 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:24:06 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/php-excel-reader/excel_reader2.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:24:06 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:24:06 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:24:06 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/SpreadsheetReader.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:24:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 41
+[21-Dec-2020 09:24:06 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SpreadsheetReader' not found in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php:48
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 48
+[21-Dec-2020 09:26:00 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:26:00 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:26:00 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/php-excel-reader/excel_reader2.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:26:00 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:26:00 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:26:00 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/SpreadsheetReader.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:26:00 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 41
+[21-Dec-2020 09:26:00 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SpreadsheetReader' not found in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php:48
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 48
+[21-Dec-2020 09:27:50 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:27:50 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:27:50 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/php-excel-reader/excel_reader2.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:27:50 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:27:50 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:27:50 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/SpreadsheetReader.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:27:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 41
+[21-Dec-2020 09:27:50 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SpreadsheetReader' not found in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php:50
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 50
+[21-Dec-2020 09:28:31 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:28:31 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:28:31 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/php-excel-reader/excel_reader2.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:28:31 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:28:31 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:28:31 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/SpreadsheetReader.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:28:31 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 41
+[21-Dec-2020 09:28:31 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SpreadsheetReader' not found in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php:50
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 50
+[21-Dec-2020 09:30:23 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:30:23 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:30:23 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/php-excel-reader/excel_reader2.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:30:23 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:30:23 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:30:23 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/SpreadsheetReader.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:30:23 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 41
+[21-Dec-2020 09:30:23 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SpreadsheetReader' not found in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php:50
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 50
+[21-Dec-2020 09:30:57 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:30:57 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:30:57 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/php-excel-reader/excel_reader2.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:30:57 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:30:57 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:30:57 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/SpreadsheetReader.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:30:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 41
+[21-Dec-2020 09:34:22 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:34:22 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:34:22 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/php-excel-reader/excel_reader2.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:34:22 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:34:22 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:34:22 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/SpreadsheetReader.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:34:22 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 41
+[21-Dec-2020 09:34:22 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SpreadsheetReader' not found in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php:51
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 51
+[21-Dec-2020 09:35:12 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:35:12 America/Boise] PHP Warning:  include(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:35:12 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/php-excel-reader/excel_reader2.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:35:12 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:35:12 America/Boise] PHP Warning:  include(../spreadsheet-reader/SpreadsheetReader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:35:12 America/Boise] PHP Warning:  include(): Failed opening '../spreadsheet-reader/SpreadsheetReader.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 09:35:12 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 41
+[21-Dec-2020 09:35:12 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SpreadsheetReader' not found in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php:51
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 51
+[21-Dec-2020 09:38:00 America/Boise] PHP Warning:  require(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:38:00 America/Boise] PHP Warning:  require(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:38:00 America/Boise] PHP Fatal error:  require(): Failed opening required '../spreadsheet-reader/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:39:44 America/Boise] PHP Warning:  require(../../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:39:44 America/Boise] PHP Warning:  require(../../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:39:44 America/Boise] PHP Fatal error:  require(): Failed opening required '../../spreadsheet-reader/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:41:22 America/Boise] PHP Warning:  require(./spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:41:22 America/Boise] PHP Warning:  require(./spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:41:22 America/Boise] PHP Fatal error:  require(): Failed opening required './spreadsheet-reader/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:43:19 America/Boise] PHP Warning:  require(spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:43:19 America/Boise] PHP Warning:  require(spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:43:19 America/Boise] PHP Fatal error:  require(): Failed opening required 'spreadsheet-reader/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:44:09 America/Boise] PHP Warning:  require(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:44:09 America/Boise] PHP Warning:  require(../spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:44:09 America/Boise] PHP Fatal error:  require(): Failed opening required '../spreadsheet-reader/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:47:21 America/Boise] PHP Warning:  require(./spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:47:21 America/Boise] PHP Warning:  require(./spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:47:21 America/Boise] PHP Fatal error:  require(): Failed opening required './spreadsheet-reader/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:47:58 America/Boise] PHP Warning:  require(./spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:47:58 America/Boise] PHP Warning:  require(./spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:47:58 America/Boise] PHP Fatal error:  require(): Failed opening required './spreadsheet-reader/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:49:12 America/Boise] PHP Warning:  require(spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:49:12 America/Boise] PHP Warning:  require(spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:49:12 America/Boise] PHP Fatal error:  require(): Failed opening required 'spreadsheet-reader/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:49:35 America/Boise] PHP Warning:  require(/spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:49:35 America/Boise] PHP Warning:  require(/spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:49:35 America/Boise] PHP Fatal error:  require(): Failed opening required '/spreadsheet-reader/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:55:27 America/Boise] PHP Warning:  require_once(spreadsheet-reader/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 09:55:27 America/Boise] PHP Fatal error:  require_once(): Failed opening required 'spreadsheet-reader/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 10:00:23 America/Boise] PHP Warning:  require_once(Excel/reader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 10:00:23 America/Boise] PHP Fatal error:  require_once(): Failed opening required 'Excel/reader.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 10:02:14 America/Boise] PHP Warning:  require_once(Excel/reader.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 10:02:14 America/Boise] PHP Fatal error:  require_once(): Failed opening required 'Excel/reader.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 10:07:20 America/Boise] PHP Warning:  require(./spreadsheet-reader-master/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 10:07:20 America/Boise] PHP Warning:  require(./spreadsheet-reader-master/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 10:07:20 America/Boise] PHP Fatal error:  require(): Failed opening required './spreadsheet-reader-master/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 9
+[21-Dec-2020 10:07:51 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 41
+[21-Dec-2020 10:14:38 America/Boise] PHP Warning:  require(./spreadsheet-reader-master/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 10:14:38 America/Boise] PHP Warning:  require(./spreadsheet-reader-master/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 10:14:38 America/Boise] PHP Fatal error:  require(): Failed opening required './spreadsheet-reader-master/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 10:20:39 America/Boise] PHP Warning:  require(./spreadsheet-reader-master/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 10:20:39 America/Boise] PHP Warning:  require(./spreadsheet-reader-master/php-excel-reader/excel_reader2.php): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 10:20:39 America/Boise] PHP Fatal error:  require(): Failed opening required './spreadsheet-reader-master/php-excel-reader/excel_reader2.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 10
+[21-Dec-2020 10:21:41 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:38:55 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:38:55 America/Boise] PHP Warning:  file_get_contents(): Filename cannot be empty in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 56
+[21-Dec-2020 10:38:55 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 68
+[21-Dec-2020 10:41:12 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:41:12 America/Boise] PHP Warning:  file_get_contents(/tmp/phpPBv8Eo): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 55
+[21-Dec-2020 10:41:12 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 67
+[21-Dec-2020 10:42:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:42:19 America/Boise] PHP Warning:  file_get_contents(/tmp/phpptBqy7): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 55
+[21-Dec-2020 10:42:19 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 67
+[21-Dec-2020 10:43:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:43:56 America/Boise] PHP Warning:  file_get_contents(/tmp/phpxp9j5Z): failed to open stream: No such file or directory in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 56
+[21-Dec-2020 10:43:56 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 68
+[21-Dec-2020 10:44:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:45:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:47:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:48:14 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:49:42 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:51:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:53:42 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:54:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:55:09 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:55:09 America/Boise] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 65
+[21-Dec-2020 10:55:54 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:56:40 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:59:35 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[21-Dec-2020 10:59:48 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 21:59:15 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:00:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:01:24 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:11:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:11:31 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:13:07 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:24:41 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:25:00 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:25:21 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:26:07 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:27:01 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:28:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:28:42 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:29:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:45:43 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:46:10 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:46:39 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:47:29 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:48:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:49:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 22:57:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:01:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:02:00 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:02:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:04:22 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:04:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:06:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:06:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:07:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:07:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:30:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:30:25 America/Boise] PHP Warning:  Use of undefined constant sqlInsertsValuesProductos - assumed 'sqlInsertsValuesProductos' (this will throw an Error in a future version of PHP) in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 248
+[29-Dec-2020 23:30:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:31:39 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:39:04 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[29-Dec-2020 23:56:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:17:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:17:43 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:19:23 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:20:01 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:31:23 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:33:10 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:34:11 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:35:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:36:03 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:36:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:38:14 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:39:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:41:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:41:36 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:42:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:43:38 America/Boise] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 160
+[30-Dec-2020 00:45:12 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:46:18 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:48:08 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:48:54 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:50:13 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:50:40 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:51:39 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:54:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:54:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:55:07 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 00:56:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 08:12:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 08:14:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 08:15:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 08:18:00 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 08:21:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 08:22:05 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 08:23:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 08:24:47 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:25:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:27:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:29:43 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:32:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:32:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:32:59 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:33:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:33:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:41:42 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:43:15 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:43:48 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:44:05 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[30-Dec-2020 09:47:35 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[05-Jan-2021 08:14:08 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[05-Jan-2021 08:28:48 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[05-Jan-2021 08:29:29 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/uploadexcelprod.php on line 42
+[05-Jan-2021 17:48:08 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[05-Jan-2021 17:48:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[05-Jan-2021 18:59:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[05-Jan-2021 18:59:48 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/galeriaencarte.php on line 39
+[12-Jan-2021 09:10:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/uploadexcelprod.php on line 42
+[12-Jan-2021 09:10:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/uploadexcelprod.php on line 42
+[12-Jan-2021 09:10:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/uploadexcelprod.php on line 42
+[12-Jan-2021 09:12:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/uploadexcelprod.php on line 42
+[12-Jan-2021 09:14:11 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/uploadexcelprod.php on line 42
+[22-Jan-2021 16:13:59 UTC] PHP Notice:  Undefined index: codigo_tienda in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones_conf.php on line 2
+[22-Jan-2021 16:14:07 UTC] PHP Notice:  Undefined index: codigo_tienda in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones_conf.php on line 2
+[22-Jan-2021 16:24:27 UTC] PHP Notice:  Undefined index: codigo_tienda in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones_conf.php on line 2
+[22-Jan-2021 16:26:10 UTC] PHP Notice:  Undefined index: codigo_tienda in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones_conf.php on line 2
+[22-Jan-2021 16:31:48 UTC] PHP Notice:  Undefined index: codigo_tienda in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones_conf.php on line 2
+[22-Jan-2021 16:33:00 UTC] PHP Notice:  Undefined index: codigo_tienda in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones_conf.php on line 2
+[22-Jan-2021 16:35:38 UTC] PHP Notice:  Undefined index: codigo_tienda in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones_conf.php on line 2
+[22-Jan-2021 16:35:42 UTC] PHP Notice:  Undefined index: codigo_tienda in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones_conf.php on line 2
+[22-Jan-2021 19:07:54 UTC] PHP Notice:  Undefined index: codigo_tienda in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones_conf.php on line 2
+[22-Jan-2021 19:08:11 UTC] PHP Notice:  Undefined index: codigo_tienda in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones_conf.php on line 2
+[22-Jan-2021 19:08:16 UTC] PHP Notice:  Undefined index: codigo_tienda in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones_conf.php on line 2
+[22-Jan-2021 19:08:34 UTC] PHP Notice:  Undefined index: codigo_tienda in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones_conf.php on line 2
+[27-Jan-2021 20:35:47 UTC] PHP Notice:  Undefined variable: resultado2 in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones.php on line 362
+[27-Jan-2021 20:38:14 UTC] PHP Notice:  Undefined variable: resultado2 in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones.php on line 362
+[27-Jan-2021 20:40:44 UTC] PHP Notice:  Undefined variable: resultado2 in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones.php on line 362
+[27-Jan-2021 20:45:24 UTC] PHP Notice:  Undefined variable: resultado2 in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones.php on line 362
+[28-Jan-2021 03:45:26 UTC] PHP Notice:  Undefined variable: resultado2 in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones.php on line 362
+[28-Jan-2021 03:49:10 UTC] PHP Notice:  Undefined variable: resultado2 in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones.php on line 362
+[28-Jan-2021 04:15:04 UTC] PHP Notice:  Undefined variable: resultado2 in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones.php on line 362
+[28-Jan-2021 04:16:06 UTC] PHP Notice:  Undefined variable: resultado2 in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones.php on line 362
+[28-Jan-2021 04:20:18 UTC] PHP Notice:  Undefined variable: resultado2 in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/acciones.php on line 362
+[03-Mar-2021 21:58:38 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/galeriaencarte.php on line 39
+[03-Mar-2021 21:58:51 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/galeriaencarte.php on line 39
+[03-Mar-2021 21:59:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/galeriaencarte.php on line 39
+[03-Mar-2021 21:59:43 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/galeriaencarte.php on line 39
+[03-Mar-2021 22:02:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/galeriaencarte.php on line 39
+[03-Mar-2021 22:05:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/galeriaencarte.php on line 39
+[08-Oct-2021 17:25:14 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[19-Oct-2021 20:25:01 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[25-Oct-2021 11:46:25 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[01-Nov-2021 10:46:20 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[02-Nov-2021 14:15:07 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[05-Nov-2021 07:57:03 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[07-Nov-2021 18:39:03 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[07-Nov-2021 18:52:25 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[10-Nov-2021 21:58:36 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Dec-2021 10:57:18 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[07-Jan-2022 05:32:08 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[21-Apr-2022 20:22:45 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:07:17 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 03:08:58 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 498
+[28-Apr-2022 02:09:01 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 03:10:14 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 498
+[28-Apr-2022 02:10:16 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 03:11:25 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 498
+[28-Apr-2022 03:11:25 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 03:11:25 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 02:11:27 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 03:13:00 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 498
+[28-Apr-2022 03:13:00 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 03:13:00 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 02:13:02 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 03:19:36 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 498
+[28-Apr-2022 03:19:36 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 03:19:36 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 03:19:36 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 498
+[28-Apr-2022 03:19:36 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 03:19:36 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 02:19:38 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:19:38 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 03:20:30 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 498
+[28-Apr-2022 03:20:30 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 03:20:30 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 03:20:30 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 498
+[28-Apr-2022 03:20:30 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 03:20:30 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 02:20:33 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:20:33 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 03:22:09 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 498
+[28-Apr-2022 03:22:09 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 03:22:09 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 03:22:09 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 498
+[28-Apr-2022 03:22:09 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 03:22:09 America/Guayaquil] PHP Warning:  A non-numeric value encountered in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 544
+[28-Apr-2022 02:22:13 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:22:13 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 03:23:52 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 498
+[28-Apr-2022 03:23:52 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 498
+[28-Apr-2022 03:34:36 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 494
+[28-Apr-2022 03:34:36 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 494
+[28-Apr-2022 02:34:39 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:34:39 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 03:36:46 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 494
+[28-Apr-2022 03:36:46 America/Guayaquil] PHP Warning:  Invalid argument supplied for foreach() in /home4/capacjc2/public_html/clinica/admin/controlador/acciones.php on line 494
+[28-Apr-2022 02:36:49 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:36:49 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:38:40 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:38:40 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:43:17 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:43:17 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:46:17 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:46:17 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:50:00 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-Apr-2022 02:52:38 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[04-May-2022 04:31:40 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[10-May-2022 17:54:26 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[10-May-2022 17:56:57 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[12-May-2022 22:00:43 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[14-May-2022 00:34:42 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[22-May-2022 18:07:07 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[27-May-2022 15:26:16 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-May-2022 08:48:06 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[28-May-2022 10:44:12 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[28-May-2022 10:44:12 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[28-May-2022 10:44:15 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[28-May-2022 09:44:19 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[01-Jun-2022 17:55:51 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 17:55:51 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 16:55:52 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[01-Jun-2022 17:55:53 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 17:55:57 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 17:55:57 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 16:55:58 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[01-Jun-2022 17:55:59 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 17:56:25 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 17:56:25 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 16:56:27 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[01-Jun-2022 17:56:28 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 18:20:24 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 18:20:24 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 18:20:26 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 17:20:27 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[01-Jun-2022 18:25:21 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 18:25:21 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 17:25:22 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[01-Jun-2022 18:25:23 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 18:26:56 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 18:26:56 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 17:26:57 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[01-Jun-2022 18:26:57 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 20:42:55 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 20:42:55 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[01-Jun-2022 19:42:56 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[01-Jun-2022 20:42:57 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[02-Jun-2022 11:43:57 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[02-Jun-2022 11:43:57 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[02-Jun-2022 11:43:59 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[02-Jun-2022 10:44:00 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[07-Jun-2022 16:39:29 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[07-Jun-2022 16:39:29 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[07-Jun-2022 16:39:32 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[07-Jun-2022 15:39:36 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[07-Jun-2022 17:01:59 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[07-Jun-2022 17:01:59 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[07-Jun-2022 17:02:01 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[07-Jun-2022 16:02:02 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16
+[22-Jun-2022 09:29:08 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[22-Jun-2022 09:29:08 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[22-Jun-2022 09:29:10 America/Guayaquil] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/capacjc2/public_html/clinica/admin/controlador/html2pdf/_class/locale.class.php on line 68
+[22-Jun-2022 08:29:14 America/Boise] PHP Warning:  file_put_contents(uploads/file.pdf): failed to open stream: No such file or directory in /home4/capacjc2/public_html/clinica/admin/controlador/uploadpdf.php on line 16

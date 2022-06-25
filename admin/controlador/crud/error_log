@@ -1,0 +1,860 @@
+[27-Jun-2019 14:34:29 America/New_York] PHP Notice:  Undefined index: cod_categoria in /home/irdtws2018/public_html/retrobikes/admin/controlador/crud/subcategoria.php on line 60
+[27-Jun-2019 14:36:31 America/New_York] PHP Notice:  Undefined variable: id_subcategorias in /home/irdtws2018/public_html/retrobikes/admin/controlador/crud/subcategoria.php on line 233
+[27-Jun-2019 14:36:36 America/New_York] PHP Notice:  Undefined variable: id_subcategorias in /home/irdtws2018/public_html/retrobikes/admin/controlador/crud/subcategoria.php on line 233
+[27-Jun-2019 14:36:42 America/New_York] PHP Notice:  Undefined variable: id_subcategorias in /home/irdtws2018/public_html/retrobikes/admin/controlador/crud/subcategoria.php on line 233
+[27-Jun-2019 14:41:58 America/New_York] PHP Warning:  max(): Array must contain at least one element in /home/irdtws2018/public_html/retrobikes/admin/controlador/crud/productos.php on line 80
+[05-Aug-2019 23:35:58 America/New_York] PHP Notice:  Undefined index: filtros in /home/irdtws2018/public_html/cart/admin/controlador/crud/productos.php on line 62
+[13-Apr-2020 15:47:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/woki/admin/controlador/crud/productos.php:130
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/woki/admin/controlador/crud/productos.php on line 130
+[13-Apr-2020 15:53:01 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/woki/admin/controlador/crud/productos.php:130
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/woki/admin/controlador/crud/productos.php on line 130
+[13-Apr-2020 15:55:18 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/woki/admin/controlador/crud/productos.php:130
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/woki/admin/controlador/crud/productos.php on line 130
+[25-Jul-2020 09:56:14 America/Boise] PHP Warning:  max(): Array must contain at least one element in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/categoria.php on line 137
+[25-Jul-2020 10:05:03 America/Boise] PHP Warning:  max(): Array must contain at least one element in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/subcategoria.php on line 146
+[31-Jul-2020 18:10:28 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php:35
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php on line 35
+[31-Jul-2020 18:10:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php:35
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php on line 35
+[31-Jul-2020 18:10:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php:35
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php on line 35
+[31-Jul-2020 18:10:51 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php:35
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php on line 35
+[31-Jul-2020 18:11:46 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php:35
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php on line 35
+[31-Jul-2020 18:13:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php:35
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php on line 35
+[31-Jul-2020 18:14:14 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php:36
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php on line 36
+[31-Jul-2020 18:26:33 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php:36
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php on line 36
+[31-Jul-2020 18:29:01 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php:39
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php on line 39
+[31-Jul-2020 18:29:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php:37
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/qhatu/demo/admin/controlador/crud/pedidos.php on line 37
+[22-Nov-2020 08:06:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php:49
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 49
+[22-Nov-2020 08:14:10 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 08:15:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 08:24:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 66
+[22-Nov-2020 08:24:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 08:25:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 08:25:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 66
+[22-Nov-2020 09:27:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 121
+[22-Nov-2020 09:33:48 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 09:33:48 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 09:35:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 09:35:26 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 09:35:35 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 09:35:35 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 09:35:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 09:35:45 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 09:36:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 09:36:27 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, string given in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 09:36:35 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 09:36:35 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, string given in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 09:38:36 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 09:38:36 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, string given in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 09:38:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 09:38:49 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, string given in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 09:39:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 09:39:16 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, string given in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 09:44:55 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 09:45:03 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 09:46:24 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 46
+[22-Nov-2020 10:02:17 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:02:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function addCodigo() in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php:55
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 55
+[22-Nov-2020 10:05:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:07:00 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:07:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function addCodigo() in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php:55
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 55
+[22-Nov-2020 10:08:05 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:08:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function addDescripcion() in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php:56
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 56
+[22-Nov-2020 10:09:32 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:15:59 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:17:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:18:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:19:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:21:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:22:30 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:33:09 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:35:37 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:38:10 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:38:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:39:22 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:39:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:40:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:40:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:46:15 America/Boise] PHP Fatal error:  Uncaught Error: Class 'CreateUpdateDeleteCategoriaResponse' not found in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php:87
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 87
+[22-Nov-2020 10:47:33 America/Boise] PHP Fatal error:  Uncaught Error: Class 'CreateUpdateDeleteCategoriaResponse' not found in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php:87
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 87
+[22-Nov-2020 10:47:37 America/Boise] PHP Fatal error:  Uncaught Error: Class 'CreateUpdateDeleteCategoriaResponse' not found in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php:87
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 87
+[22-Nov-2020 10:48:52 America/Boise] PHP Fatal error:  Uncaught Error: Class 'CreateUpdateDeleteCategoriaResponse' not found in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php:87
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 87
+[22-Nov-2020 10:49:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[22-Nov-2020 10:50:08 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:50:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:50:22 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:54:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[22-Nov-2020 10:56:38 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[22-Nov-2020 10:57:05 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[22-Nov-2020 10:57:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php:140
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 140
+[22-Nov-2020 10:57:42 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[22-Nov-2020 10:59:24 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 10:59:30 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 11:00:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 11:00:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 11:00:31 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 11:02:43 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 11:02:59 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 11:03:04 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[22-Nov-2020 11:17:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[22-Nov-2020 11:17:40 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 11:17:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[22-Nov-2020 11:17:58 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[22-Nov-2020 15:19:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 68
+[22-Nov-2020 15:20:05 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 68
+[22-Nov-2020 15:20:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 68
+[22-Nov-2020 15:31:39 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 109
+[22-Nov-2020 15:31:51 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 109
+[22-Nov-2020 15:32:05 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 68
+[22-Nov-2020 15:39:12 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 165
+[22-Nov-2020 15:39:12 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function addCodigo() on null in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php:171
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 171
+[22-Nov-2020 15:41:54 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 165
+[22-Nov-2020 20:40:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 20:40:33 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 62
+[22-Nov-2020 20:42:51 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 20:42:51 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 62
+[22-Nov-2020 20:43:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 20:43:06 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 62
+[22-Nov-2020 20:43:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 20:43:34 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 62
+[22-Nov-2020 20:58:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 20:58:56 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 62
+[22-Nov-2020 20:59:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 20:59:06 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 62
+[22-Nov-2020 21:01:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 21:01:20 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 62
+[22-Nov-2020 21:03:10 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 21:03:10 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 62
+[22-Nov-2020 21:03:10 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 21:03:10 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 62
+[22-Nov-2020 21:03:21 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 21:03:21 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 62
+[22-Nov-2020 21:04:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 21:04:45 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 62
+[22-Nov-2020 21:07:18 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 21:07:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 21:07:29 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 21:07:29 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 21:07:51 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 21:08:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 21:08:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[22-Nov-2020 21:23:21 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 99
+[22-Nov-2020 21:23:21 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 104
+[22-Nov-2020 21:24:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 99
+[22-Nov-2020 21:24:53 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 99
+[22-Nov-2020 21:31:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 139
+[22-Nov-2020 21:32:17 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 139
+[22-Nov-2020 21:32:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 139
+[22-Nov-2020 21:32:51 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 139
+[23-Nov-2020 12:43:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 57
+[23-Nov-2020 12:43:29 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[23-Nov-2020 12:43:38 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[23-Nov-2020 12:43:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[23-Nov-2020 12:43:55 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[23-Nov-2020 12:44:05 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[23-Nov-2020 12:45:13 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 109
+[23-Nov-2020 12:45:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 109
+[23-Nov-2020 12:45:55 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 99
+[23-Nov-2020 12:46:15 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[23-Nov-2020 13:12:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 99
+[23-Nov-2020 13:12:47 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 99
+[23-Nov-2020 13:13:14 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[23-Nov-2020 13:13:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[29-Nov-2020 17:48:41 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[29-Nov-2020 17:48:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[29-Nov-2020 17:48:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[29-Nov-2020 17:49:23 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[29-Nov-2020 17:49:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[29-Nov-2020 17:49:55 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[29-Nov-2020 17:50:04 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[29-Nov-2020 18:04:12 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 68
+[29-Nov-2020 18:04:17 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 165
+[29-Nov-2020 18:04:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 68
+[29-Nov-2020 18:04:36 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 68
+[29-Nov-2020 18:04:41 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 165
+[29-Nov-2020 18:04:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 165
+[29-Nov-2020 18:05:39 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 165
+[29-Nov-2020 19:34:00 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 24
+[29-Nov-2020 19:34:00 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 32
+[29-Nov-2020 19:34:09 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 24
+[29-Nov-2020 19:34:09 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 32
+[29-Nov-2020 19:34:59 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 24
+[29-Nov-2020 19:34:59 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 32
+[29-Nov-2020 19:36:11 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 24
+[29-Nov-2020 19:36:11 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 32
+[29-Nov-2020 19:36:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 32
+[29-Nov-2020 19:37:43 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 32
+[29-Nov-2020 20:21:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:21:49 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 63
+[29-Nov-2020 20:22:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:22:57 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 63
+[29-Nov-2020 20:22:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php:82
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 82
+[29-Nov-2020 20:23:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:23:50 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 63
+[29-Nov-2020 20:24:10 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:24:10 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 63
+[29-Nov-2020 20:27:51 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:27:51 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:28:24 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:28:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:28:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:37:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:37:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:37:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:38:12 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 32
+[29-Nov-2020 20:38:38 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:38:55 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 60
+[29-Nov-2020 20:45:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 94
+[29-Nov-2020 20:46:58 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 94
+[29-Nov-2020 20:49:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 94
+[29-Nov-2020 20:50:21 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 94
+[29-Nov-2020 20:51:07 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 94
+[29-Nov-2020 20:51:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 94
+[29-Nov-2020 20:54:48 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 32
+[08-Dec-2020 17:09:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 48
+[08-Dec-2020 17:09:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[13-Dec-2020 16:33:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 16:34:30 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 16:34:47 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 16:36:18 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 16:47:11 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 16:47:11 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php:73
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 73
+[13-Dec-2020 16:50:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 16:50:50 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php:75
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 75
+[13-Dec-2020 16:52:08 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 16:52:08 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php:75
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 75
+[13-Dec-2020 16:53:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 16:56:55 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:00:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:07:35 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:07:35 America/Boise] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 95
+[13-Dec-2020 17:07:35 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 98
+[13-Dec-2020 17:09:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:09:49 America/Boise] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 95
+[13-Dec-2020 17:09:49 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 98
+[13-Dec-2020 17:10:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:10:26 America/Boise] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 95
+[13-Dec-2020 17:10:26 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 98
+[13-Dec-2020 17:10:51 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:10:51 America/Boise] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 95
+[13-Dec-2020 17:10:51 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 98
+[13-Dec-2020 17:14:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:14:34 America/Boise] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 95
+[13-Dec-2020 17:14:34 America/Boise] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 98
+[13-Dec-2020 17:16:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:16:57 America/Boise] PHP Warning:  count() expects at least 1 parameter, 0 given in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 96
+[13-Dec-2020 17:18:30 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:18:53 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 141
+[13-Dec-2020 17:18:53 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php:176
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 176
+[13-Dec-2020 17:19:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:20:01 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:20:11 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:20:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 141
+[13-Dec-2020 17:20:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php:175
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 175
+[13-Dec-2020 17:21:37 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:22:19 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php:172
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 172
+[13-Dec-2020 17:22:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:22:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:23:58 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php:167
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 167
+[13-Dec-2020 17:25:25 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php:169
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 169
+[13-Dec-2020 17:39:36 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 17:40:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 18:49:14 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 19:02:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[13-Dec-2020 19:58:48 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 172
+[13-Dec-2020 20:02:12 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 172
+[13-Dec-2020 20:02:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 172
+[13-Dec-2020 20:04:39 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 172
+[13-Dec-2020 20:05:11 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 172
+[13-Dec-2020 20:05:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 172
+[13-Dec-2020 20:08:40 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:10:08 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:12:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:12:49 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function error() on bool in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php:269
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 269
+[13-Dec-2020 20:13:37 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:13:37 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php:269
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 269
+[13-Dec-2020 20:14:22 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:14:22 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function error() on bool in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php:269
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 269
+[13-Dec-2020 20:14:59 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:17:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:17:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:21:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:22:00 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:24:03 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:24:47 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:29:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:31:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:38:23 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 20:43:39 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:20:31 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:26:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:26:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:33:54 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:34:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:36:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:39:17 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:39:17 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:39:29 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:39:36 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:40:15 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:40:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:40:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:41:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:42:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:43:17 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:43:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:44:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:45:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:45:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:45:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:48:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:49:09 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:50:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:50:21 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 21:50:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 22:06:14 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 22:06:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 22:07:03 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[13-Dec-2020 22:23:04 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[14-Dec-2020 07:14:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[14-Dec-2020 07:22:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[14-Dec-2020 07:23:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[14-Dec-2020 07:26:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[14-Dec-2020 07:26:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[14-Dec-2020 13:08:54 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[14-Dec-2020 13:21:09 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[14-Dec-2020 18:21:35 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[20-Dec-2020 08:04:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[20-Dec-2020 08:04:07 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[20-Dec-2020 08:04:35 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 139
+[20-Dec-2020 08:04:41 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 139
+[20-Dec-2020 08:04:48 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 139
+[20-Dec-2020 08:04:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 139
+[20-Dec-2020 08:05:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 139
+[20-Dec-2020 08:05:08 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 139
+[20-Dec-2020 08:05:13 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 139
+[20-Dec-2020 08:05:24 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 165
+[20-Dec-2020 08:05:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 165
+[20-Dec-2020 08:05:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 165
+[20-Dec-2020 08:05:37 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 165
+[20-Dec-2020 08:06:08 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:06:23 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:06:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:06:43 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:06:54 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:07:05 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:07:15 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:07:24 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:07:38 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:07:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:07:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:08:09 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:08:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:08:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[20-Dec-2020 08:08:58 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 109
+[20-Dec-2020 08:09:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 109
+[20-Dec-2020 08:09:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 109
+[20-Dec-2020 08:09:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 109
+[20-Dec-2020 08:09:58 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 109
+[20-Dec-2020 08:10:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 109
+[29-Dec-2020 15:18:32 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 93
+[29-Dec-2020 15:18:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/categoria.php on line 137
+[29-Dec-2020 15:19:09 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 109
+[29-Dec-2020 15:19:38 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/subcategoria.php on line 165
+[29-Dec-2020 15:20:32 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/terceracategoria.php on line 99
+[29-Dec-2020 15:41:14 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 32
+[29-Dec-2020 15:42:32 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 32
+[29-Dec-2020 23:14:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 47
+[30-Dec-2020 00:25:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[30-Dec-2020 00:26:06 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[30-Dec-2020 00:27:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[30-Dec-2020 00:28:15 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/productos.php on line 170
+[05-Jan-2021 18:56:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/summon/admin/controlador/crud/envioscosto.php on line 32
+[12-Jan-2021 07:50:10 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:50:17 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:50:29 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:50:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:50:39 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:50:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:50:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:50:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:51:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:51:07 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:51:11 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:51:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:51:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:51:32 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 137
+[12-Jan-2021 07:52:18 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 93
+[12-Jan-2021 07:52:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 93
+[12-Jan-2021 07:52:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/categoria.php on line 93
+[12-Jan-2021 07:53:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:53:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:54:03 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:54:18 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:54:35 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:54:41 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 165
+[12-Jan-2021 07:55:07 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:56:36 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:56:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:57:11 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:57:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:57:47 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:58:22 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:58:37 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:59:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 07:59:40 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[12-Jan-2021 09:24:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:25:59 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:26:59 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:27:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:28:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:29:47 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:30:37 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:31:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:35:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:36:31 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:37:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:38:21 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:39:41 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:40:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:41:18 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:41:54 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:42:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:43:18 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:44:13 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:44:53 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:45:39 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:46:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:46:56 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 09:47:37 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 09:48:24 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:48:31 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:50:00 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:50:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 09:51:15 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 09:52:41 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:53:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:54:10 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:54:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:55:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:56:12 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:57:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:58:30 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 09:59:38 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:00:35 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:01:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:02:43 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 10:03:31 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 10:04:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:04:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 10:04:47 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:05:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:06:04 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:06:15 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 10:06:36 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 10:06:37 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:07:14 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:07:21 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 10:07:40 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 10:07:48 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:08:28 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:09:03 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:09:39 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:10:24 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:10:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:10:59 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:11:08 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 10:31:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:32:07 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 47
+[12-Jan-2021 10:32:31 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 10:32:42 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 10:38:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 12:41:35 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 12:42:01 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 12:44:11 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 12:44:20 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 12:54:08 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 13:21:41 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[12-Jan-2021 13:21:59 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:04 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:08 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:33 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:41 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:41 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:43 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:22:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[12-Jan-2021 13:49:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:15:43 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[13-Jan-2021 06:15:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[13-Jan-2021 06:15:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[13-Jan-2021 06:15:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[13-Jan-2021 06:27:46 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:28:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:33:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:35:35 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:35:51 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:36:11 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:36:30 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:37:08 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:37:39 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[13-Jan-2021 06:38:09 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:40:36 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:40:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:41:11 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:41:35 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:41:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:42:07 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:42:23 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:42:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:43:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:43:30 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:45:00 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:45:24 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[13-Jan-2021 06:45:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:45:37 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:45:47 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:45:52 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:844
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 844
+[13-Jan-2021 06:45:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:46:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:46:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:46:55 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:46:55 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php:842
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 842
+[13-Jan-2021 06:47:11 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:47:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:47:37 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:47:51 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:48:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:48:36 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:48:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:49:03 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:49:18 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:49:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:49:48 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:50:32 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:50:59 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:51:45 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:52:08 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:52:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:53:16 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:53:43 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:54:09 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:54:41 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:55:01 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:55:21 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[13-Jan-2021 06:55:39 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[14-Jan-2021 10:19:15 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[14-Jan-2021 10:19:54 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[14-Jan-2021 10:22:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[14-Jan-2021 10:28:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[14-Jan-2021 10:29:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[14-Jan-2021 10:31:03 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[14-Jan-2021 10:31:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[14-Jan-2021 10:31:33 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/productos.php on line 170
+[18-Jan-2021 08:19:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[18-Jan-2021 08:20:26 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 109
+[18-Jan-2021 13:45:41 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 165
+[18-Jan-2021 13:45:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/subcategoria.php on line 165
+[19-Jan-2021 12:47:00 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/envioscosto.php on line 60
+[19-Jan-2021 12:47:00 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/envioscosto.php on line 60
+[19-Jan-2021 12:47:21 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/tiendapilares/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:05:54 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:08:22 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 60
+[22-Jan-2021 15:08:31 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 60
+[22-Jan-2021 15:08:38 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 60
+[22-Jan-2021 15:08:44 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 60
+[22-Jan-2021 15:08:50 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 60
+[22-Jan-2021 15:08:55 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 60
+[22-Jan-2021 15:08:59 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 60
+[22-Jan-2021 15:09:04 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 60
+[22-Jan-2021 15:09:20 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:09:49 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:09:58 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:10:06 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:10:18 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:10:23 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:10:33 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:10:42 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:10:56 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:11:00 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:11:04 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:11:08 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:12:07 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:12:16 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:12:22 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:12:29 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:15:17 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:15:34 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:15:57 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:16:03 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:16:10 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:16:21 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:16:26 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:16:41 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:36:50 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:37:00 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:37:09 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:37:21 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:37:39 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:39:17 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:39:25 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:39:37 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:39:43 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 15:39:48 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/envioscosto.php on line 32
+[22-Jan-2021 17:37:19 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/subcategoria.php on line 165
+[22-Jan-2021 17:37:19 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/subcategoria.php on line 165
+[22-Jan-2021 17:37:23 UTC] PHP Warning:  Illegal string offset 'id_usuario' in /home/tguld56dm846/public_html/proyectopilares.com.pe/tienda/admin/controlador/crud/subcategoria.php on line 165
+[02-Mar-2021 17:31:04 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 48
+[02-Mar-2021 17:39:37 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 48
+[16-Mar-2021 20:48:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/subcategoria.php on line 165
+[16-Mar-2021 20:48:14 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/subcategoria.php on line 165
+[16-Mar-2021 20:51:12 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 137
+[16-Mar-2021 20:51:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 137
+[16-Mar-2021 20:51:19 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 137
+[16-Mar-2021 20:51:25 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 137
+[24-Mar-2021 15:06:42 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/subcategoria.php on line 165
+[31-Mar-2021 08:10:19 America/Boise] PHP Warning:  mysqli_query(): Empty query in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php on line 23
+[31-Mar-2021 08:10:19 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php on line 26
+[31-Mar-2021 08:10:25 America/Boise] PHP Warning:  mysqli_query(): Empty query in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php on line 23
+[31-Mar-2021 08:10:25 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php on line 26
+[31-Mar-2021 08:14:42 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php on line 26
+[31-Mar-2021 08:14:48 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php on line 26
+[31-Mar-2021 08:21:42 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php on line 26
+[31-Mar-2021 08:22:21 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php on line 26
+[31-Mar-2021 08:27:51 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php:28
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php on line 28
+[31-Mar-2021 11:18:11 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php:28
+Stack trace:
+#0 {main}
+  thrown in /home4/grupobli/public_html/sumon/admin/controlador/crud/productos.php on line 28
+[07-Apr-2021 14:21:48 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 85
+[07-Apr-2021 14:21:48 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 88
+[07-Apr-2021 14:22:58 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 85
+[07-Apr-2021 14:22:58 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 88
+[07-Apr-2021 14:27:52 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 85
+[07-Apr-2021 14:27:52 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 88
+[07-Apr-2021 14:29:10 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 85
+[07-Apr-2021 14:29:10 America/Boise] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, bool given in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 88
+[07-Apr-2021 14:30:34 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 85
+[07-Apr-2021 23:16:27 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/envioscosto.php on line 60
+[08-Apr-2021 09:58:49 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 174
+[08-Apr-2021 09:58:57 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 174
+[08-Apr-2021 09:59:03 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 174
+[25-Apr-2021 09:20:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 85
+[30-Apr-2021 17:04:50 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/terceracategoria.php on line 139
+[30-Apr-2021 17:05:41 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/terceracategoria.php on line 139
+[30-Apr-2021 17:06:02 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/terceracategoria.php on line 139
+[30-Apr-2021 17:07:37 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/terceracategoria.php on line 139
+[30-Apr-2021 17:07:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/terceracategoria.php on line 139
+[30-Apr-2021 17:24:58 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/subcategoria.php on line 165
+[05-May-2021 10:15:09 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/subcategoria.php on line 68
+[05-May-2021 10:15:30 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/subcategoria.php on line 68
+[13-May-2021 15:38:44 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 85
+[27-May-2021 17:59:13 America/Boise] PHP Warning:  Illegal string offset 'id_usuario' in /home4/grupobli/public_html/sumon/admin/controlador/crud/categoria.php on line 85
