@@ -10,7 +10,7 @@ if (isset($_SESSION['usuario'])) {
 
   include('head.php');
   include('sidebar.php');
-  include('views/agregar-paciente.php');
+  include('views/agregar-paciente2.php');
   include('footer.php');
 } else {
   echo "<script>window.location='index.php';</script>";
