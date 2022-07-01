@@ -14,8 +14,19 @@ $resultado_enfermedades_pato = mysqli_query($cn, $consulta_enfermedades_pato);
 $consulta_enfermedades_fami = "SELECT * FROM enfermedades_fami ";
 $resultado_enfermedades_fami = mysqli_query($cn, $consulta_enfermedades_fami);
 
-$boton_sigui = '<input type="button" name="password" class="next btn btn-info float-right mt-24" data-class="b1" value="Siguiente" />';
-$boton_atras = '<input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />';
+$tipo = 2;
+if ($tipo == 1) {
+    $open_step = '<fieldset>';
+    $cierre_step = '</fieldset>';
+    $boton_sigui = '<input type="button" name="password" class="next btn btn-info float-right mt-24" data-class="b1" value="Siguiente" />';
+    $boton_atras = '<input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />';
+} else {
+    $boton_sigui = '';
+    $boton_atras = '';
+    $open_step = '';
+    $cierre_step = '';
+}
+
 ?>
 
 <script src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
@@ -39,12 +50,14 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                         <h1 class="text-white">Registro de Historia2</h1>
                         <div id="panel-dashboard" class="mt-24">
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+
                             <br>
                             <div class="container-fluid  br-16">
                                 <div id="regiration_form">
                                     <!-- <fieldset> -->
+                                    <?php echo $open_step; ?>
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="row">
@@ -143,7 +156,7 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                             </div>
 
                                                         </div>
-                                                        <div class="row mt-12">
+                                                        <div class="row mt-12 mb-12">
                                                             <div class="col-lg-6">
                                                                 <h5 class="mt-4 font-weight-bold">Dirección Actual</h5>
                                                                 <input type="text" id="direccion_pa" placeholder="Dirección" class="b1 form-control mt-4" data-type="text" data-msj="Ingrese una dirección">
@@ -173,13 +186,47 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                             </div>
 
                                                         </div>
+                                                        <div class="text-center">
+                                                            <span class="badge rounded-pill bg-secondary">Datos del Apoderado</span>
+                                                        </div>
+                                                        <div class="row mt-12">
+
+                                                            <div class="col-lg-4">
+                                                                <label class="form-label font-weight-bold">Parentesco</label>
+                                                                <input type="text" id="parentesco_pa" placeholder="Escriba el parentezco" class="b2 form-control" data-type="text" data-msj="Ingrese un parentezco">
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label class="form-label font-weight-bold">Nombres</label>
+                                                                <input type="text" id="nombres_parent_pa" placeholder="Nombres del apoderado" class="b2 form-control" data-type="text" data-msj="Ingrese un Nombres del apoderado">
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label class="form-label font-weight-bold">Apellidos</label>
+                                                                <input type="text" id="apellidos_parent_pa" placeholder="Apellidos del apoderado" class="b2 form-control" data-type="text" data-msj="Apellidos del apoderado">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mt-12">
+                                                            <div class="col-lg-4">
+                                                                <label class="form-label font-weight-bold">DNI</label>
+                                                                <input type="number" id="dni_parent_pa" placeholder="Escriba dni del apoderado" class="b2 form-control" data-type="text" data-msj="Ingrese dni del apoderado">
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label class="form-label font-weight-bold">Telefono</label>
+                                                                <input type="text" id="tele_parent_pa" placeholder="Telefono del apoderado" class="b2 form-control" data-type="text" data-msj="Ingrese Telefono del apoderado">
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label class="form-label font-weight-bold">Correo</label>
+                                                                <input type="text" id="correo_parent_pa" placeholder="Correo del apoderado" class="b2 form-control" data-type="text" data-msj="Correo del apoderado">
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <?php echo $boton_sigui; ?> -->
+                                            <?php echo $boton_sigui; ?>
                                         </div>
                                     </div>
-                                    <!-- </fieldset> -->
+                                    <?php echo $cierre_step; ?>
+                                    <!-- <fieldset> -->
+                                    <?php echo $open_step; ?>
                                     <!-- <fieldset> -->
                                     <div class="card">
                                         <div class="card-body">
@@ -212,15 +259,12 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <?php echo $boton_sigui; ?> -->
-                                            <!-- <?php echo $boton_atras; ?> -->
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
-
-
-                                    <!-- </fieldset> -->
-                                    <!-- NUEVOS REQUERIMIENTOS EN HISTORIA CLINICA -->
-                                    <!-- <fieldset> -->
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="row">
@@ -251,13 +295,12 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <?php echo $boton_sigui; ?> -->
-                                            <!-- <?php echo $boton_atras; ?> -->
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
-
-
-                                    <!-- </fieldset> -->
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
                                     <!-- <fieldset> -->
                                     <div class="card">
                                         <div class="card-body">
@@ -289,13 +332,12 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                     </div>
                                                 </div>
                                             </div>
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
-                                    <!-- <?php echo $boton_sigui; ?> -->
-                                    <!-- <?php echo $boton_atras; ?> -->
-
-                                    <!-- </fieldset> -->
-                                    <!-- <fieldset> -->
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="row">
@@ -308,7 +350,7 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                             <div class="row">
                                                                 <div class="col-lg-2">
 
-                                                                    <label for="exampleFormControlInput1" class="form-label">HOSPITALIZACIONES</label>
+                                                                    <label class="form-label">HOSPITALIZACIONES</label>
                                                                     <select class="form-select" aria-label="Default select example" onchange="SelectHospital();">
                                                                         <option value="Si">Si</option>
                                                                         <option value="No">No</option>
@@ -316,7 +358,7 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
 
                                                                 </div>
                                                                 <div id="descripcion_hos_div" class="col-lg-4" style="display:none;">
-                                                                    <label for="exampleFormControlInput1" class="form-label">Describe brevemente la hospitalización</label>
+                                                                    <label class="form-label">Describe brevemente la hospitalización</label>
                                                                     <input type="text" id="escripcion_hos" name="escripcion_hos" class="form-control" placeholder="Descripción">
                                                                 </div>
                                                             </div>
@@ -325,13 +367,12 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <?php echo $boton_sigui; ?> -->
-                                            <!-- <?php echo $boton_atras; ?> -->
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
-                                    <!-- </fieldset> -->
-                                    <!-- FIN DE NUEVOS REQUERIMIENTOS -->
-                                    <!-- <fieldset> -->
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="col-lg-12">
@@ -512,12 +553,12 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
 
                                                 </div>
                                             </div>
-                                            <!-- <?php echo $boton_sigui; ?> -->
-                                            <!-- <?php echo $boton_atras; ?> -->
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
-                                    <!-- </fieldset> -->
-                                    <!-- <fieldset> -->
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="col-lg-12">
@@ -599,12 +640,12 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
 
                                                 </div>
                                             </div>
-                                            <!-- <?php echo $boton_sigui; ?> -->
-                                            <!-- <?php echo $boton_atras; ?> -->
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
-                                    <!-- </fieldset> -->
-                                    <!-- <fieldset> -->
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="col-lg-12">
@@ -671,10 +712,12 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <?php echo $boton_sigui; ?> -->
-                                            <!-- <?php echo $boton_atras; ?> -->
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="col-lg-12">
@@ -967,8 +1010,12 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
 
                                                 </div>
                                             </div>
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="col-lg-12">
@@ -1027,10 +1074,12 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <?php echo $boton_sigui; ?> -->
-                                            <!-- <?php echo $boton_atras; ?> -->
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="col-lg-12">
@@ -1039,7 +1088,7 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                     <hr>
                                                     <div class="row">
                                                         <div class="col-lg-8">
-                                                            <label for="exampleFormControlInput1" class="form-label">Motivo Principal de la consulta del paciente.</label>
+                                                            <label class="form-label">Motivo Principal de la consulta del paciente.</label>
 
                                                             <select class="sinto form-control">
                                                                 <?php
@@ -1055,10 +1104,12 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <?php echo $boton_sigui; ?> -->
-                                            <!-- <?php echo $boton_atras; ?> -->
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="col-lg-12">
@@ -1076,10 +1127,12 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <?php echo $boton_sigui; ?> -->
-                                            <!-- <?php echo $boton_atras; ?> -->
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="col-lg-12">
@@ -1087,136 +1140,257 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
                                                     <h3>SÍNTOMAS FRECUENTES</h3>
                                                     <hr>
                                                     <div class="row mt-4">
-                                                        <div class="col-lg-3">
-                                                            <div class="mb-3">
-                                                                <label for="exampleFormControlInput1" class="form-label">Sueño</label>
-                                                                <input type="number" class="form-control" id="exampleFormControlInput1">
+                                                        <div class="col-lg-6">
+                                                            <div class="row">
+                                                                <div class="col-lg-3">
+                                                                    <label class="form-label font-weight-bold">SUEÑO:</label>
+
+                                                                </div>
+                                                                <div class="col-lg-3">
+                                                                    <label class="form-label">De</label>
+
+                                                                    <select class="form-select" aria-label="Default select example">
+                                                                        <option selected>Hrs</option>
+                                                                        <option value="1">1</option>
+                                                                        <option value="2">2</option>
+                                                                        <option value="3">3</option>
+                                                                        <option value="4">4</option>
+                                                                        <option value="5">5</option>
+                                                                        <option value="6">6</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-lg-3">
+                                                                    <label class="form-label">A</label>
+
+                                                                    <select class="form-select" aria-label="Default select example">
+                                                                        <option selected>Hrs</option>
+                                                                        <option value="1">1</option>
+                                                                        <option value="2">2</option>
+                                                                        <option value="3">3</option>
+                                                                        <option value="4">4</option>
+                                                                        <option value="5">5</option>
+                                                                        <option value="6">6</option>
+                                                                    </select>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-3">
-                                                            <div class="mb-3">
-                                                                <label for="exampleFormControlInput1" class="form-label">Comentario</label>
-                                                                <input type="text" class="form-control" id="exampleFormControlInput1">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <div class="mb-3">
-                                                                <label for="exampleFormControlInput1" class="form-label">Dolor</label>
-                                                                <select class="form-select" aria-label="Default select example">
-                                                                    <option selected>Seleccionar</option>
-                                                                    <option value="1">1</option>
-                                                                    <option value="2">2</option>
-                                                                    <option value="3">3</option>
-                                                                    <option value="4">4</option>
-                                                                    <option value="5">5</option>
-                                                                    <option value="6">6</option>
-                                                                    <option value="7">7</option>
-                                                                    <option value="8">8</option>
-                                                                    <option value="9">9</option>
-                                                                    <option value="10">10</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <div class="mb-3">
-                                                                <label for="exampleFormControlInput1" class="form-label">Comentario</label>
-                                                                <input type="text" class="form-control" id="exampleFormControlInput1">
+                                                        <div class="col-lg-6">
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <div class="mb-3">
+                                                                        <label class="form-label">Comentario</label>
+                                                                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="row mt-4">
-                                                        <div class="col-lg-3">
+                                                        <div class="col-lg-6">
+                                                            <div class="row">
+                                                                <div class="col-lg-3">
+                                                                    <label class="form-label font-weight-bold">DOLOR:</label>
+
+                                                                </div>
+                                                                <div class="col-lg-5">
+                                                                    <label class="form-label">Escala Visual y Oral del 0-10</label>
+
+                                                                    <select class="form-select" aria-label="Default select example">
+                                                                        <option selected>Selecciona</option>
+                                                                        <option value="0">0</option>
+                                                                        <option value="1">1</option>
+                                                                        <option value="2">2</option>
+                                                                        <option value="3">3</option>
+                                                                        <option value="4">4</option>
+                                                                        <option value="5">5</option>
+                                                                        <option value="6">6</option>
+                                                                        <option value="7">7</option>
+                                                                        <option value="8">8</option>
+                                                                        <option value="9">9</option>
+                                                                        <option value="10">10</option>
+
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <div class="mb-3">
+                                                                        <label class="form-label">Comentario</label>
+                                                                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-4">
+                                                        <div class="col-lg-6">
+                                                            <div class="row">
+                                                                <div class="col-lg-3">
+                                                                    <label class="form-label font-weight-bold">ANSIEDAD:</label>
+
+                                                                </div>
+                                                                <div class="col-lg-5">
+                                                                    <label class="form-label">Escala Oral del 0-10</label>
+
+                                                                    <select class="form-select" aria-label="Default select example">
+                                                                        <option selected>Selecciona</option>
+                                                                        <option value="0">0</option>
+                                                                        <option value="1">1</option>
+                                                                        <option value="2">2</option>
+                                                                        <option value="3">3</option>
+                                                                        <option value="4">4</option>
+                                                                        <option value="5">5</option>
+                                                                        <option value="6">6</option>
+                                                                        <option value="7">7</option>
+                                                                        <option value="8">8</option>
+                                                                        <option value="9">9</option>
+                                                                        <option value="10">10</option>
+
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <div class="mb-3">
+                                                                        <label class="form-label">Comentario</label>
+                                                                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-4">
+                                                        <h5>*Sistomas Adicionales</h5>
+                                                        <div class="col-lg-4">
                                                             <div class="mb-3">
-                                                                <label for="exampleFormControlInput1" class="form-label">Ansiedad</label>
-                                                                <input type="number" class="form-control" id="exampleFormControlInput1">
+                                                                <label class="form-label font-weight-bold">Parkinson</label>
+                                                                <input type="text" class="form-control" id="exampleFormControlInput1">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="mb-3">
+                                                                <label class="form-label font-weight-bold">CÁNCER</label>
+                                                                <input type="text" class="form-control" id="exampleFormControlInput1">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="mb-3">
+                                                                <label class="form-label font-weight-bold">Autismo</label>
+                                                                <input type="text" class="form-control" id="exampleFormControlInput1">
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <?php echo $boton_sigui; ?> -->
-                                            <!-- <?php echo $boton_atras; ?> -->
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
-                                </div>
-
-                                <div class="col-lg-12">
-                                    <div class="bg-white br-16  p-20">
-                                        <h3>BREVE RELATO CRONOLÓGICO</h3>
-                                        <div class="row mt-16">
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
+                                    <div class="card">
+                                        <div class="card-body">
                                             <div class="col-lg-12">
-                                                <textarea rows="12" class="form-control b5" id="relato" placeholder="Ingrese un breve relato" data-type="text" data-msj="Ingrese un breve relato" required></textarea>
-                                                <div class="invalid-feedback">
-                                                    Breve descripcion de relato cronologico
+                                                <div class="bg-white br-16  p-20">
+                                                    <h3>BREVE RELATO CRONOLÓGICO</h3>
+                                                    <div class="row mt-16">
+                                                        <div class="col-lg-12">
+                                                            <textarea rows="12" class="form-control b5" id="relato" placeholder="Ingrese un breve relato" data-type="text" data-msj="Ingrese un breve relato" required></textarea>
+                                                            <div class="invalid-feedback">
+                                                                Breve descripcion de relato cronologico
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
                                                 </div>
                                             </div>
-
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
-                                </div>
-                                <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" data-class="b5" value="Siguiente" />
-                                <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
-
-                                <!-- </fieldset> -->
-                                <!-- <fieldset> -->
-
-                                <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
-                                <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
-
-                                <!-- </fieldset> -->
-                                <!-- <fieldset> -->
-                                <h3 class="text-white">V. EXÁMENES AUXILIARES RELEVANTES </h3>
-                                <hr>
-                                <div class="col-lg-12">
-                                    <div class="bg-white br-16 cnt-shw p-20">
-                                        <div class="row">
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
+                                    <div class="card">
+                                        <div class="card-body">
                                             <div class="col-lg-12">
-                                                <textarea rows="12" class="form-control" id="examenes" placeholder="Breve descripcion de examenes" required></textarea>
-                                                <div class="invalid-feedback">
-                                                    Breve descripcion de examenes
+                                                <div class="bg-white br-16  p-20">
+                                                    <h3>EXÁMENES AUXILIARES RELEVANTES</h3>
+                                                    <hr>
+                                                    <div class="row mt-16">
+                                                        <div class="col-md-3 text-center">
+                                                            <img src="assets/img/docs.png" class="img-fluid" alt="..." height="100px" width="50px">
+                                                            <br>
+                                                            <a href="controlador/contabilidad/documentos/<?php echo $data['url'] ?>" download="<?php echo $data['url'] ?>">
+                                                                <strong>documento.docx</strong>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-md-3 text-center">
+                                                            <img src="assets/img/docs.png" class="img-fluid" alt="..." height="100px" width="50px">
+                                                            <br>
+                                                            <a href="controlador/contabilidad/documentos/<?php echo $data['url'] ?>" download="<?php echo $data['url'] ?>">
+                                                                <strong>documento.docx</strong>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-md-3 text-center">
+                                                            <img src="assets/img/docs.png" class="img-fluid" alt="..." height="100px" width="50px">
+                                                            <br>
+                                                            <a href="controlador/contabilidad/documentos/<?php echo $data['url'] ?>" download="<?php echo $data['url'] ?>">
+                                                                <strong>documento.docx</strong>
+                                                            </a>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-
+                                            <?php echo $boton_sigui; ?>
+                                            <?php echo $boton_atras; ?>
                                         </div>
                                     </div>
+                                    <?php echo $cierre_step; ?>
+                                    <?php echo $open_step; ?>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="col-lg-12">
+                                                <div class="bg-white br-16  p-20">
+                                                    <h3>TRATAMIENTO QUÍMICO </h3>
+                                                    <hr>
+                                                    <div class="form-group">
+                                                        <button type="button" class="btn btn-danger  mr-2  float-right" onclick="eliminarFila()"><i class="fas fa-minus"></i></button>
+                                                        <button type="button" class="btn btn-primary mr-2 float-right" onclick="agregarFila()"> <i class="fas fa-plus"></i></button>
+                                                    </div>
+                                                    <br>
+                                                    <div class="cnt-t-table mt-20">
+                                                        <table id="tablaprueba" class="t-table dataTable" style="width: 100%;">
+                                                            <thead>
+                                                                <tr role="row" class="font-weight-bold">
+
+                                                                    <th rowspan="1" colspan="1" style="width: 77px;">Medicamento</th>
+                                                                    <th rowspan="1" colspan="1" style="width: 188px;">Dosis</th>
+                                                                    <th rowspan="1" colspan="1" style="width: 128px;">Frecuencia</th>
+                                                                    <th rowspan="1" colspan="1" style="width: 140px;">Periodo</th>
+                                                                    <th rowspan="1" colspan="1" style="width: 93px;">Comentario</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                            </tbody>
+                                                        </table>
+
+                                                    </div>
+                                                    <button type="button" name="previous" class="previous btn btn-default float-right mt-24 ml-12" value=""><span>Atrás</span></button>
+                                                    <button id="add-producto" class="btn btn-success btn-guardar float-right btn-confirm-2 mt-24">
+                                                        <i class="fal fa-save"></i> <span>Guardar</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php echo $open_step; ?>
+                                    </form>
                                 </div>
-                                <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
-                                <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
 
-                                <!-- </fieldset> -->
-                                <!-- <fieldset> -->
-                                <h3 class="text-white">VI. TRATAMIENTO QUÍMICO </h3>
-                                <hr>
-
-                                <div class="form-group">
-                                    <button type="button" class="btn btn-danger  mr-2  float-right" onclick="eliminarFila()"><i class="fas fa-minus"></i></button>
-                                    <button type="button" class="btn btn-primary mr-2 float-right" onclick="agregarFila()"> <i class="fas fa-plus"></i></button>
-
-                                </div>
-                                <br>
-                                <div class="cnt-t-table mt-20">
-                                    <table id="tablaprueba" class="t-table dataTable" style="width: 100%;">
-                                        <thead>
-                                            <tr role="row" class="font-weight-bold">
-
-                                                <th rowspan="1" colspan="1" style="width: 77px;">Medicamento</th>
-                                                <th rowspan="1" colspan="1" style="width: 188px;">Dosis</th>
-                                                <th rowspan="1" colspan="1" style="width: 128px;">Frecuencia</th>
-                                                <th rowspan="1" colspan="1" style="width: 140px;">Periodo</th>
-                                                <th rowspan="1" colspan="1" style="width: 93px;">Comentario</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                        </tbody>
-                                    </table>
-
-                                </div>
-                                <button type="button" name="previous" class="previous btn btn-default float-right mt-24 ml-12" value=""><span>Atrás</span></button>
-                                <button id="add-producto" class="btn btn-success btn-guardar float-right btn-confirm-2 mt-24">
-                                    <i class="fal fa-save"></i> <span>Guardar</span>
-                                </button>
-                                <!-- </fieldset> -->
-                                </form>
                             </div>
                         </div>
                     </div>
@@ -1317,6 +1491,11 @@ $boton_atras = '<input type="button" name="previous" class="previous btn btn-def
         var current = 1,
             current_step, next_step, steps;
         steps = $("fieldset").length;
+        if (steps > 1) {
+            steps = $("fieldset").length;
+        } else {
+            steps = 1;
+        }
         $(".next").click(function() {
             class_validate = $(this).data("class");
 
