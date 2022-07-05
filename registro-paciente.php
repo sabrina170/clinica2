@@ -1194,6 +1194,7 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
         var apellido_ma_paci = $('#apellido_pa_ma').val();
 
         var dni_paci = $('#dni_pa').val();
+        console.log('dniiii', dni_paci);
         var sexo_paci = $('#sexo_pa').val();
         var edad_paci = $('#edad_pa').val();
         var n_hijos_an = $('#n_hijos_an').val();

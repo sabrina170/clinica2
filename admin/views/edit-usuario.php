@@ -34,6 +34,7 @@ while ($data = mysqli_fetch_assoc($resultado)) {
     // IMAGENES
     $firma = $data['firma'];
     $logo = $data['logo'];
+    $tipo_his = $data['tipo_his'];
 }
 
 $ide_dias = json_decode($dias, true);
@@ -85,6 +86,14 @@ $id_dias_rec = json_encode($ide_dias);
                                             </div>
                                             <h5 class="mt-4 font-weight-bold">Firma</h5>
                                             <img id="img_firma" src="<?php echo $firma; ?>" width="130" style="border-radius:50%; object-fit:cover;">
+                                            <div class="form-check form-switch">
+                                                <input class="form-check-input" type="checkbox" role="switch" id="tipo_historia" <?php if ($tipo_his == 1) {
+                                                                                                                                        echo 'checked';
+                                                                                                                                    } else {
+                                                                                                                                    } ?>>
+                                                <label class="form-check-label" for="flexSwitchCheckDefault">Modo de Historia en una sola página</label>
+                                            </div>
+
 
                                         </div>
                                         <div class="col-lg-8  bg-white br-16 cnt-shw " style="padding: 30px;">
@@ -313,10 +322,18 @@ $id_dias_rec = json_encode($ide_dias);
                 dias.push($(this).val());
             }
         });
+
+
+
+        if ($('#tipo_historia').is(':checked')) {
+            var tipo_his = 1;
+        } else {
+            var tipo_his = 0;
+        }
         var img_firma = $('#img_producto').attr('src');
 
         // link = $('#gglink').val();
-        // alert(link);
+        alert(tipo_his);
         $.ajax({
             url: 'controlador/acciones.php',
             type: 'POST',
@@ -338,7 +355,8 @@ $id_dias_rec = json_encode($ide_dias);
                 hora_fin: $('#hora_fin').val(),
                 hdes_ini: $('#hdes_ini').val(),
                 hdes_fin: $('#hdes_fin').val(),
-                img_firma: img_firma
+                img_firma: img_firma,
+                tipo_his: tipo_his
             },
             success: function(data) {
                 if (data == 1) {
@@ -348,7 +366,7 @@ $id_dias_rec = json_encode($ide_dias);
                         timer: 1200,
                         showConfirmButton: false
                     }).then(function() {
-                        location.href = 'page_edit_usuarios.php?id=' + id_do;
+                        location.href = 'page_edit_usuario.php?id=' + id_do;
                     });
                 } else {
                     Swal.fire({
@@ -357,7 +375,7 @@ $id_dias_rec = json_encode($ide_dias);
                         timer: 1200,
                         showConfirmButton: false
                     }).then(function() {
-                        location.href = 'page_edit_usuarios.php';
+                        location.href = 'page_edit_usuario.php';
                     });
                 }
             }

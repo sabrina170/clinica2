@@ -77,6 +77,9 @@ if ($_GET['pac']) {
 
                                             <div class="col-lg-4 mt-24">
                                                 <p><b>Paciente: </b> <span id="nombre_pa"><?php echo $nombre; ?></span> <span id="apellido_pa"><?php echo $apellido; ?></span></p>
+                                                <input type="hidden" value="" id="val_nom">
+                                                <input type="hidden" value="" id="val_ape">
+
                                                 <p><b>DNI: </b> <span id="dni_pa"><?php echo $dni; ?></span></p>
                                                 <p><b>Edad: </b> <span id="edad_pa"><?php echo $edad; ?></span></p>
                                                 <p><b>Direccion: </b> <span id="direccion_pa"><?php echo $direccion; ?></span></p>
@@ -237,50 +240,6 @@ if ($_GET['pac']) {
 
 
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        // Escuchamos el click del botón
-        const $boton = document.querySelector("#btnCrearPdf");
-        $boton.addEventListener("click", () => {
-
-            $('.trat select').css({
-                'border': '0px'
-            });
-
-            $('#botones-receta').css({
-                'display': 'none'
-            });
-
-            const $elementoParaConvertir = document.querySelector("#receta") // <-- Aquí puedes elegir cualquier elemento del DOM
-            html2pdf()
-                .set({
-                    filename: 'documento.pdf',
-                    html2canvas: {
-                        scale: 2, // A mayor escala, mejores gráficos, pero más peso
-                        letterRendering: true,
-                    },
-                    jsPDF: {
-                        unit: "in",
-                        format: "a4",
-                        orientation: 'portrait' // landscape o portrait
-                    }
-                })
-                .from($elementoParaConvertir)
-                .save()
-                .catch(err => console.log(err));
-
-            setTimeout(function() {
-                $('.trat select').css({
-                    'border': '1px'
-                });
-
-                $('#botones-receta').css({
-                    'display': 'block'
-                });
-            }, 1000);
-        });
-    });
-
-
     /*
     document.addEventListener("DOMContentLoaded", () => {
         // Escuchamos el click del botón
@@ -373,9 +332,13 @@ if ($_GET['pac']) {
     // COLOCAMOS LOS DATOS DEL PACIENTE ----------------------------
     function PonerDatos(pact) {
 
+        var nombre_paci = pact["pac_nombre"];
+
         $("#sku_pa").html(pact["cod_receta"]);
         $("#nombre_pa").html(pact["pac_nombre"]);
         $("#apellido_pa").html(pact["pac_apellido"]);
+        $("#val_nom").val(pact["pac_nombre"]);
+        $("#val_ape").val(pact["pac_apellido"]);
         $("#dni_pa").html(pact["DNI"]);
         $("#edad_pa").html(pact["Edad"]);
         $("#direccion_pa").html(pact["Direccion"]);
@@ -394,6 +357,51 @@ if ($_GET['pac']) {
             $('#diagnostico_paciente').append("<li>" + value['nom_enfer'] + "</li>");
         });
     }
+    document.addEventListener("DOMContentLoaded", () => {
+        // Escuchamos el click del botón
+        const $boton = document.querySelector("#btnCrearPdf");
+        $boton.addEventListener("click", () => {
+
+            $('.trat select').css({
+                'border': '0px'
+            });
+
+            $('#botones-receta').css({
+                'display': 'none'
+            });
+            var nombres = $("#val_nom").val();
+            var apellidos = $("#val_ape").val();
+
+            const $elementoParaConvertir = document.querySelector("#receta") // <-- Aquí puedes elegir cualquier elemento del DOM
+            html2pdf()
+                .set({
+                    filename: nombres + ' ' + apellidos,
+                    html2canvas: {
+                        scale: 2, // A mayor escala, mejores gráficos, pero más peso
+                        letterRendering: true,
+                    },
+                    jsPDF: {
+                        unit: "in",
+                        format: "a4",
+                        orientation: 'portrait' // landscape o portrait
+                    }
+                })
+                .from($elementoParaConvertir)
+                .save()
+                .catch(err => console.log(err));
+
+            setTimeout(function() {
+                $('.trat select').css({
+                    'border': '1px'
+                });
+
+                $('#botones-receta').css({
+                    'display': 'block'
+                });
+            }, 1000);
+        });
+    });
+
 
     var Tratamiento = {};
 

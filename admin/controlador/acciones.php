@@ -753,7 +753,7 @@ switch ($accion) {
 		$hdes_fin = $_POST['hdes_fin'];
 		$img_firma = $_POST['img_firma'];
 		$img_logo = $_POST['img_firma'];
-
+		$tipo_his = $_POST['tipo_his'];
 
 		$date = date('Y-m-d H:i:s');
 		$rs = ("UPDATE `usuario` 
@@ -773,7 +773,8 @@ switch ($accion) {
 		`hora_ini` = '$hora_ini',
 		`hora_fin` = '$hora_fin',
 		`hdes_ini` = '$hdes_ini',
-		`hdes_fin` = '$hdes_fin'
+		`hdes_fin` = '$hdes_fin',
+		`tipo_his` = '$tipo_his'
 		  WHERE `usuario`.`id_usuario` = '$id_do';");
 
 		$a = mysqli_query($cn, $rs);

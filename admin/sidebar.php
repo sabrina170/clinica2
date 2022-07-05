@@ -56,6 +56,23 @@
           <li><a class="waves-effect waves-dark" aria-expanded="false" href="page-edit-usuario.php"> <i class="far fa-user"></i> <span class="text-side">Perfil</span> </a></li>
           <li><a class="waves-effect waves-dark" aria-expanded="false" href="page-citas.php"> <i class="fal fa-clipboard-list"></i><span class="text-side">Citas</span> </a></li>
           <li><a class="waves-effect waves-dark" aria-expanded="false" href="page-estadisticas.php"> <i class="fal fa-clipboard-list"></i><span class="text-side">Estadisticas</span> </a></li>
+          <li class="nav-small-cap m-t-10 m-b-10"></li>
+          <li class="titulo-side">
+            <h4>Historia Clínica</h4>
+          </li>
+          <li class="nav-small-cap m-t-10 m-b-10"></li>
+          <li><a class="waves-effect waves-dark" aria-expanded="false" href="page-agregar-paciente.php"> <i class="fal fa-shopping-bag"></i> <span class="text-side">Nueva Historia</span> </a></li>
+          <li><a class="waves-effect waves-dark" aria-expanded="false" href="page-historias.php"> <i class="fal fa-clipboard-list-check"></i><span class="text-side">Base de datos</span> </a></li>
+          <li><a class="waves-effect waves-dark" aria-expanded="false" href="page-historias-registradas.php"> <i class="fal fa-clipboard-list"></i><span class="text-side">Listado de historias</span> </a></li>
+          <li class="nav-small-cap m-t-10 m-b-10"></li>
+          <li class="titulo-side">
+            <h4>Recetas</h4>
+          </li>
+          <li class="nav-small-cap m-t-10 m-b-10"></li>
+          <li><a class="waves-effect waves-dark" aria-expanded="false" href="page-agregar-receta.php"> <i class="fal fa-shopping-bag"></i> <span class="text-side">Nueva Receta</span> </a></li>
+          <li><a class="waves-effect waves-dark" aria-expanded="false" href="page-recetas.php"> <i class="fal fa-clipboard-list"></i> <span class="text-side">Listado de Recetas</span> </a></li>
+
+
         <?php } ?>
       </ul>
     </nav>

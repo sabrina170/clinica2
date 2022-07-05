@@ -39,9 +39,10 @@ if (!$resultado) {
   <link type="image/x-icon" href="assets/img/icono-vibra-y-sana.png" rel="shortcut icon" />
   <meta name="theme-color" content="#296e68">
 
-  <title>Administraci¨®n</title>
+  <title>AdministraciÃ³n</title>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
   <script type="text/javascript" src="js/jquery-3.1.1.min"></script>
+  <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
   <!-- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
   <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
@@ -134,7 +135,7 @@ if (!$resultado) {
                   <span class="" id="code_tienda"><i class="fas fa-user-circle mr-12 font-20"></i> Dr. <?php echo $nombre; ?></span>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <a href="#" id="salir_sistema" class="nav-item dropdown-item"><i class="fal fa-power-off mr-12"></i> Cerrar sesi¨®n</a>
+                  <a href="#" id="salir_sistema" class="nav-item dropdown-item"><i class="fal fa-power-off mr-12"></i> Cerrar sesiï¿½ï¿½n</a>
 
                 </ul>
               </div>
