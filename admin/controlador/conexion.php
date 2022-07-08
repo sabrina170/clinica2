@@ -1,7 +1,7 @@
 <?php
 
 // $cn = new mysqli("localhost", "capacjc2_dei", "Teo17051993molina", "capacjc2_bikes");
-//$cn = new mysqli("localhost", "capacjc2_dei", "Teo17051993molina", "capacjc2_vibra_sana");
+// $cn = new mysqli("localhost", "capacjc2_dei", "Teo17051993molina", "capacjc2_vibra_sana");
 $cn = new mysqli("localhost", "root", "", "capacjc2_vibra_sana");
 
 

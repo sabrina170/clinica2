@@ -137,7 +137,6 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
                                     </div>
                                 </div>
                                 <div class="row mt-12">
-
                                     <div class="col-lg-2">
                                         <label for="exampleFormControlInput1" class="form-label">N° de hijos</label>
                                         <input type="number" id="n_hijos_an" placeholder="" value="0" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
@@ -231,28 +230,27 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="bg-white br-16 p-20">
-                                <h3>ANTECEDENTES</h3>
+                                <h5>DIÁGNOSTICO</h5>
                                 <hr>
-                                <h5 class="" style="margin-bottom:30px;">Enfermedades crónicas</h5>
+                                <h6 class="" style="margin-bottom:30px;">¿Cúal es el Motivo Principal de la consulta?</h6>
                                 <ul>
                                     <div class="row">
-                                        <?php while ($data_enfermedades = mysqli_fetch_assoc($resultado_enfermedades)) { ?>
-                                            <div class="col-lg-3">
-
-                                                <li class="pt-0 pb-0 ">
-                                                    <div class="custom-control custom-checkbox">
-                                                        <input type="checkbox" onchange="ShowSelected();" class="custom-control-input tag" name="<?php echo $data_enfermedades['id_en'] ?>" data-name="<?php echo $data_enfermedades['nombre_en'] ?>" value="<?php echo $data_enfermedades['id_en'] ?>" id="tag<?php echo $data_enfermedades['id_en'] ?>">
-                                                        <label class="custom-control-label pt-4" for="tag<?php echo $data_enfermedades['id_en'] ?>"><?php echo $data_enfermedades['nombre_en'] ?></label>
-                                                    </div>
-                                                </li>
-                                            </div>
-                                        <?php } ?>
-
+                                        <label class="form-label">Por favor elejir un motivo </label>
+                                        <select class="sinto form-control">
+                                            <option value="" selected>Selecciona</option>
+                                            <?php
+                                            $consulta1 = "SELECT * FROM diagnosticos order by nombre asc";
+                                            $resultado1 = mysqli_query($cn, $consulta1);
+                                            while ($data1 = mysqli_fetch_assoc($resultado1)) {
+                                            ?>
+                                                <option value="<?php echo $data1['id']; ?>"><?php echo $data1['nombre']; ?></option>
+                                            <?php } ?>
+                                        </select>
                                     </div>
                                 </ul>
                                 <div id="name_new_en_div" class="col-lg-12" style="display:none;">
                                     <h5 class="mt-4">Ingrese el nombre de la enfermedad:</h5>
-                                    <input type="text" id="name_new_en" name="name_new_en" class="form-control  mt-4" placeholder="Descripción">
+                                    <input type="text" id="name_new_en" name="name_new_en" class="form-control mt-4" placeholder="Descripción">
                                 </div>
                             </div>
                         </div>
@@ -970,27 +968,27 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
 
             console.log(validar1);
 
-            if (validar1 == "true") {
-                if (num_edad >= 18) {
-                    current_step = $(this).parent();
-                    next_step = $(this).parent().next();
-                    next_step.show();
-                    current_step.hide();
-                    setProgressBar(++current);
-                } else {
-                    var validar2 = ValidadorAuto(".b2");
-                    console.log(validar2);
-                    if (validar2 == "true") {
-                        current_step = $(this).parent();
-                        next_step = $(this).parent().next();
-                        next_step.show();
-                        current_step.hide();
-                        setProgressBar(++current);
-                    }
-                }
-            } else {
-                return false;
-            }
+            // if (validar1 == "true") {
+            // if (num_edad >= 18) {
+            current_step = $(this).parent();
+            next_step = $(this).parent().next();
+            next_step.show();
+            current_step.hide();
+            setProgressBar(++current);
+            // } else {
+            //     var validar2 = ValidadorAuto(".b2");
+            //     console.log(validar2);
+            //     if (validar2 == "true") {
+            //         current_step = $(this).parent();
+            //         next_step = $(this).parent().next();
+            //         next_step.show();
+            //         current_step.hide();
+            //         setProgressBar(++current);
+            //     }
+            // }
+            // } else {
+            //     return false;
+            // }
 
             MostrarOtro();
             SiFemenino();

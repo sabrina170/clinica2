@@ -69,8 +69,8 @@ function ValidadorAuto(clase) {
                 if (validIsNullOrEmpty(valor)) {
                     
                     Swal.fire({
-                        type: 'error',
-                        title: 'Parece que hubo un error',
+                        type: 'warning',
+                        title: 'Ingrese datos',
                         text: msj_val
                     });
  
@@ -82,8 +82,8 @@ function ValidadorAuto(clase) {
             case "number":
                 if (validIsNullOrEmpty(valor) || !onlyNumbers(valor)) {
                                        Swal.fire({
-                        type: 'error',
-                        title: 'Parece que hubo un error',
+                        type: 'warning',
+                        title: 'Ingrese datos',
                         text: msj_val
                     });
                     retorno = "false";
@@ -93,8 +93,8 @@ function ValidadorAuto(clase) {
             case "select":
                 if (validIsNullOrEmptOrMinusOne(valor) || validIsNullOrEmptyOrZero(valor)) {
                                         Swal.fire({
-                        type: 'error',
-                        title: 'Parece que hubo un error',
+                        type: 'warning',
+                        title: 'Ingrese datos',
                         text: msj_val
                     });
 
@@ -109,8 +109,8 @@ function ValidadorAuto(clase) {
 
                 if (validIsNullOrEmpty(valor) == true || dateFecha.getTime() > dateFechaHoy.getTime()) {
                                         Swal.fire({
-                        type: 'error',
-                        title: 'Parece que hubo un error',
+                        type: 'warning',
+                        title: 'Ingrese datos',
                         text: msj_val
                     });
 

@@ -27,67 +27,72 @@ $resultado = mysqli_query($cn, $consulta_ventas);
 
                                 <div class="cnt-t-table mt-20">
                                     <div class="table-responsive">
-                                    <table id="td_ventas" class="t-table">
-                                        <thead>
-                                            <tr>
-                                                <th><i class="far fa-credit-card"></i>ID</th>
-                                                <!--<th><i class="far fa-credit-card"></i>Código Receta</th>-->
-                                                <th><i class="far fa-credit-card"></i>Código Historia</th>
-                                                <th><i class="far fa-credit-card"></i> Nombre de paciente</th>
-                                                <th><i class="far fa-credit-card"></i> Doctor encargado</th>
-                                                <th><i class="far fa-user"></i> Fecha registro</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <?php
-                                            if (!$resultado) {
-                                                echo "Fallo al realizar la consulta";
-                                            } else {
+                                        <table id="td_ventas" class="t-table">
+                                            <thead>
+                                                <tr>
+                                                    <!-- <th><i class="far fa-credit-card"></i>ID</th> -->
+                                                    <!--<th><i class="far fa-credit-card"></i>Código Receta</th>-->
+                                                    <!-- <th><i class="far fa-credit-card"></i>Código Historia</th> -->
+                                                    <th><i class="far fa-credit-card"></i> Nombre de paciente</th>
+                                                    <th><i class="far fa-credit-card"></i> Doctor encargado</th>
+                                                    <th><i class="far fa-user"></i> Fecha registro</th>
+                                                    <th>Acciones</th>
 
-                                                while ($data = mysqli_fetch_assoc($resultado)) {
-                                                    $cod_re = $data['codigo_historia'];
-                                                    $id_doc = $data['id_usuario'];
-                                                    $consulta_pac = "SELECT * FROM pacientes where cod_receta = '$cod_re'";
-                                                    $consulta_doc = "SELECT * FROM usuario where id_usuario = '$id_doc'";
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <?php
+                                                if (!$resultado) {
+                                                    echo "Fallo al realizar la consulta";
+                                                } else {
 
-                                                    $resultado_pac = mysqli_query($cn, $consulta_pac);
-                                                    while ($data2 = mysqli_fetch_assoc($resultado_pac)) {
-                                                        $nombres_pac = $data2['pac_nombre'] . ' ' . $data2['pac_apellido'];
-                                                    }
+                                                    while ($data = mysqli_fetch_assoc($resultado)) {
+                                                        $cod_re = $data['codigo_historia'];
+                                                        $id_doc = $data['id_usuario'];
+                                                        $consulta_pac = "SELECT * FROM pacientes where cod_receta = '$cod_re'";
+                                                        $consulta_doc = "SELECT * FROM usuario where id_usuario = '$id_doc'";
 
-                                                    $resultado_doc = mysqli_query($cn, $consulta_doc);
-                                                    while ($data3 = mysqli_fetch_assoc($resultado_doc)) {
-                                                        $nombres_doc = $data3['nombre_usuario'] . ' ' . $data3['apellidos_usuario'];
-                                                    }
+                                                        $resultado_pac = mysqli_query($cn, $consulta_pac);
+                                                        while ($data2 = mysqli_fetch_assoc($resultado_pac)) {
+                                                            $nombres_pac = $data2['pac_nombre'] . ' ' . $data2['pac_apellido'];
+                                                        }
 
-                                            ?>
-                                                    <tr class="venta_item" data-ide="<?php echo $data['id_receta'] ?>">
-                                                        <td class="pt-8 pb-8 pl-16 pr-16">
+                                                        $resultado_doc = mysqli_query($cn, $consulta_doc);
+                                                        while ($data3 = mysqli_fetch_assoc($resultado_doc)) {
+                                                            $nombres_doc = $data3['nombre_usuario'] . ' ' . $data3['apellidos_usuario'];
+                                                        }
+
+                                                ?>
+                                                        <tr class="venta_item" data-ide="<?php echo $data['id_receta'] ?>">
+                                                            <!-- <td class="pt-8 pb-8 pl-16 pr-16">
                                                             <p><?php echo  $data['id_receta'] ?>
-                                                        </td>
-                                                        <!--<td class="pt-8 pb-8 pl-16 pr-16"><a href="page-detalle-receta.php?ide=<?php echo $data['id_receta'] ?>">
+                                                        </td> -->
+                                                            <!--<td class="pt-8 pb-8 pl-16 pr-16"><a href="page-detalle-receta.php?ide=<?php echo $data['id_receta'] ?>">
                                                                 <p><?php echo $data['cod_receta'] ?>
                                                             </a></td>-->
-                                                        <td class="pt-8 pb-8 pl-16 pr-16">
+                                                            <!-- <td class="pt-8 pb-8 pl-16 pr-16">
                                                             <p><?php echo $data['codigo_historia'] ?></p>
-                                                        </td>
-                                                        <td class="pt-8 pb-8 pl-16 pr-16">
-                                                            <p><?php echo $nombres_pac; ?>
-                                                        </td>
-                                                        <td class="pt-8 pb-8 pl-16 pr-16">
-                                                            <p><?php echo $nombres_doc ?>
-                                                        </td>
-                                                        <td class="pt-8 pb-8 pl-16 pr-16">
-                                                            <p><?php echo $data['fecha_registro'] ?>
-                                                        </td>
-                                                    </tr>
-                                                    <!-- <a href="controlador/acciones-eliminar.php?id_orden='. $data['id_orden'].'" class="EliminarVentas btn btn-sm m-l-5 btn-delete"><i class="far fa-trash-alt"></i></a> -->
-                                            <?php
+                                                        </td> -->
+                                                            <td class="pt-8 pb-8 pl-16 pr-16">
+                                                                <p><?php echo $nombres_pac; ?>
+                                                            </td>
+                                                            <td class="pt-8 pb-8 pl-16 pr-16">
+                                                                <p><?php echo $nombres_doc ?>
+                                                            </td>
+                                                            <td class="pt-8 pb-8 pl-16 pr-16">
+                                                                <p><?php echo $data['fecha_registro'] ?>
+                                                            </td>
+                                                            <td class="pt-8 pb-8 pl-16 pr-16">
+                                                                <a href=""><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                            </td>
+                                                        </tr>
+                                                        <!-- <a href="controlador/acciones-eliminar.php?id_orden='. $data['id_orden'].'" class="EliminarVentas btn btn-sm m-l-5 btn-delete"><i class="far fa-trash-alt"></i></a> -->
+                                                <?php
+                                                    }
                                                 }
-                                            }
-                                            ?>
-                                        </tbody>
-                                    </table>
+                                                ?>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>

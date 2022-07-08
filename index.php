@@ -37,7 +37,7 @@
             <div class="col-lg-6 text-center mt-48">
                 <img src="admin/assets/img/icono-paciente.png" width="180"><br>
                 <p class="font-weight-bold font-20">
-                    <a href="registro-paciente.php" class="btn btn-primary mt-20">Pre registro</a>
+                    <a href="registro-paciente.php" class="btn btn-primary mt-20">Agenda tu cita</a>
                 </p>
                 <p>Si es la primera vez que ingresas, puedes <br>registrar tus datos para una mejor atención.</p>
 
