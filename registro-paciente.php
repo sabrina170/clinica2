@@ -3,6 +3,10 @@
 include("admin/controlador/conexion.php");
 $consulta_enfermedades = "SELECT * FROM enfermedades ";
 $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
+
+$consulta_enfermedades_pato = "SELECT * FROM enfermedades_pato ";
+$resultado_enfermedades_pato = mysqli_query($cn, $consulta_enfermedades_pato);
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -236,7 +240,7 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
                                 <ul>
                                     <div class="row">
                                         <label class="form-label">Por favor elejir un motivo </label>
-                                        <select class="sinto form-control">
+                                        <select class="sinto form-control" id="diagnostico_pac">
                                             <option value="" selected>Selecciona</option>
                                             <?php
                                             $consulta1 = "SELECT * FROM diagnosticos order by nombre asc";
@@ -261,132 +265,66 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
 
                 </fieldset>
                 <fieldset>
-
                     <div class="col-lg-12">
                         <div class="bg-white br-16  p-20">
-                            <h5>ANTECEDENTES</h5>
+                            <h5>TEXTO PENDIENTE</h5>
                             <hr>
                             <div class="row">
-                                <div class="col-lg-4">
-                                    <label for="exampleFormControlInput1" class="form-label">Alergias</label>
-                                    <select class="form-control ott" data-otro="si_alergia" id="alergia_an">
-                                        <option disabled>Seleccione</option>
-                                        <option value="Si" data-type="otro">Si</option>
-                                        <option value="No" selected>No</option>
-                                    </select>
+                                <div class="row">
 
-                                    <div class="" id="si_alergia" style="display:none;">
-                                        <input type="text" id="alergia_an2" placeholder="Describa las alergias" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                    <div class="col-lg-4" id="cnt_perdidas">
+                                        <label for="exampleFormControlInput1" class="form-label">Peso(kg)</label>
+                                        <input type="number" id="peso_pa" placeholder="peso_pa" onchange="sumar();" class="form-control mt-4">
                                     </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <label for="exampleFormControlInput1" class="form-label">Cirugías</label>
-                                    <select class="form-control ott" data-otro="cnt_si_cirugia" id="cirujias_an">
-                                        <option disabled>Seleccione</option>
-                                        <option value="Si" data-type="otro">Si</option>
-                                        <option value="No" selected>No</option>
-                                    </select>
-
-                                    <div class="" id="cnt_si_cirugia" style="display:none;">
-                                        <input type="text" id="cirujias_des" placeholder="Describa las cirugías" class="ob form-control mt-4" data-type="number" data-msj="Ingrese un dato">
+                                    <div class="col-lg-4" id="cnt_perdidas">
+                                        <label for="exampleFormControlInput1" class="form-label">Talla(m)</label>
+                                        <input type="number" id="talla_pa" placeholder="talla_pa" onchange="sumar();" class="form-control mt-4">
                                     </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <label for="exampleFormControlInput1" class="form-label">Desarrollo psicomotriz</label>
-                                    <select class="form-control" id="de_psico_an" onchange="ShowSelected3()">
-                                        <option disabled>Elejir una opcion</option>
-                                        <option value="Normal">Normal</option>
-                                        <option value="Retraso">Retraso</option>
-                                    </select>
+                                    <div class="col-lg-4" id="cnt_perdidas">
+                                        <label for="exampleFormControlInput1" class="form-label">IMC</label>
+                                        <input type="number" id="imc_pa" class="form-control mt-4" disabled>
+                                    </div>
 
-                                    <div id="detalle_psico" style="display:none;">
-                                        <input type="text" id="de_psico_an2" placeholder="Descripcion de desarrollo psicomotriz" class="ob form-control mt-4" data-type="number" data-msj="Ingrese un teléfono">
+                                    <div class="col-lg-12 mt-4" id="div_text_imc" style="display: none;">
+                                        <div class="alert alert-primary" id="" role="alert">
+                                            <input type="text" id="text_imc" value="" disabled>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mt-12">
+                        </div>
+                    </div>
+                    <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12 mb-24" value="Siguiente" />
+                    <input type="button" name="previous" class="previous btn btn-default float-right mt-24 mb-24" value="Atrás" />
 
-                                <div class="col-lg-4" id="cnt_gestacion">
-                                    <label for="exampleFormControlInput1" class="form-label">Gestación</label>
-                                    <!-- <input type="text" id="gestacion_an" placeholder="Descripcion de Gestación" class="ob form-control mt-4" data-type="number" data-msj="Ingrese un teléfono"> -->
-                                    <select class="form-control ott" data-otro="si_complicado" id="gestacion_an">
-                                        <option disabled>Elegir una opción</option>
-                                        <option value="Normal" selected>Normal</option>
-                                        <option value="Complicado" data-type="otro">Complicado</option>
-                                    </select>
+                </fieldset>
+                <fieldset>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="bg-white br-16  p-20">
+                                <h3>ANTECEDENTES</h3>
+                                <hr>
+                                <h3 class="" style="margin-bottom:30px;">Antecedentes Patológicos</h3>
+                                <ul>
+                                    <div class="row">
+                                        <?php while ($data_enfermedades_pato = mysqli_fetch_assoc($resultado_enfermedades_pato)) { ?>
+                                            <div class="col-lg-3">
+                                                <li class="pt-0 pb-0 ">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" onchange="ShowSelected();" class="custom-control-input tag" name="<?php echo $data_enfermedades_pato['id'] ?>" data-name="<?php echo $data_enfermedades_pato['nombre'] ?>" value="<?php echo $data_enfermedades_pato['id'] ?>" id="tag<?php echo $data_enfermedades_pato['id'] ?>">
+                                                        <label class="form-check-label" for="tag<?php echo $data_enfermedades_pato['id'] ?>"><?php echo $data_enfermedades_pato['nombre'] ?></label>
+                                                    </div>
+                                                </li>
+                                            </div>
+                                        <?php } ?>
 
-                                    <div class="mt-4" id="si_complicado" style="display:none;">
-                                        <input type="text" id="gestacion_complicado" placeholder="Describa la complicación" class="ob form-control" data-type="text" data-msj="Ingrese el detalle">
                                     </div>
-                                </div>
-
-
-                                <div class="col-lg-4" id="cnt_parto">
-                                    <label for="exampleFormControlInput1" class="form-label">Parto</label>
-                                    <!-- <input type="text" id="parto_an" placeholder="Descripcion de Parto" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"> -->
-                                    <select class="form-control" id="parto_an" onchange="ShowSelected2()">
-                                        <option disabled>Elejir una opcion</option>
-                                        <option value="Cesaria">Cesaria</option>
-                                        <option value="Natural">Natural</option>
-                                        <option value="Otro">Otro</option>
-                                    </select>
-
-                                    <div id="detalle_parto" style="display:none;" class="">
-                                        <input type="text" id="parto_des" placeholder="Describa detalles del parto" class="ob form-control mt-4" data-type="number" data-msj="Ingrese un teléfono">
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="row mt-12">
-
-
-                                <div class="col-lg-4">
-                                    <label for="exampleFormControlInput1" class="form-label">Dependencia:</label>
-                                    <select class="form-control ott" id="dependencia_es" data-otro="dependencia" onchange="ShowSelected2()">
-                                        <option disabled>Elejir una opcion</option>
-                                        <option value="Cesaria">Independiente</option>
-                                        <option value="Natural" data-type="otro">Dependiente</option>
-                                    </select>
-
-                                    <div class="" id="dependencia" style="display:none;">
-                                        <input type="text" id="detalle_dependencia" placeholder="Describa la dependencia" class="ob form-control" data-type="text" data-msj="Ingrese el detalle">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4">
-                                    <label for="exampleFormControlInput1" class="form-label">Terapias</label>
-                                    <input type="text" id="terapias_es" placeholder="Descripcion para terapias" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                </div>
-
-                                <div class="col-lg-4">
-                                    <label for="exampleFormControlInput1" class="form-label">Vacunas</label>
-                                    <input type="text" id="vacunas_an" placeholder="vacunas" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                </div>
-
-                            </div>
-                            <div class="row mt-12">
-
-                                <div class="col-lg-4" id="cnt_FUR">
-                                    <label for="exampleFormControlInput1" class="form-label">FUR</label>
-                                    <input type="date" id="fur_an" placeholder="f.u.r" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                </div>
-
-                                <div class="col-lg-4" id="cnt_perdidas">
-                                    <label for="exampleFormControlInput1" class="form-label">Perdidas</label>
-                                    <input type="number" id="perdidas_an" placeholder="perdidas" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                </div>
-
-                                <div class="col-lg-4" id="cnt_gestaciones">
-                                    <label for="exampleFormControlInput1" class="form-label">Gestaciones</label>
-                                    <select class="form-control" id="gestaciones_an">
-                                        <option value="0" disabled>Elegir una opción</option>
-                                        <option value="Si">Si</option>
-                                        <option value="No" selected>No</option>
-                                    </select>
+                                </ul>
+                                <div id="name_new_en_div" class="col-lg-12" style="display:none;">
+                                    <h5 class="mt-4">Ingrese el nombre de la enfermedad:</h5>
+                                    <input type="text" id="name_new_en" name="name_new_en" class="form-control  mt-4" placeholder="Descripción">
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                     <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12 mb-24" value="Siguiente" />
@@ -527,421 +465,57 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
                     <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12 mb-24" value="Siguiente" />
                     <input type="button" name="previous" class="previous btn btn-default float-right mt-24 mb-24" value="Atrás" />
                 </fieldset>
-                <!-- <fieldset>
 
-                    <div class="col-lg-12">
-                        <div class="bg-white br-16  p-20">
-                            <h3>BREVE RELATO CRONOLÓGICO</h3>
-                            <div class="row mt-16">
-                                <div class="col-lg-12">
-                                    <textarea rows="12" class="form-control b5" id="relato" placeholder="Ingrese un breve relato" data-type="text" data-msj="Ingrese un breve relato" required></textarea>
-                                    <div class="invalid-feedback">
-                                        Breve descripcion de relato cronologico
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" data-class="b5" value="Siguiente" />
-                    <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
-
-                </fieldset> -->
-                <!-- <fieldset>
-                    <h3 class="text-white">IV. SINTOMAS</h3>
-                    <hr>
-                    <div class="row">
-                        <div class="col-lg-4 bg-white br-16  p-20 border-4-dark">
-                            <div class="">
-                                <h3 class="" style="margin-bottom:30px;">Síntomas frecuentes</h3>
-                                <div class="row">
-                                    <?php
-                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'sintomas frecuentes'";
-                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                    ?>
-                                        <div class="col-lg-6">
-
-                                            <div class="form-group row">
-                                                <label type="text" class=" col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-
-                                                <div class="col-sm-5">
-                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                        <option value="0">0</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                        <option value="5">5</option>
-                                                        <option value="6">6</option>
-                                                        <option value="7">7</option>
-                                                        <option value="8">8</option>
-                                                        <option value="9">9</option>
-                                                        <option value="10">10</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php } ?>
-                                    <div class="col-lg-12">
-                                        <h5 class="mt-4">Observaciones</h5>
-                                        <textarea rows="6" id="obser_sin" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                            <div class="">
-                                <h3 class="" style="margin-bottom:30px;">Psiquis</h3>
-                                <div class="row">
-                                    <?php
-                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'psiquis'";
-                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                    ?>
-                                        <div class="col-lg-6">
-
-                                            <div class="form-group row">
-                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                <div class="col-sm-5">
-                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                        <option value="0">0</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                        <option value="5">5</option>
-                                                        <option value="6">6</option>
-                                                        <option value="7">7</option>
-                                                        <option value="8">8</option>
-                                                        <option value="9">9</option>
-                                                        <option value="10">10</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php } ?>
-                                    <div class="col-lg-12">
-                                        <h5 class="mt-4">Observaciones</h5>
-                                        <textarea rows="6" id="obser_psi" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                            <div class="">
-                                <h3 class="" style="margin-bottom:30px;">Neurología</h3>
-                                <div class="row">
-                                    <?php
-                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'neurologia'";
-                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                    ?>
-                                        <div class="col-lg-6">
-
-                                            <div class="form-group row">
-                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                <div class="col-sm-5">
-                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                        <option value="0">0</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                        <option value="5">5</option>
-                                                        <option value="6">6</option>
-                                                        <option value="7">7</option>
-                                                        <option value="8">8</option>
-                                                        <option value="9">9</option>
-                                                        <option value="10">10</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php } ?>
-                                    <div class="col-lg-12">
-                                        <h5 class="mt-4">Observaciones</h5>
-                                        <textarea rows="6" id="obser_neu" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                            <div class="">
-                                <h3 class="" style="margin-bottom:30px;">Osteomioarticular</h3>
-                                <div class="row">
-                                    <?php
-                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'osteomioarticular'";
-                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                    ?>
-                                        <div class="col-lg-6">
-
-                                            <div class="form-group row">
-                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                <div class="col-sm-5">
-                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                        <option value="0">0</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                        <option value="5">5</option>
-                                                        <option value="6">6</option>
-                                                        <option value="7">7</option>
-                                                        <option value="8">8</option>
-                                                        <option value="9">9</option>
-                                                        <option value="10">10</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php } ?>
-                                    <div class="col-lg-12">
-                                        <h5 class="mt-4">Observaciones</h5>
-                                        <textarea rows="6" id="obser_oste" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                            <div class="">
-                                <h3 class="" style="margin-bottom:30px;">Digestivo</h3>
-                                <div class="row">
-                                    <?php
-                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'digestivo'";
-                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                    ?>
-                                        <div class="col-lg-6">
-
-                                            <div class="form-group row">
-                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                <div class="col-sm-5">
-                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                        <option value="0">0</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                        <option value="5">5</option>
-                                                        <option value="6">6</option>
-                                                        <option value="7">7</option>
-                                                        <option value="8">8</option>
-                                                        <option value="9">9</option>
-                                                        <option value="10">10</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php } ?>
-                                    <div class="col-lg-12">
-                                        <h5 class="mt-4">Observaciones</h5>
-                                        <textarea rows="6" id="obser_dig" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                            <div class="">
-                                <h3 class="" style="margin-bottom:30px;">Cardiopulmonar/Circulatorio</h3>
-                                <div class="row">
-                                    <?php
-                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'cardiopulmonar'";
-                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                    ?>
-                                        <div class="col-lg-6">
-
-                                            <div class="form-group row">
-                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                <div class="col-sm-5">
-                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                        <option value="0">0</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                        <option value="5">5</option>
-                                                        <option value="6">6</option>
-                                                        <option value="7">7</option>
-                                                        <option value="8">8</option>
-                                                        <option value="9">9</option>
-                                                        <option value="10">10</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php } ?>
-                                    <div class="col-lg-12">
-                                        <h5 class="mt-4">Observaciones</h5>
-                                        <textarea rows="6" id="obser_car" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                            <div class="">
-                                <h3 class="" style="margin-bottom:30px;">Génito-urinario</h3>
-                                <div class="row">
-                                    <?php
-                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'urinario'";
-                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                    ?>
-                                        <div class="col-lg-6">
-
-                                            <div class="form-group row">
-                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                <div class="col-sm-5">
-                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                        <option value="0">0</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                        <option value="5">5</option>
-                                                        <option value="6">6</option>
-                                                        <option value="7">7</option>
-                                                        <option value="8">8</option>
-                                                        <option value="9">9</option>
-                                                        <option value="10">10</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php } ?>
-                                    <div class="col-lg-12">
-                                        <h5 class="mt-4">Observaciones</h5>
-                                        <textarea rows="6" id="obser_uri" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                            <div class="">
-                                <h3 class="" style="margin-bottom:30px;">Piel/Tejido celular subcutáneo</h3>
-                                <div class="row">
-                                    <?php
-                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'tejido'";
-                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                    ?>
-                                        <div class="col-lg-6">
-
-                                            <div class="form-group row">
-                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                <div class="col-sm-5">
-                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                        <option value="0">0</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                        <option value="5">5</option>
-                                                        <option value="6">6</option>
-                                                        <option value="7">7</option>
-                                                        <option value="8">8</option>
-                                                        <option value="9">9</option>
-                                                        <option value="10">10</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php } ?>
-                                    <div class="col-lg-12">
-                                        <h5 class="mt-4">Observaciones</h5>
-                                        <textarea rows="6" id="obser_tej" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
-                    <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
-
-                </fieldset> -->
                 <fieldset>
 
                     <div class="col-lg-12">
                         <div class="bg-white br-16  p-20">
                             <h5>Antecedentes</h5>
                             <hr>
-                            <div class="row">
-                                <div class="col-lg-12" id="cnt_FUR">
-                                    <label for="exampleFormControlInput1" class="form-label">Motivo de la consulta</label>
-                                    <textarea class="form-control" id="motivo_pa" rows="3"></textarea>
-                                </div>
 
-                                <div class="col-lg-4" id="cnt_perdidas">
-                                    <label for="exampleFormControlInput1" class="form-label">Peso(kg)</label>
-                                    <input type="number" id="peso_pa" placeholder="peso_pa" onchange="sumar();" class="form-control mt-4">
-                                </div>
-                                <div class="col-lg-4" id="cnt_perdidas">
-                                    <label for="exampleFormControlInput1" class="form-label">Talla(m)</label>
-                                    <input type="number" id="talla_pa" placeholder="talla_pa" onchange="sumar();" class="form-control mt-4">
-                                </div>
-                                <div class="col-lg-4" id="cnt_perdidas">
-                                    <label for="exampleFormControlInput1" class="form-label">IMC</label>
-                                    <input type="number" id="imc_pa" class="form-control mt-4" disabled>
-                                </div>
-                                <div class="col-lg-6" id="cnt_gestaciones">
-                                    <label for="exampleFormControlInput1" class="form-label">Medicamentos(nombres de fármacos)</label>
-                                    <input type="text" id="medicamentos_pa" class="form-control mt-4">
-                                </div>
+                            <div class="col-lg-6" id="cnt_gestaciones">
+                                <label for="exampleFormControlInput1" class="form-label">Medicamentos(nombres de fármacos)</label>
+                                <input type="text" id="medicamentos_pa" class="form-control mt-4">
                             </div>
                         </div>
                     </div>
-                    <!-- <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" /> -->
-                    <input type="button" name="previous" class="previous btn btn-default float-right mt-24 mb-24" value="Atrás" />
-                    <a id="add-producto" class="btn btn-success btn-guardar float-right btn-confirm-2 mt-24 mb-24">
-                        <i class="fal fa-save"></i> <span>Guardar</span>
-                    </a>
-                </fieldset>
-                <!-- <fieldset>
-                    <h3 class="text-white">VI. TRATAMIENTO QUÍMICO </h3>
-                    <hr>
+        </div>
+        <!-- <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" /> -->
+        <input type="button" name="previous" class="previous btn btn-default float-right mt-24 mb-24" value="Atrás" />
+        <a id="add-producto" class="btn btn-success btn-guardar float-right btn-confirm-2 mt-24 mb-24">
+            <i class="fal fa-save"></i> <span>Guardar</span>
+        </a>
+        </fieldset>
 
-                    <div class="form-group">
-                        <button type="button" class="btn btn-danger  mr-2  float-right" onclick="eliminarFila()"><i class="fas fa-minus"></i></button>
-                        <button type="button" class="btn btn-primary mr-2 float-right" onclick="agregarFila()"> <i class="fas fa-plus"></i></button>
-
+        </form>
+    </div>
+    </div>
+    <div class="modal fade" id="myModalExito" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Reglas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="alert alert-warning" role="alert">
+                        Debe llenar los Datos del apoderadon en la primera pagina por:
                     </div>
-                    <br>
-                    <div class="cnt-t-table mt-20">
-                        <table id="tablaprueba" class="t-table dataTable" style="width: 100%;">
-                            <thead>
-                                <tr role="row" class="font-weight-bold">
-
-                                    <th rowspan="1" colspan="1" style="width: 77px;">Medicamento</th>
-                                    <th rowspan="1" colspan="1" style="width: 188px;">Dosis</th>
-                                    <th rowspan="1" colspan="1" style="width: 128px;">Frecuencia</th>
-                                    <th rowspan="1" colspan="1" style="width: 140px;">Periodo</th>
-                                    <th rowspan="1" colspan="1" style="width: 93px;">Comentario</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            </tbody>
-                        </table>
-
-                    </div>
-                    <button type="button" name="previous" class="previous btn btn-default float-right mt-24 ml-12" value=""><span>Atrás</span></button>
-                    <button id="add-producto" class="btn btn-success btn-guardar float-right btn-confirm-2 mt-24">
-                        <i class="fal fa-save"></i> <span>Guardar</span>
-                    </button>
-                </fieldset> -->
-            </form>
+                    <h4>Artículo 2. Definición de persona con discapacidad</h4>
+                    <p>
+                        La persona con discapacidad es aquella que tiene una o más deficiencias físicas,
+                        sensoriales, mentales o intelectuales de carácter permanente que, al interactuar con
+                        diversas barreras actitudinales y del entorno, no ejerza o pueda verse impedida en el
+                        ejercicio de sus derechos y su inclusión plena y efectiva en la sociedad, en igualdad de
+                        condiciones que las demás.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">okey</button> -->
+                </div>
+            </div>
         </div>
     </div>
-
 
 </body>
 <?php include('footer.php'); ?>
@@ -953,8 +527,24 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
         m2 = $('#talla_pa').val();
 
         r = m1 / ((m2) * (m2));
-        console.log(m1, m2);
-        $('#imc_pa').val(r);
+        // console.log(m1, m2);
+        console.log(r);
+
+        var imc = $('#imc_pa').val(r);
+
+        if (imc != '') {
+            $('#div_text_imc').css({
+                'display': ''
+            });
+        }
+
+        if (r <= 13) {
+            $('#text_imc').val('Bajo peso!!');
+            // alert('bajopeso');
+            console.log('bajo peos');
+        }
+
+
     }
 
     $(document).ready(function() {
@@ -1149,7 +739,32 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
 
         });
     }
+
     $('#add-producto').on('click', function() {
+
+
+        // los datos deben estar completos si eldiagnostico es de :
+        // oncologicos, psiquiatricos, adultos
+        // Datos del Apoderado
+        var parentesco_pa = $('#parentesco_pa').val();
+        var nombres_parent_pa = $('#nombres_parent_pa').val();
+        var apellidos_parent_pa = $('#apellidos_parent_pa').val();
+        var dni_parent_pa = $('#dni_parent_pa').val();
+        var telefono_parent_pa = $('#telefono_parent_pa').val();
+        var correo_parent_pa = $('#correo_parent_pa').val();
+        var id_diag = $("#diagnostico_pac").val();
+        // alert(estado);
+
+
+        if (id_diag == 18) {
+            $('#myModalExito').modal('show');
+
+            // var validar2 = ValidadorAuto(".b2");
+            // console.log(validar2);
+            // if (validar2 == "true") {
+            //     alert('si pasooo ');
+            // }
+        }
 
         var Detalles_datos = {}
         var Detalles_enfermedades = {}
@@ -1208,13 +823,7 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
         var seguro_paci = $('#seguro_pa').val();
         var carnet_paci = $('#carnet_pa').val();
 
-        // Datos del Apoderado
-        var parentesco_pa = $('#parentesco_pa').val();
-        var nombres_parent_pa = $('#nombres_parent_pa').val();
-        var apellidos_parent_pa = $('#apellidos_parent_pa').val();
-        var dni_parent_pa = $('#dni_parent_pa').val();
-        var telefono_parent_pa = $('#telefono_parent_pa').val();
-        var correo_parent_pa = $('#correo_parent_pa').val();
+
 
         orden_temp['nombre_pa'] = nombre_paci;
         orden_temp['apellido_pa'] = apellido_paci;
@@ -1384,48 +993,48 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
         var detalles_datos_ex = JSON.stringify(Detalles_extras);
         console.log(detalles_datos_ex);
         // ------------------FIN DE EXTRAS-------------------------
-        $.ajax({
-            type: "POST",
-            url: "admin/controlador/acciones.php",
-            data: {
-                accion: "PreRegistro",
-                cod_receta: sku_paci,
-                // img_paciente: img_paciente,
-                pac_nombre: nombre_paci,
-                pac_apellido: apellido_paci,
-                datos_per: detalles_datos_per,
-                detalles_enfermedades: detalles_enfermedades,
-                detalles_datos_an: detalles_datos_an,
-                detalles_datos_ha: detalles_datos_ha,
-                detalles_datos_es: detalles_datos_es,
-                detalles_datos_al: detalles_datos_al,
-                detalles_datos_ex: detalles_datos_ex
-            },
-            success: function(data) {
-                //alert(data);
-                console.log(data);
+        // $.ajax({
+        //     type: "POST",
+        //     url: "admin/controlador/acciones.php",
+        //     data: {
+        //         accion: "PreRegistro",
+        //         cod_receta: sku_paci,
+        //         // img_paciente: img_paciente,
+        //         pac_nombre: nombre_paci,
+        //         pac_apellido: apellido_paci,
+        //         datos_per: detalles_datos_per,
+        //         detalles_enfermedades: detalles_enfermedades,
+        //         detalles_datos_an: detalles_datos_an,
+        //         detalles_datos_ha: detalles_datos_ha,
+        //         detalles_datos_es: detalles_datos_es,
+        //         detalles_datos_al: detalles_datos_al,
+        //         detalles_datos_ex: detalles_datos_ex
+        //     },
+        //     success: function(data) {
+        //         //alert(data);
+        //         console.log(data);
 
-                if (data == 1) {
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Registro exitoso',
-                        text: 'Se inserto correctamente'
-                    }).then(function() {
-                        window.location.href = "registro-paciente.php";
-                        // location.reload();
-                    });
-                } else {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'No se pudo Realizar el registro',
-                        text: data
-                    }).then(function() {
-                        //location.reload();
-                    });
-                }
-                return false;
-            }
-        });
-        return false;
+        //         if (data == 1) {
+        //             Swal.fire({
+        //                 icon: 'success',
+        //                 title: 'Registro exitoso',
+        //                 text: 'Se inserto correctamente'
+        //             }).then(function() {
+        //                 window.location.href = "registro-paciente.php";
+        //                 // location.reload();
+        //             });
+        //         } else {
+        //             Swal.fire({
+        //                 icon: 'error',
+        //                 title: 'No se pudo Realizar el registro',
+        //                 text: data
+        //             }).then(function() {
+        //                 //location.reload();
+        //             });
+        //         }
+        //         return false;
+        //     }
+        // });
+        // return false;
     });
 </script>

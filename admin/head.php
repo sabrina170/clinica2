@@ -15,6 +15,7 @@ if (!$resultado) {
     $CMP_medico = $data['CMP'];
     $firma_medico = $data['firma'];
     $id_perfil = $data['id_perfil'];
+    $tipo_his = $data['tipo_his'];
     // $fecha_caducidad = $data["fecha_caducidad"];
     // $informacion_tienda_admin = json_decode($data["datos_tienda"], JSON_UNESCAPED_UNICODE);
     // $pagos = json_decode($data["pagos_tienda"], JSON_UNESCAPED_UNICODE);

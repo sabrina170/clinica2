@@ -35,855 +35,854 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
                             <br>
                             <div class="container-fluid bg-white br-16 cnt-shw">
                                 <form id="regiration_form">
-                                <fieldset>
-                                    <div class="row">
-                                        <div class="col-lg-3 col-md-7 col-sm-12 bg-white p-24 br-16">
+                                    <fieldset>
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-7 col-sm-12 bg-white p-24 br-16">
 
-                                            <a class=" form-inline w-100 my-2 my-lg-0 justify-content-center">
-                                                <select class="form-control select2" data-placeholder="Buscar producto" id="buscar_producto" name="product_id" value="" onblur="" style="width:100%;">
-                                                    <option value="0">Buscar Pacientes Pre Registrados</option>
-                                                </select>
-                                                <div class="cnt-sugerencia">
-                                                    <table class="listado_sugerencias table mb-0"></table>
+                                                <a class=" form-inline w-100 my-2 my-lg-0 justify-content-center">
+                                                    <select class="form-control select2" data-placeholder="Buscar producto" id="buscar_producto" name="product_id" value="" onblur="" style="width:100%;">
+                                                        <option value="0">Buscar Pacientes Pre Registrados</option>
+                                                    </select>
+                                                    <div class="cnt-sugerencia">
+                                                        <table class="listado_sugerencias table mb-0"></table>
+                                                    </div>
+                                                </a>
+
+                                                <div class="cnt-upload position-relative">
+                                                    <div id="cnt-img-nosotros">
+                                                        <img class="item-upload-img img-paciente m-auto" id="img_producto" src="assets/img/paciente.png" width="180" style="border-radius:50%;">
+                                                    </div>
+
+                                                    <div class="input-file-container m-t-10 t-edit-button boton-subir" style="top: 40px; right: 20%;">
+                                                        <input class="input-file up-img" id="img-nosotros" type="file">
+                                                        <label tabindex="0" for="my-file" class="input-file-trigger" id="title-file-input">
+                                                            <i class="far fa-edit"></i>
+                                                        </label>
+                                                        <input type="hidden" class="ruta_final">
+                                                    </div>
                                                 </div>
-                                            </a>
+                                            </div>
+                                            <div class="col-lg-9 p-sm-0 mt-sm-16">
+                                                <div class="bg-white br-16 p-20">
+                                                    <h3>DATOS PERSONALES</h3>
+                                                    <hr>
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Código de Historia</h5>
+                                                            <input type="text" id="sku_pa" value="R-<?php echo date("dhis") ?>" placeholder="SKU- 0101011001" class="b1 form-control mt-4" data-type="text" data-msj="Ingrese un SKU" disabled>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Nombres</h5>
+                                                            <input type="text" id="nombre_pa" placeholder="Nombre " class="b1 form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Apellidos</h5>
+                                                            <input type="text" id="apellido_pa" placeholder="Apellido " class="b1 form-control mt-4" data-type="text" data-msj="Ingrese un Apellido">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">DNI</h5>
+                                                            <input type="number" id="dni_pa" placeholder="DNI " class="b1 form-control mt-4" data-type="number" data-msj="Ingrese un DNI">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-12">
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Genéro</h5>
+                                                            <!-- <input type="text" id="sexo_pa" placeholder="Sexo" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"> -->
+                                                            <select class="form-control b1" data-type="select" data-msj="Seleccione un género" id="sexo_pa">
+                                                                <option value="0">Elija una opcion</option>
+                                                                <option value="Femenino">Femenino</option>
+                                                                <option value="Masculino">Masculino</option>
+                                                                <option value="Otro">Otro</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Edad</h5>
+                                                            <input type="number" id="edad_pa" placeholder="Edad " class="b1 form-control mt-4" data-type="number" data-msj="Ingrese una edad">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Estado Civil</h5>
+                                                            <select class="form-control b1" data-type="select" data-msj="Seleccione un estado civil" id="estado_civil_pa">
+                                                                <option value="0">Elija una opcion</option>
+                                                                <option value="Soltero(a)">Soltero(a)</option>
+                                                                <option value="Conviviente(a)">Conviviente(a)</option>
+                                                                <option value="Casado(a)">Casado(a)</option>
+                                                                <option value="Masculino(a)">Viudo(a)</option>
+                                                                <option value="Separado(a)">Separado(a)</option>
+                                                                <option value="Divorciado(a)">Divorciado(a)</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Profesión</h5>
+                                                            <input type="text" id="profesion_pa" placeholder="Profesión" value="-" class="b1 form-control mt-4" data-type="text" data-msj="Ingrese una profesión">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-12">
+                                                        <div class="col-lg-6">
+                                                            <h5 class="mt-6 font-weight-bold">Lugar de Nacimiento</h5>
+                                                            <input type="text" id="lugar_nac_pa" placeholder="Lugar de Nacimiento " class="b1 form-control mt-4" data-type="text" data-msj="Ingrese un lugar">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Fecha de Nacimiento</h5>
+                                                            <input type="date" id="fecha_nac_pa" placeholder="Fecha de Nacimiento" class="b1 form-control mt-4" data-type="text" data-msj="Ingrese una fecha">
+                                                        </div>
 
-                                            <div class="cnt-upload position-relative">
-                                                <div id="cnt-img-nosotros">
-                                                    <img class="item-upload-img img-paciente m-auto" id="img_producto" src="assets/img/paciente.png" width="180" style="border-radius:50%;">
-                                                </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">N° de hijos</h5>
+                                                            <input type="number" id="n_hijos_an" placeholder="" value="0" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
 
-                                                <div class="input-file-container m-t-10 t-edit-button boton-subir" style="top: 40px; right: 20%;">
-                                                    <input class="input-file up-img" id="img-nosotros" type="file">
-                                                    <label tabindex="0" for="my-file" class="input-file-trigger" id="title-file-input">
-                                                        <i class="far fa-edit"></i>
-                                                    </label>
-                                                    <input type="hidden" class="ruta_final">
+                                                    </div>
+                                                    <div class="row mt-12">
+                                                        <div class="col-lg-6">
+                                                            <h5 class="mt-4 font-weight-bold">Dirección Actual</h5>
+                                                            <input type="text" id="direccion_pa" placeholder="Dirección" class="b1 form-control mt-4" data-type="text" data-msj="Ingrese una dirección">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Distrito </h5>
+                                                            <select class="form-control" id="distrito_pa">
+                                                                <?php
+                                                                $consulta_ventas = "SELECT * FROM distritos where id_dep= 15 and id_prov = 1501";
+                                                                $resultado = mysqli_query($cn, $consulta_ventas);
+
+                                                                while ($data = mysqli_fetch_assoc($resultado)) {
+                                                                ?>
+                                                                    <option value="<?php echo $data['nombre'] ?>"><?php echo $data['nombre'] ?></option>
+                                                                <?php
+                                                                }
+                                                                ?>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Telefono</h5>
+                                                            <input type="number" id="telefono_pa" placeholder="Teléfono " class="b1 form-control mt-4" data-type="number" data-msj="Ingrese un teléfono">
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <h5 class="mt-4 font-weight-bold">Correo</h5>
+                                                            <input type="text" id="correo_pa" placeholder="Correo" class="b1 form-control mt-4" data-type="text" data-msj="Ingrese un correo">
+                                                        </div>
+
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-9 p-sm-0 mt-sm-16">
-                                            <div class="bg-white br-16 p-20">
-                                                <h3>DATOS PERSONALES</h3>
-                                                <hr>
-                                                <div class="row">
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Código de Historia</h5>
-                                                        <input type="text" id="sku_pa" value="R-<?php echo date("dhis") ?>" placeholder="SKU- 0101011001" class="b1 form-control mt-4" data-type="text" data-msj="Ingrese un SKU" disabled>
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Nombres</h5>
-                                                        <input type="text" id="nombre_pa" placeholder="Nombre " class="b1 form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Apellidos</h5>
-                                                        <input type="text" id="apellido_pa" placeholder="Apellido " class="b1 form-control mt-4" data-type="text" data-msj="Ingrese un Apellido">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">DNI</h5>
-                                                        <input type="number" id="dni_pa" placeholder="DNI " class="b1 form-control mt-4" data-type="number" data-msj="Ingrese un DNI">
-                                                    </div>
-                                                </div>
-                                                <div class="row mt-12">
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Genéro</h5>
-                                                        <!-- <input type="text" id="sexo_pa" placeholder="Sexo" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"> -->
-                                                        <select class="form-control b1" data-type="select" data-msj="Seleccione un género" id="sexo_pa">
-                                                            <option value="0">Elija una opcion</option>
-                                                            <option value="Femenino">Femenino</option>
-                                                            <option value="Masculino">Masculino</option>
-                                                            <option value="Otro">Otro</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Edad</h5>
-                                                        <input type="number" id="edad_pa" placeholder="Edad " class="b1 form-control mt-4" data-type="number" data-msj="Ingrese una edad">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Estado Civil</h5>
-                                                        <select class="form-control b1" data-type="select" data-msj="Seleccione un estado civil" id="estado_civil_pa">
-                                                            <option value="0">Elija una opcion</option>
-                                                            <option value="Soltero(a)">Soltero(a)</option>
-                                                            <option value="Conviviente(a)">Conviviente(a)</option>
-                                                            <option value="Casado(a)">Casado(a)</option>
-                                                            <option value="Masculino(a)">Viudo(a)</option>
-                                                            <option value="Separado(a)">Separado(a)</option>
-                                                            <option value="Divorciado(a)">Divorciado(a)</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Profesión</h5>
-                                                        <input type="text" id="profesion_pa" placeholder="Profesión" value="-" class="b1 form-control mt-4" data-type="text" data-msj="Ingrese una profesión">
-                                                    </div>
-                                                </div>
-                                                <div class="row mt-12">
-                                                    <div class="col-lg-6">
-                                                        <h5 class="mt-6 font-weight-bold">Lugar de Nacimiento</h5>
-                                                        <input type="text" id="lugar_nac_pa" placeholder="Lugar de Nacimiento " class="b1 form-control mt-4" data-type="text" data-msj="Ingrese un lugar">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Fecha de Nacimiento</h5>
-                                                        <input type="date" id="fecha_nac_pa" placeholder="Fecha de Nacimiento" class="b1 form-control mt-4" data-type="text" data-msj="Ingrese una fecha">
-                                                    </div>
+                                        <input type="button" name="password" class="next btn btn-info float-right mt-24" data-class="b1" value="Siguiente" />
+                                    </fieldset>
+                                    <fieldset>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="bg-white br-16 p-20">
+                                                    <h3>ANTECEDENTES</h3>
+                                                    <hr>
+                                                    <h3 class="" style="margin-bottom:30px;">Enfermedades crónicas</h3>
+                                                    <ul>
+                                                        <div class="row">
+                                                            <?php while ($data_enfermedades = mysqli_fetch_assoc($resultado_enfermedades)) { ?>
+                                                                <div class="col-lg-3">
 
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">N° de hijos</h5>
-                                                        <input type="number" id="n_hijos_an" placeholder="" value="0" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
+                                                                    <li class="pt-0 pb-0 ">
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox" onchange="ShowSelected();" class="custom-control-input tag" name="<?php echo $data_enfermedades['id_en'] ?>" data-name="<?php echo $data_enfermedades['nombre_en'] ?>" value="<?php echo $data_enfermedades['id_en'] ?>" id="tag<?php echo $data_enfermedades['id_en'] ?>">
+                                                                            <label class="custom-control-label pt-4" for="tag<?php echo $data_enfermedades['id_en'] ?>"><?php echo $data_enfermedades['nombre_en'] ?></label>
+                                                                        </div>
+                                                                    </li>
+                                                                </div>
+                                                            <?php } ?>
 
-                                                </div>
-                                                <div class="row mt-12">
-                                                    <div class="col-lg-6">
-                                                        <h5 class="mt-4 font-weight-bold">Dirección Actual</h5>
-                                                        <input type="text" id="direccion_pa" placeholder="Dirección" class="b1 form-control mt-4" data-type="text" data-msj="Ingrese una dirección">
+                                                        </div>
+                                                    </ul>
+                                                    <div id="name_new_en_div" class="col-lg-12" style="display:none;">
+                                                        <h5 class="mt-4">Ingrese el nombre de la enfermedad:</h5>
+                                                        <input type="text" id="name_new_en" name="name_new_en" class="form-control  mt-4" placeholder="Descripción">
                                                     </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Distrito </h5>
-                                                        <select class="form-control" id="distrito_pa">
-                                                            <?php
-                                                            $consulta_ventas = "SELECT * FROM distritos where id_dep= 15 and id_prov = 1501";
-                                                            $resultado = mysqli_query($cn, $consulta_ventas);
-
-                                                            while ($data = mysqli_fetch_assoc($resultado)) {
-                                                            ?>
-                                                                <option value="<?php echo $data['nombre'] ?>"><?php echo $data['nombre'] ?></option>
-                                                            <?php
-                                                            }
-                                                            ?>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Telefono</h5>
-                                                        <input type="number" id="telefono_pa" placeholder="Teléfono " class="b1 form-control mt-4" data-type="number" data-msj="Ingrese un teléfono">
-                                                    </div>
-                                                    <div class="col-lg-12">
-                                                        <h5 class="mt-4 font-weight-bold">Correo</h5>
-                                                        <input type="text" id="correo_pa" placeholder="Correo" class="b1 form-control mt-4" data-type="text" data-msj="Ingrese un correo">
-                                                    </div>
-
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <input type="button" name="password" class="next btn btn-info float-right mt-24" data-class="b1" value="Siguiente" />
 
-                                </fieldset>
-                                <fieldset>
-                                    <div class="row">
+                                        <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
+                                        <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
+
+                                    </fieldset>
+                                    <fieldset>
+
                                         <div class="col-lg-12">
-                                            <div class="bg-white br-16 p-20">
+                                            <div class="bg-white br-16  p-20">
                                                 <h3>ANTECEDENTES</h3>
                                                 <hr>
-                                                <h3 class="" style="margin-bottom:30px;">Enfermedades crónicas</h3>
-                                                <ul>
-                                                    <div class="row">
-                                                        <?php while ($data_enfermedades = mysqli_fetch_assoc($resultado_enfermedades)) { ?>
-                                                            <div class="col-lg-3">
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <h5 class="mt-4 font-weight-bold">Alergias</h5>
+                                                        <select class="form-control ott" data-otro="si_alergia" id="alergia_an">
+                                                            <option disabled>Seleccione</option>
+                                                            <option value="Si" data-type="otro">Si</option>
+                                                            <option value="No" selected>No</option>
+                                                        </select>
 
-                                                                <li class="pt-0 pb-0 ">
-                                                                    <div class="custom-control custom-checkbox">
-                                                                        <input type="checkbox" onchange="ShowSelected();" class="custom-control-input tag" name="<?php echo $data_enfermedades['id_en'] ?>" data-name="<?php echo $data_enfermedades['nombre_en'] ?>" value="<?php echo $data_enfermedades['id_en'] ?>" id="tag<?php echo $data_enfermedades['id_en'] ?>">
-                                                                        <label class="custom-control-label pt-4" for="tag<?php echo $data_enfermedades['id_en'] ?>"><?php echo $data_enfermedades['nombre_en'] ?></label>
-                                                                    </div>
-                                                                </li>
-                                                            </div>
-                                                        <?php } ?>
-
+                                                        <div class="" id="si_alergia" style="display:none;">
+                                                            <input type="text" id="alergia_an2" placeholder="Describa las alergias" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
                                                     </div>
-                                                </ul>
-                                                <div id="name_new_en_div" class="col-lg-12" style="display:none;">
-                                                    <h5 class="mt-4">Ingrese el nombre de la enfermedad:</h5>
-                                                    <input type="text" id="name_new_en" name="name_new_en" class="form-control  mt-4" placeholder="Descripción">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
-                                    <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
+                                                    <div class="col-lg-4">
+                                                        <h5 class="mt-4 font-weight-bold">Cirugías</h5>
+                                                        <select class="form-control ott" data-otro="cnt_si_cirugia" id="cirujias_an">
+                                                            <option disabled>Seleccione</option>
+                                                            <option value="Si" data-type="otro">Si</option>
+                                                            <option value="No" selected>No</option>
+                                                        </select>
 
-                                </fieldset>
-                                <fieldset>
-
-                                    <div class="col-lg-12">
-                                        <div class="bg-white br-16  p-20">
-                                            <h3>ANTECEDENTES</h3>
-                                            <hr>
-                                            <div class="row">
-                                                <div class="col-lg-4">
-                                                    <h5 class="mt-4 font-weight-bold">Alergias</h5>
-                                                    <select class="form-control ott" data-otro="si_alergia" id="alergia_an">
-                                                        <option disabled>Seleccione</option>
-                                                        <option value="Si" data-type="otro">Si</option>
-                                                        <option value="No" selected>No</option>
-                                                    </select>
-
-                                                    <div class="" id="si_alergia" style="display:none;">
-                                                        <input type="text" id="alergia_an2" placeholder="Describa las alergias" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        <div class="" id="cnt_si_cirugia" style="display:none;">
+                                                            <input type="text" id="cirujias_des" placeholder="Describa las cirugías" class="ob form-control mt-4" data-type="number" data-msj="Ingrese un dato">
+                                                        </div>
                                                     </div>
-                                                </div>
 
-                                                <div class="col-lg-4">
-                                                    <h5 class="mt-4 font-weight-bold">Cirugías</h5>
-                                                    <select class="form-control ott" data-otro="cnt_si_cirugia" id="cirujias_an">
-                                                        <option disabled>Seleccione</option>
-                                                        <option value="Si" data-type="otro">Si</option>
-                                                        <option value="No" selected>No</option>
-                                                    </select>
+                                                    <div class="col-lg-4">
+                                                        <h5 class="mt-4 font-weight-bold">Desarrollo psicomotriz</h5>
+                                                        <select class="form-control" id="de_psico_an" onchange="ShowSelected3()">
+                                                            <option disabled>Elejir una opcion</option>
+                                                            <option value="Normal">Normal</option>
+                                                            <option value="Retraso">Retraso</option>
+                                                        </select>
 
-                                                    <div class="" id="cnt_si_cirugia" style="display:none;">
-                                                        <input type="text" id="cirujias_des" placeholder="Describa las cirugías" class="ob form-control mt-4" data-type="number" data-msj="Ingrese un dato">
+                                                        <div id="detalle_psico" style="display:none;">
+                                                            <input type="text" id="de_psico_an2" placeholder="Descripcion de desarrollo psicomotriz" class="ob form-control mt-4" data-type="number" data-msj="Ingrese un teléfono">
+                                                        </div>
                                                     </div>
-                                                </div>
-
-                                                <div class="col-lg-4">
-                                                    <h5 class="mt-4 font-weight-bold">Desarrollo psicomotriz</h5>
-                                                    <select class="form-control" id="de_psico_an" onchange="ShowSelected3()">
-                                                        <option disabled>Elejir una opcion</option>
-                                                        <option value="Normal">Normal</option>
-                                                        <option value="Retraso">Retraso</option>
-                                                    </select>
-
-                                                    <div id="detalle_psico" style="display:none;">
-                                                        <input type="text" id="de_psico_an2" placeholder="Descripcion de desarrollo psicomotriz" class="ob form-control mt-4" data-type="number" data-msj="Ingrese un teléfono">
-                                                    </div>
-                                                </div>
 
 
 
-                                                <!-- <div class="col-lg-5">
+                                                    <!-- <div class="col-lg-5">
                                                     <h5 class="mt-4 font-weight-bold">Antecedentes Familiares</h5>
                                                     <input type="text" id="antecedentes_an" placeholder="Antecedentes familiares" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
                                                 </div> -->
-                                            </div>
-                                            <div class="row mt-12">
-
-                                                <div class="col-lg-4" id="cnt_gestacion">
-                                                    <h5 class="mt-4 font-weight-bold">Gestación</h5>
-                                                    <!-- <input type="text" id="gestacion_an" placeholder="Descripcion de Gestación" class="ob form-control mt-4" data-type="number" data-msj="Ingrese un teléfono"> -->
-                                                    <select class="form-control ott" data-otro="si_complicado" id="gestacion_an">
-                                                        <option disabled>Elegir una opción</option>
-                                                        <option value="Normal" selected>Normal</option>
-                                                        <option value="Complicado" data-type="otro">Complicado</option>
-                                                    </select>
-
-                                                    <div class="mt-4" id="si_complicado" style="display:none;">
-                                                        <input type="text" id="gestacion_complicado" placeholder="Describa la complicación" class="ob form-control" data-type="text" data-msj="Ingrese el detalle">
-                                                    </div>
                                                 </div>
+                                                <div class="row mt-12">
 
+                                                    <div class="col-lg-4" id="cnt_gestacion">
+                                                        <h5 class="mt-4 font-weight-bold">Gestación</h5>
+                                                        <!-- <input type="text" id="gestacion_an" placeholder="Descripcion de Gestación" class="ob form-control mt-4" data-type="number" data-msj="Ingrese un teléfono"> -->
+                                                        <select class="form-control ott" data-otro="si_complicado" id="gestacion_an">
+                                                            <option disabled>Elegir una opción</option>
+                                                            <option value="Normal" selected>Normal</option>
+                                                            <option value="Complicado" data-type="otro">Complicado</option>
+                                                        </select>
 
-                                                <div class="col-lg-4" id="cnt_parto">
-                                                    <h5 class="mt-4 font-weight-bold">Parto</h5>
-                                                    <!-- <input type="text" id="parto_an" placeholder="Descripcion de Parto" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"> -->
-                                                    <select class="form-control" id="parto_an" onchange="ShowSelected2()">
-                                                        <option disabled>Elejir una opcion</option>
-                                                        <option value="Cesaria">Cesaria</option>
-                                                        <option value="Natural">Natural</option>
-                                                        <option value="Otro">Otro</option>
-                                                    </select>
-
-                                                    <div id="detalle_parto" style="display:none;" class="">
-                                                        <input type="text" id="parto_des" placeholder="Describa detalles del parto" class="ob form-control mt-4" data-type="number" data-msj="Ingrese un teléfono">
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="row mt-12">
-
-
-                                                <div class="col-lg-4">
-                                                    <h5 class="mt-4 font-weight-bold">Dependencia:</h5>
-                                                    <select class="form-control ott" id="dependencia_es" data-otro="dependencia" onchange="ShowSelected2()">
-                                                        <option disabled>Elejir una opcion</option>
-                                                        <option value="Cesaria">Independiente</option>
-                                                        <option value="Natural" data-type="otro">Dependiente</option>
-                                                    </select>
-
-                                                    <div class="" id="dependencia" style="display:none;">
-                                                        <input type="text" id="detalle_dependencia" placeholder="Describa la dependencia" class="ob form-control" data-type="text" data-msj="Ingrese el detalle">
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-lg-4">
-                                                    <h5 class="mt-4 font-weight-bold">Terapias</h5>
-                                                    <input type="text" id="terapias_es" placeholder="Descripcion para terapias" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                </div>
-
-                                                <div class="col-lg-4">
-                                                    <h5 class="mt-4 font-weight-bold">Vacunas</h5>
-                                                    <input type="text" id="vacunas_an" placeholder="vacunas" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                </div>
-
-                                            </div>
-                                            <div class="row mt-12">
-
-                                                <div class="col-lg-4" id="cnt_FUR">
-                                                    <h5 class="mt-4 font-weight-bold">FUR</h5>
-                                                    <input type="date" id="fur_an" placeholder="f.u.r" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                </div>
-
-                                                <div class="col-lg-4" id="cnt_perdidas">
-                                                    <h5 class="mt-4 font-weight-bold">Perdidas</h5>
-                                                    <input type="number" id="perdidas_an" placeholder="perdidas" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                </div>
-
-                                                <div class="col-lg-4" id="cnt_gestaciones">
-                                                    <h5 class="mt-4 font-weight-bold">Gestaciones</h5>
-                                                    <select class="form-control" id="gestaciones_an">
-                                                        <option value="0" disabled>Elegir una opción</option>
-                                                        <option value="Si">Si</option>
-                                                        <option value="No" selected>No</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                    <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
-                                    <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
-
-                                </fieldset>
-                                <fieldset>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="bg-white br-16 p-20">
-                                                <h3 class="mb-16">Hábitos Nocivos</h3>
-                                                <div class="row">
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Tabaco</h5>
-                                                        <div class="form-check form-check-inline ">
-                                                            <input class="form-check-input ptabaco" type="radio" name="cigarros_ha" id="cigarros_ha" value="Si">
-                                                            <label class="form-check-label" for="inlineRadio1">Si</label>
-                                                        </div>
-                                                        <div class="form-check form-check-inline ">
-                                                            <input class="form-check-input ptabaco" type="radio" name="cigarros_ha" id="cigarros_ha" value="No" checked>
-                                                            <label class="form-check-label" for="inlineRadio2">No</label>
+                                                        <div class="mt-4" id="si_complicado" style="display:none;">
+                                                            <input type="text" id="gestacion_complicado" placeholder="Describa la complicación" class="ob form-control" data-type="text" data-msj="Ingrese el detalle">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3" id="campo_tabaco" style="display:none ;">
-                                                        <h5 class="mt-4">Campo para escribir*</h5>
-                                                        <input type="text" id="cigarros2_ha" placeholder="Descripcion para cigarros" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Alcohol</h5>
-                                                        <div class="form-check form-check-inline">
-                                                            <input class="form-check-input palcohol" type="radio" name="alcohol_ha" id="alcohol_ha" value="Si">
-                                                            <label class="form-check-label" for="inlineRadio1">Si</label>
+
+
+                                                    <div class="col-lg-4" id="cnt_parto">
+                                                        <h5 class="mt-4 font-weight-bold">Parto</h5>
+                                                        <!-- <input type="text" id="parto_an" placeholder="Descripcion de Parto" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"> -->
+                                                        <select class="form-control" id="parto_an" onchange="ShowSelected2()">
+                                                            <option disabled>Elejir una opcion</option>
+                                                            <option value="Cesaria">Cesaria</option>
+                                                            <option value="Natural">Natural</option>
+                                                            <option value="Otro">Otro</option>
+                                                        </select>
+
+                                                        <div id="detalle_parto" style="display:none;" class="">
+                                                            <input type="text" id="parto_des" placeholder="Describa detalles del parto" class="ob form-control mt-4" data-type="number" data-msj="Ingrese un teléfono">
                                                         </div>
-                                                        <div class="form-check form-check-inline">
-                                                            <input class="form-check-input palcohol" type="radio" name="alcohol_ha" id="alcohol_ha" value="No" checked>
-                                                            <label class="form-check-label" for="inlineRadio2">No</label>
+                                                    </div>
+
+                                                </div>
+                                                <div class="row mt-12">
+
+
+                                                    <div class="col-lg-4">
+                                                        <h5 class="mt-4 font-weight-bold">Dependencia:</h5>
+                                                        <select class="form-control ott" id="dependencia_es" data-otro="dependencia" onchange="ShowSelected2()">
+                                                            <option disabled>Elejir una opcion</option>
+                                                            <option value="Cesaria">Independiente</option>
+                                                            <option value="Natural" data-type="otro">Dependiente</option>
+                                                        </select>
+
+                                                        <div class="" id="dependencia" style="display:none;">
+                                                            <input type="text" id="detalle_dependencia" placeholder="Describa la dependencia" class="ob form-control" data-type="text" data-msj="Ingrese el detalle">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3" id="campo_alcohol" style="display:none ;">
-                                                        <h5 class="mt-4">Campo para escribir*</h5>
-                                                        <input type="text" id="alcohol2_ha" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+
+                                                    <div class="col-lg-4">
+                                                        <h5 class="mt-4 font-weight-bold">Terapias</h5>
+                                                        <input type="text" id="terapias_es" placeholder="Descripcion para terapias" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                    </div>
+
+                                                    <div class="col-lg-4">
+                                                        <h5 class="mt-4 font-weight-bold">Vacunas</h5>
+                                                        <input type="text" id="vacunas_an" placeholder="vacunas" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                    </div>
+
+                                                </div>
+                                                <div class="row mt-12">
+
+                                                    <div class="col-lg-4" id="cnt_FUR">
+                                                        <h5 class="mt-4 font-weight-bold">FUR</h5>
+                                                        <input type="date" id="fur_an" placeholder="f.u.r" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                    </div>
+
+                                                    <div class="col-lg-4" id="cnt_perdidas">
+                                                        <h5 class="mt-4 font-weight-bold">Perdidas</h5>
+                                                        <input type="number" id="perdidas_an" placeholder="perdidas" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                    </div>
+
+                                                    <div class="col-lg-4" id="cnt_gestaciones">
+                                                        <h5 class="mt-4 font-weight-bold">Gestaciones</h5>
+                                                        <select class="form-control" id="gestaciones_an">
+                                                            <option value="0" disabled>Elegir una opción</option>
+                                                            <option value="Si">Si</option>
+                                                            <option value="No" selected>No</option>
+                                                        </select>
                                                     </div>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-lg-12">
-                                                        <h5 class="mt-4 font-weight-bold">Otro</h5>
-                                                        <input type="text" id="otro_ha" placeholder="" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                </div>
+
+
                                             </div>
                                         </div>
-                                    </div>
-                                    <br>
-                                    <div class="row">
+                                        <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
+                                        <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
 
-                                        <div class="col-lg-12">
-                                            <div class="bg-white br-16 p-20">
-                                                <h3 class="mb-16">Estilos de vida</h3>
-                                                <div class="row">
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Actividad artística</h5>
-                                                        <input type="text" id="artistica_es" placeholder="Descripcion actividad artistica" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                    </fieldset>
+                                    <fieldset>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="bg-white br-16 p-20">
+                                                    <h3 class="mb-16">Hábitos Nocivos</h3>
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Tabaco</h5>
+                                                            <div class="form-check form-check-inline ">
+                                                                <input class="form-check-input ptabaco" type="radio" name="cigarros_ha" id="cigarros_ha" value="Si">
+                                                                <label class="form-check-label" for="inlineRadio1">Si</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline ">
+                                                                <input class="form-check-input ptabaco" type="radio" name="cigarros_ha" id="cigarros_ha" value="No" checked>
+                                                                <label class="form-check-label" for="inlineRadio2">No</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3" id="campo_tabaco" style="display:none ;">
+                                                            <h5 class="mt-4">Campo para escribir*</h5>
+                                                            <input type="text" id="cigarros2_ha" placeholder="Descripcion para cigarros" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Alcohol</h5>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input palcohol" type="radio" name="alcohol_ha" id="alcohol_ha" value="Si">
+                                                                <label class="form-check-label" for="inlineRadio1">Si</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input palcohol" type="radio" name="alcohol_ha" id="alcohol_ha" value="No" checked>
+                                                                <label class="form-check-label" for="inlineRadio2">No</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3" id="campo_alcohol" style="display:none ;">
+                                                            <h5 class="mt-4">Campo para escribir*</h5>
+                                                            <input type="text" id="alcohol2_ha" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <h5 class="mt-4 font-weight-bold">Otro</h5>
+                                                            <input type="text" id="otro_ha" placeholder="" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
 
-                                                        <!--<select class="form-control b1" id="artistica_es">
+                                            <div class="col-lg-12">
+                                                <div class="bg-white br-16 p-20">
+                                                    <h3 class="mb-16">Estilos de vida</h3>
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Actividad artística</h5>
+                                                            <input type="text" id="artistica_es" placeholder="Descripcion actividad artistica" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+
+                                                            <!--<select class="form-control b1" id="artistica_es">
                                                             <option disabled>Eleja una opcion</option>
                                                             <option value="actividad 1">actividad 1</option>
                                                             <option value="artividad 2">artividad 2</option>
                                                         </select> -->
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Actividad física:</h5>
-                                                        <input type="text" id="fisica_es" placeholder="Descripcion actividad fisica" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                    <!-- <div class="col-lg-3">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Actividad física:</h5>
+                                                            <input type="text" id="fisica_es" placeholder="Descripcion actividad fisica" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                        <!-- <div class="col-lg-3">
                                                     <h5 class="mt-4 font-weight-bold">Dependencia:</h5>
                                                     <input type="text" id="dependencia_es" placeholder="Descripcion dependencia" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
                                                     </div> -->
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-4 font-weight-bold">Otro</h5>
-                                                        <input type="text" id="otro_es" placeholder="" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                    <!--<div class="col-lg-12">
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-4 font-weight-bold">Otro</h5>
+                                                            <input type="text" id="otro_es" placeholder="" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                        <!--<div class="col-lg-12">
                                                         <h5 class="mt-4 font-weight-bold">Vida Saludable</h5>
                                                         <input type="text" id="vida_saludable" placeholder="" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
                                                     </div>-->
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <br>
-                                    <div class="row">
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="bg-white br-16 p-20">
+                                                    <h3 class="mb-20">Alimentación</h3>
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-12 font-weight-bold">Azúcar</h5>
+                                                            <input type="text" id="azucar_al" placeholder="Azúcar" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-12 font-weight-bold">Sal</h5>
+                                                            <input type="text" id="sal_al" placeholder="Sal" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-12 font-weight-bold">Lácteos</h5>
+                                                            <input type="text" id="lacteos_al" placeholder="Lácteos" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-12 font-weight-bold">Harinas</h5>
+                                                            <input type="text" id="harinas_al" placeholder="Harinas" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-12 font-weight-bold">Carnes</h5>
+                                                            <input type="text" id="carnes_al" placeholder="Carnes" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-12 font-weight-bold">Frituras</h5>
+                                                            <input type="text" id="frituras_al" placeholder="Frituras" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-12 font-weight-bold">Frutas</h5>
+                                                            <input type="text" id="frutas_al" placeholder="Frutas" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-12 font-weight-bold">Verduras</h5>
+                                                            <input type="text" id="verduras_al" placeholder="Verduras" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-12 font-weight-bold">Legumbres</h5>
+                                                            <input type="text" id="legumbres_al" placeholder="Legumbres" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-12 font-weight-bold">Cereales</h5>
+                                                            <input type="text" id="cereales_al" placeholder="Cereales" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <h5 class="mt-12 font-weight-bold">Otros</h5>
+                                                            <input type="text" id="otros_al" placeholder="Otros" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
+                                        <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
+                                    </fieldset>
+                                    <fieldset>
+
                                         <div class="col-lg-12">
-                                            <div class="bg-white br-16 p-20">
-                                                <h3 class="mb-20">Alimentación</h3>
-                                                <div class="row">
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-12 font-weight-bold">Azúcar</h5>
-                                                        <input type="text" id="azucar_al" placeholder="Azúcar" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
+                                            <div class="bg-white br-16  p-20">
+                                                <h3>BREVE RELATO CRONOLÓGICO</h3>
+                                                <div class="row mt-16">
+                                                    <div class="col-lg-12">
+                                                        <textarea rows="12" class="form-control b5" id="relato" placeholder="Ingrese un breve relato" data-type="text" data-msj="Ingrese un breve relato" required></textarea>
+                                                        <div class="invalid-feedback">
+                                                            Breve descripcion de relato cronologico
+                                                        </div>
                                                     </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-12 font-weight-bold">Sal</h5>
-                                                        <input type="text" id="sal_al" placeholder="Sal" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-12 font-weight-bold">Lácteos</h5>
-                                                        <input type="text" id="lacteos_al" placeholder="Lácteos" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-12 font-weight-bold">Harinas</h5>
-                                                        <input type="text" id="harinas_al" placeholder="Harinas" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-12 font-weight-bold">Carnes</h5>
-                                                        <input type="text" id="carnes_al" placeholder="Carnes" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-12 font-weight-bold">Frituras</h5>
-                                                        <input type="text" id="frituras_al" placeholder="Frituras" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-12 font-weight-bold">Frutas</h5>
-                                                        <input type="text" id="frutas_al" placeholder="Frutas" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-12 font-weight-bold">Verduras</h5>
-                                                        <input type="text" id="verduras_al" placeholder="Verduras" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-12 font-weight-bold">Legumbres</h5>
-                                                        <input type="text" id="legumbres_al" placeholder="Legumbres" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-12 font-weight-bold">Cereales</h5>
-                                                        <input type="text" id="cereales_al" placeholder="Cereales" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <h5 class="mt-12 font-weight-bold">Otros</h5>
-                                                        <input type="text" id="otros_al" placeholder="Otros" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre">
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
-                                    <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
-                                </fieldset>
-                                <fieldset>
+                                        <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" data-class="b5" value="Siguiente" />
+                                        <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
 
-                                    <div class="col-lg-12">
-                                        <div class="bg-white br-16  p-20">
-                                            <h3>BREVE RELATO CRONOLÓGICO</h3>
-                                            <div class="row mt-16">
-                                                <div class="col-lg-12">
-                                                    <textarea rows="12" class="form-control b5" id="relato" placeholder="Ingrese un breve relato" data-type="text" data-msj="Ingrese un breve relato" required></textarea>
-                                                    <div class="invalid-feedback">
-                                                        Breve descripcion de relato cronologico
-                                                    </div>
-                                                </div>
+                                    </fieldset>
+                                    <fieldset>
+                                        <h3 class="text-white">IV. SINTOMAS</h3>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-lg-4 bg-white br-16  p-20 border-4-dark">
+                                                <div class="">
+                                                    <h3 class="" style="margin-bottom:30px;">Síntomas frecuentes</h3>
+                                                    <div class="row">
+                                                        <?php
+                                                        $consulta1 = "SELECT * FROM sistomas where categoria = 'sintomas frecuentes'";
+                                                        $resultado1 = mysqli_query($cn, $consulta1);
+                                                        while ($data1 = mysqli_fetch_assoc($resultado1)) {
+                                                        ?>
+                                                            <div class="col-lg-6">
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" data-class="b5" value="Siguiente" />
-                                    <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
+                                                                <div class="form-group row">
+                                                                    <label type="text" class=" col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
 
-                                </fieldset>
-                                <fieldset>
-                                    <h3 class="text-white">IV. SINTOMAS</h3>
-                                    <hr>
-                                    <div class="row">
-                                        <div class="col-lg-4 bg-white br-16  p-20 border-4-dark">
-                                            <div class="">
-                                                <h3 class="" style="margin-bottom:30px;">Síntomas frecuentes</h3>
-                                                <div class="row">
-                                                    <?php
-                                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'sintomas frecuentes'";
-                                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                                    ?>
-                                                        <div class="col-lg-6">
-
-                                                            <div class="form-group row">
-                                                                <label type="text" class=" col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-
-                                                                <div class="col-sm-5">
-                                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                                        <option value="0">0</option>
-                                                                        <option value="1">1</option>
-                                                                        <option value="2">2</option>
-                                                                        <option value="3">3</option>
-                                                                        <option value="4">4</option>
-                                                                        <option value="5">5</option>
-                                                                        <option value="6">6</option>
-                                                                        <option value="7">7</option>
-                                                                        <option value="8">8</option>
-                                                                        <option value="9">9</option>
-                                                                        <option value="10">10</option>
-                                                                    </select>
+                                                                    <div class="col-sm-5">
+                                                                        <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
                                                                 </div>
                                                             </div>
+                                                        <?php } ?>
+                                                        <div class="col-lg-12">
+                                                            <h5 class="mt-4">Observaciones</h5>
+                                                            <textarea rows="6" id="obser_sin" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                         </div>
-                                                    <?php } ?>
-                                                    <div class="col-lg-12">
-                                                        <h5 class="mt-4">Observaciones</h5>
-                                                        <textarea rows="6" id="obser_sin" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                                            <div class="">
-                                                <h3 class="" style="margin-bottom:30px;">Psiquis</h3>
-                                                <div class="row">
-                                                    <?php
-                                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'psiquis'";
-                                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                                    ?>
-                                                        <div class="col-lg-6">
+                                            <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
+                                                <div class="">
+                                                    <h3 class="" style="margin-bottom:30px;">Psiquis</h3>
+                                                    <div class="row">
+                                                        <?php
+                                                        $consulta1 = "SELECT * FROM sistomas where categoria = 'psiquis'";
+                                                        $resultado1 = mysqli_query($cn, $consulta1);
+                                                        while ($data1 = mysqli_fetch_assoc($resultado1)) {
+                                                        ?>
+                                                            <div class="col-lg-6">
 
-                                                            <div class="form-group row">
-                                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                                <div class="col-sm-5">
-                                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                                        <option value="0">0</option>
-                                                                        <option value="1">1</option>
-                                                                        <option value="2">2</option>
-                                                                        <option value="3">3</option>
-                                                                        <option value="4">4</option>
-                                                                        <option value="5">5</option>
-                                                                        <option value="6">6</option>
-                                                                        <option value="7">7</option>
-                                                                        <option value="8">8</option>
-                                                                        <option value="9">9</option>
-                                                                        <option value="10">10</option>
-                                                                    </select>
+                                                                <div class="form-group row">
+                                                                    <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
+                                                                    <div class="col-sm-5">
+                                                                        <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
                                                                 </div>
                                                             </div>
+                                                        <?php } ?>
+                                                        <div class="col-lg-12">
+                                                            <h5 class="mt-4">Observaciones</h5>
+                                                            <textarea rows="6" id="obser_psi" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                         </div>
-                                                    <?php } ?>
-                                                    <div class="col-lg-12">
-                                                        <h5 class="mt-4">Observaciones</h5>
-                                                        <textarea rows="6" id="obser_psi" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                                            <div class="">
-                                                <h3 class="" style="margin-bottom:30px;">Neurología</h3>
-                                                <div class="row">
-                                                    <?php
-                                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'neurologia'";
-                                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                                    ?>
-                                                        <div class="col-lg-6">
+                                            <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
+                                                <div class="">
+                                                    <h3 class="" style="margin-bottom:30px;">Neurología</h3>
+                                                    <div class="row">
+                                                        <?php
+                                                        $consulta1 = "SELECT * FROM sistomas where categoria = 'neurologia'";
+                                                        $resultado1 = mysqli_query($cn, $consulta1);
+                                                        while ($data1 = mysqli_fetch_assoc($resultado1)) {
+                                                        ?>
+                                                            <div class="col-lg-6">
 
-                                                            <div class="form-group row">
-                                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                                <div class="col-sm-5">
-                                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                                        <option value="0">0</option>
-                                                                        <option value="1">1</option>
-                                                                        <option value="2">2</option>
-                                                                        <option value="3">3</option>
-                                                                        <option value="4">4</option>
-                                                                        <option value="5">5</option>
-                                                                        <option value="6">6</option>
-                                                                        <option value="7">7</option>
-                                                                        <option value="8">8</option>
-                                                                        <option value="9">9</option>
-                                                                        <option value="10">10</option>
-                                                                    </select>
+                                                                <div class="form-group row">
+                                                                    <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
+                                                                    <div class="col-sm-5">
+                                                                        <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
                                                                 </div>
                                                             </div>
+                                                        <?php } ?>
+                                                        <div class="col-lg-12">
+                                                            <h5 class="mt-4">Observaciones</h5>
+                                                            <textarea rows="6" id="obser_neu" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                         </div>
-                                                    <?php } ?>
-                                                    <div class="col-lg-12">
-                                                        <h5 class="mt-4">Observaciones</h5>
-                                                        <textarea rows="6" id="obser_neu" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
+                                                <div class="">
+                                                    <h3 class="" style="margin-bottom:30px;">Osteomioarticular</h3>
+                                                    <div class="row">
+                                                        <?php
+                                                        $consulta1 = "SELECT * FROM sistomas where categoria = 'osteomioarticular'";
+                                                        $resultado1 = mysqli_query($cn, $consulta1);
+                                                        while ($data1 = mysqli_fetch_assoc($resultado1)) {
+                                                        ?>
+                                                            <div class="col-lg-6">
 
-                                    </div>
-                                    <br>
-                                    <div class="row">
-                                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                                            <div class="">
-                                                <h3 class="" style="margin-bottom:30px;">Osteomioarticular</h3>
-                                                <div class="row">
-                                                    <?php
-                                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'osteomioarticular'";
-                                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                                    ?>
-                                                        <div class="col-lg-6">
-
-                                                            <div class="form-group row">
-                                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                                <div class="col-sm-5">
-                                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                                        <option value="0">0</option>
-                                                                        <option value="1">1</option>
-                                                                        <option value="2">2</option>
-                                                                        <option value="3">3</option>
-                                                                        <option value="4">4</option>
-                                                                        <option value="5">5</option>
-                                                                        <option value="6">6</option>
-                                                                        <option value="7">7</option>
-                                                                        <option value="8">8</option>
-                                                                        <option value="9">9</option>
-                                                                        <option value="10">10</option>
-                                                                    </select>
+                                                                <div class="form-group row">
+                                                                    <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
+                                                                    <div class="col-sm-5">
+                                                                        <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
                                                                 </div>
                                                             </div>
+                                                        <?php } ?>
+                                                        <div class="col-lg-12">
+                                                            <h5 class="mt-4">Observaciones</h5>
+                                                            <textarea rows="6" id="obser_oste" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                         </div>
-                                                    <?php } ?>
-                                                    <div class="col-lg-12">
-                                                        <h5 class="mt-4">Observaciones</h5>
-                                                        <textarea rows="6" id="obser_oste" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                                            <div class="">
-                                                <h3 class="" style="margin-bottom:30px;">Digestivo</h3>
-                                                <div class="row">
-                                                    <?php
-                                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'digestivo'";
-                                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                                    ?>
-                                                        <div class="col-lg-6">
+                                            <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
+                                                <div class="">
+                                                    <h3 class="" style="margin-bottom:30px;">Digestivo</h3>
+                                                    <div class="row">
+                                                        <?php
+                                                        $consulta1 = "SELECT * FROM sistomas where categoria = 'digestivo'";
+                                                        $resultado1 = mysqli_query($cn, $consulta1);
+                                                        while ($data1 = mysqli_fetch_assoc($resultado1)) {
+                                                        ?>
+                                                            <div class="col-lg-6">
 
-                                                            <div class="form-group row">
-                                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                                <div class="col-sm-5">
-                                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                                        <option value="0">0</option>
-                                                                        <option value="1">1</option>
-                                                                        <option value="2">2</option>
-                                                                        <option value="3">3</option>
-                                                                        <option value="4">4</option>
-                                                                        <option value="5">5</option>
-                                                                        <option value="6">6</option>
-                                                                        <option value="7">7</option>
-                                                                        <option value="8">8</option>
-                                                                        <option value="9">9</option>
-                                                                        <option value="10">10</option>
-                                                                    </select>
+                                                                <div class="form-group row">
+                                                                    <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
+                                                                    <div class="col-sm-5">
+                                                                        <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
                                                                 </div>
                                                             </div>
+                                                        <?php } ?>
+                                                        <div class="col-lg-12">
+                                                            <h5 class="mt-4">Observaciones</h5>
+                                                            <textarea rows="6" id="obser_dig" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                         </div>
-                                                    <?php } ?>
-                                                    <div class="col-lg-12">
-                                                        <h5 class="mt-4">Observaciones</h5>
-                                                        <textarea rows="6" id="obser_dig" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                                            <div class="">
-                                                <h3 class="" style="margin-bottom:30px;">Cardiopulmonar/Circulatorio</h3>
-                                                <div class="row">
-                                                    <?php
-                                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'cardiopulmonar'";
-                                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                                    ?>
-                                                        <div class="col-lg-6">
+                                            <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
+                                                <div class="">
+                                                    <h3 class="" style="margin-bottom:30px;">Cardiopulmonar/Circulatorio</h3>
+                                                    <div class="row">
+                                                        <?php
+                                                        $consulta1 = "SELECT * FROM sistomas where categoria = 'cardiopulmonar'";
+                                                        $resultado1 = mysqli_query($cn, $consulta1);
+                                                        while ($data1 = mysqli_fetch_assoc($resultado1)) {
+                                                        ?>
+                                                            <div class="col-lg-6">
 
-                                                            <div class="form-group row">
-                                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                                <div class="col-sm-5">
-                                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                                        <option value="0">0</option>
-                                                                        <option value="1">1</option>
-                                                                        <option value="2">2</option>
-                                                                        <option value="3">3</option>
-                                                                        <option value="4">4</option>
-                                                                        <option value="5">5</option>
-                                                                        <option value="6">6</option>
-                                                                        <option value="7">7</option>
-                                                                        <option value="8">8</option>
-                                                                        <option value="9">9</option>
-                                                                        <option value="10">10</option>
-                                                                    </select>
+                                                                <div class="form-group row">
+                                                                    <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
+                                                                    <div class="col-sm-5">
+                                                                        <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
                                                                 </div>
                                                             </div>
+                                                        <?php } ?>
+                                                        <div class="col-lg-12">
+                                                            <h5 class="mt-4">Observaciones</h5>
+                                                            <textarea rows="6" id="obser_car" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                         </div>
-                                                    <?php } ?>
-                                                    <div class="col-lg-12">
-                                                        <h5 class="mt-4">Observaciones</h5>
-                                                        <textarea rows="6" id="obser_car" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
+                                                <div class="">
+                                                    <h3 class="" style="margin-bottom:30px;">Génito-urinario</h3>
+                                                    <div class="row">
+                                                        <?php
+                                                        $consulta1 = "SELECT * FROM sistomas where categoria = 'urinario'";
+                                                        $resultado1 = mysqli_query($cn, $consulta1);
+                                                        while ($data1 = mysqli_fetch_assoc($resultado1)) {
+                                                        ?>
+                                                            <div class="col-lg-6">
 
-                                    </div>
-                                    <br>
-                                    <div class="row">
-                                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                                            <div class="">
-                                                <h3 class="" style="margin-bottom:30px;">Génito-urinario</h3>
-                                                <div class="row">
-                                                    <?php
-                                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'urinario'";
-                                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                                    ?>
-                                                        <div class="col-lg-6">
-
-                                                            <div class="form-group row">
-                                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                                <div class="col-sm-5">
-                                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                                        <option value="0">0</option>
-                                                                        <option value="1">1</option>
-                                                                        <option value="2">2</option>
-                                                                        <option value="3">3</option>
-                                                                        <option value="4">4</option>
-                                                                        <option value="5">5</option>
-                                                                        <option value="6">6</option>
-                                                                        <option value="7">7</option>
-                                                                        <option value="8">8</option>
-                                                                        <option value="9">9</option>
-                                                                        <option value="10">10</option>
-                                                                    </select>
+                                                                <div class="form-group row">
+                                                                    <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
+                                                                    <div class="col-sm-5">
+                                                                        <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
                                                                 </div>
                                                             </div>
+                                                        <?php } ?>
+                                                        <div class="col-lg-12">
+                                                            <h5 class="mt-4">Observaciones</h5>
+                                                            <textarea rows="6" id="obser_uri" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                         </div>
-                                                    <?php } ?>
-                                                    <div class="col-lg-12">
-                                                        <h5 class="mt-4">Observaciones</h5>
-                                                        <textarea rows="6" id="obser_uri" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
-                                            <div class="">
-                                                <h3 class="" style="margin-bottom:30px;">Piel/Tejido celular subcutáneo</h3>
-                                                <div class="row">
-                                                    <?php
-                                                    $consulta1 = "SELECT * FROM sistomas where categoria = 'tejido'";
-                                                    $resultado1 = mysqli_query($cn, $consulta1);
-                                                    while ($data1 = mysqli_fetch_assoc($resultado1)) {
-                                                    ?>
-                                                        <div class="col-lg-6">
+                                            <div class="col-lg-4 bg-white br-16 cnt-shw p-20 border-4-dark">
+                                                <div class="">
+                                                    <h3 class="" style="margin-bottom:30px;">Piel/Tejido celular subcutáneo</h3>
+                                                    <div class="row">
+                                                        <?php
+                                                        $consulta1 = "SELECT * FROM sistomas where categoria = 'tejido'";
+                                                        $resultado1 = mysqli_query($cn, $consulta1);
+                                                        while ($data1 = mysqli_fetch_assoc($resultado1)) {
+                                                        ?>
+                                                            <div class="col-lg-6">
 
-                                                            <div class="form-group row">
-                                                                <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
-                                                                <div class="col-sm-5">
-                                                                    <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
-                                                                        <option value="0">0</option>
-                                                                        <option value="1">1</option>
-                                                                        <option value="2">2</option>
-                                                                        <option value="3">3</option>
-                                                                        <option value="4">4</option>
-                                                                        <option value="5">5</option>
-                                                                        <option value="6">6</option>
-                                                                        <option value="7">7</option>
-                                                                        <option value="8">8</option>
-                                                                        <option value="9">9</option>
-                                                                        <option value="10">10</option>
-                                                                    </select>
+                                                                <div class="form-group row">
+                                                                    <label for="inputEmail3" class="col-sm-7 col-form-label"><?php echo $data1['nombre']; ?></label>
+                                                                    <div class="col-sm-5">
+                                                                        <select class="sinto form-control" data-id="<?php echo $data1['id_sinto']; ?>" data-name="<?php echo $data1['nombre']; ?>">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                        </select>
+                                                                    </div>
                                                                 </div>
                                                             </div>
+                                                        <?php } ?>
+                                                        <div class="col-lg-12">
+                                                            <h5 class="mt-4">Observaciones</h5>
+                                                            <textarea rows="6" id="obser_tej" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
                                                         </div>
-                                                    <?php } ?>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
+                                        <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
+
+                                    </fieldset>
+                                    <fieldset>
+                                        <h3 class="text-white">V. EXÁMENES AUXILIARES RELEVANTES </h3>
+                                        <hr>
+                                        <div class="col-lg-12">
+                                            <div class="bg-white br-16 cnt-shw p-20">
+                                                <div class="row">
                                                     <div class="col-lg-12">
-                                                        <h5 class="mt-4">Observaciones</h5>
-                                                        <textarea rows="6" id="obser_tej" placeholder="Descripcion para la alcohol" class="ob form-control mt-4" data-type="text" data-msj="Ingrese un nombre"></textarea>
+                                                        <textarea rows="12" class="form-control" id="examenes" placeholder="Breve descripcion de examenes" required></textarea>
+                                                        <div class="invalid-feedback">
+                                                            Breve descripcion de examenes
+                                                        </div>
                                                     </div>
+
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
-                                    <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
+                                        <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
+                                        <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
 
-                                </fieldset>
-                                <fieldset>
-                                    <h3 class="text-white">V. EXÁMENES AUXILIARES RELEVANTES </h3>
-                                    <hr>
-                                    <div class="col-lg-12">
-                                        <div class="bg-white br-16 cnt-shw p-20">
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <textarea rows="12" class="form-control" id="examenes" placeholder="Breve descripcion de examenes" required></textarea>
-                                                    <div class="invalid-feedback">
-                                                        Breve descripcion de examenes
-                                                    </div>
-                                                </div>
+                                    </fieldset>
+                                    <fieldset>
+                                        <h3 class="text-white">VI. TRATAMIENTO QUÍMICO </h3>
+                                        <hr>
 
-                                            </div>
+                                        <div class="form-group">
+                                            <button type="button" class="btn btn-danger  mr-2  float-right" onclick="eliminarFila()"><i class="fas fa-minus"></i></button>
+                                            <button type="button" class="btn btn-primary mr-2 float-right" onclick="agregarFila()"> <i class="fas fa-plus"></i></button>
+
                                         </div>
-                                    </div>
-                                    <input type="button" name="next" class="next btn btn-info float-right mt-24 ml-12" value="Siguiente" />
-                                    <input type="button" name="previous" class="previous btn btn-default float-right mt-24" value="Atrás" />
+                                        <br>
+                                        <div class="cnt-t-table mt-20">
+                                            <table id="tablaprueba" class="t-table dataTable" style="width: 100%;">
+                                                <thead>
+                                                    <tr role="row" class="font-weight-bold">
 
-                                </fieldset>
-                                <fieldset>
-                                    <h3 class="text-white">VI. TRATAMIENTO QUÍMICO </h3>
-                                    <hr>
+                                                        <th rowspan="1" colspan="1" style="width: 77px;">Medicamento</th>
+                                                        <th rowspan="1" colspan="1" style="width: 188px;">Dosis</th>
+                                                        <th rowspan="1" colspan="1" style="width: 128px;">Frecuencia</th>
+                                                        <th rowspan="1" colspan="1" style="width: 140px;">Periodo</th>
+                                                        <th rowspan="1" colspan="1" style="width: 93px;">Comentario</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                </tbody>
+                                            </table>
 
-                                    <div class="form-group">
-                                        <button type="button" class="btn btn-danger  mr-2  float-right" onclick="eliminarFila()"><i class="fas fa-minus"></i></button>
-                                        <button type="button" class="btn btn-primary mr-2 float-right" onclick="agregarFila()"> <i class="fas fa-plus"></i></button>
-
-                                    </div>
-                                    <br>
-                                    <div class="cnt-t-table mt-20">
-                                        <table id="tablaprueba" class="t-table dataTable" style="width: 100%;">
-                                            <thead>
-                                                <tr role="row" class="font-weight-bold">
-
-                                                    <th rowspan="1" colspan="1" style="width: 77px;">Medicamento</th>
-                                                    <th rowspan="1" colspan="1" style="width: 188px;">Dosis</th>
-                                                    <th rowspan="1" colspan="1" style="width: 128px;">Frecuencia</th>
-                                                    <th rowspan="1" colspan="1" style="width: 140px;">Periodo</th>
-                                                    <th rowspan="1" colspan="1" style="width: 93px;">Comentario</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                            </tbody>
-                                        </table>
-
-                                    </div>
-                                    <button type="button" name="previous" class="previous btn btn-default float-right mt-24 ml-12" value=""><span>Atrás</span></button>
-                                    <button id="add-producto" class="btn btn-success btn-guardar float-right btn-confirm-2 mt-24">
-                                        <i class="fal fa-save"></i> <span>Guardar</span>
-                                    </button>
-                                </fieldset>
-                            </form>
+                                        </div>
+                                        <button type="button" name="previous" class="previous btn btn-default float-right mt-24 ml-12" value=""><span>Atrás</span></button>
+                                        <button id="add-producto" class="btn btn-success btn-guardar float-right btn-confirm-2 mt-24">
+                                            <i class="fal fa-save"></i> <span>Guardar</span>
+                                        </button>
+                                    </fieldset>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -997,7 +996,6 @@ $resultado_enfermedades = mysqli_query($cn, $consulta_enfermedades);
                 next_step.show();
                 current_step.hide();
                 setProgressBar(++current);
-
 
             } else {
                 return false;
